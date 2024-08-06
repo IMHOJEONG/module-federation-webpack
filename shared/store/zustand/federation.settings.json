@@ -1,0 +1,10 @@
+{
+  "exposes": {
+    "./useItemStore": "./src/store/useItemStore",
+    "./useUserStore": "./src/store/useUserStore",
+    "./useDarkThemeStore": "./src/store/useDarkThemeStore"
+  },
+  "remotes": {
+    "model": "model@http://localhost:3008/remoteEntry.js"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "extends": "@repo/typescript-config/react-library.json",
+
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "paths": {
+      "@/*": ["./*"],
+      "*": ["./@mf-types/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "*.d.ts", "**/*.js", "src", "@mf-types"],
+  "exclude": ["node_modules"]
+}

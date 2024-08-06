@@ -1,0 +1,8 @@
+{
+  "exposes": {
+    "./Login": "./page/Login",
+    "./Landing": "./page/Landing",
+    "./useUser": "./src/useUser"
+  },
+  "remotes": {}
+}

@@ -1,0 +1,8 @@
+{
+  "exposes": {
+    "./useItemStore": "./src/store/useItemStore"
+  },
+  "remotes": {
+    "model": "model@http://localhost:3008/remoteEntry.js"
+  }
+}

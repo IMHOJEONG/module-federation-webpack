@@ -1,0 +1,8 @@
+{
+  "exposes": {
+    "./instance": "./src/instance"
+  },
+  "remotes": {
+    
+  }
+}

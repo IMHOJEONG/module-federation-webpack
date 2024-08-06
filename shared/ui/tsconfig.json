@@ -1,0 +1,32 @@
+{
+  "extends": "@repo/typescript-config/react-library.json",
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "paths": {
+      "@public/*": ["./search/public/*"],
+      "@ui/*": ["./search/isomorphic-core/ui/*"],
+      "@components/*": ["./search/isomorphic-core/components/*"],
+      "@hooks/*": ["./search/isomorphic-core/hooks/*"],
+      "@utils/*": ["./search/isomorphic-core/utils/*"],
+      "react": ["./node_modules/@types/react"],
+      "#/*": ["./*"],
+      "@/*": ["./search/*"],
+      "*": ["./@mf-types/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "*.d.ts", "**/*.js", "src", "@mf-types"],
+  "exclude": ["node_modules"]
+}

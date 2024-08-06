@@ -1,0 +1,41 @@
+{
+  "exposes": {
+    "./Button": "./components/Button",
+    "./Inset": "./components/Inset",
+    "./Menu": "./components/Menu",
+    "./Table": "./components/Table",
+    "./Card": "./components/Card",
+    "./CheckBoxCard": "./components/CheckBoxCard",
+    "./TextField": "./components/TextField",
+    "./Theme": "./components/Theme",
+    "./Header": "./components/Header",
+    "./Footer": "./components/Footer",
+    "./MainContainer": "./components/MainContainer",
+    "./RadioCard": "./components/RadioCard",
+    "./Blockquote": "./components/Blockquote",
+    "./Spinner": "./components/Spinner",
+    "./Box": "./components/Box",
+    "./Grid": "./components/Grid",
+    "./Flex": "./components/Flex",
+    "./Text": "./components/Text",
+    "./Container": "./components/Container",
+    "./Section": "./components/Section",
+
+    "./LandingBackground": "./components/LandingBackground",
+    "./MainArchitecture": "./components/main/MainArchitecture",
+
+    "./DataFlow": "./components/intro/DataFlow",
+    "./DataFlowWithSearch": "./components/intro/DataFlowWithSearch",
+    "./search/GlobalDrawer": "./search/components/drawer-views/container",
+    "./search/GlobalModal": "./search/components/modal-views/container",
+    "./search/Layout": "./search/pages/index",
+    "./search/FileDashboard": "./search/components/file/dashboard/index",
+    "./search/ExecutiveDashboard": "./search/components/executive/index",
+    "./search/AppointmentDashboard": "./search/components/appointment/dashboard/index",
+    "./search/LogisticsDashboard": "./search/components/logistics/dashboard/index",
+    "./search/SupportDashboard": "./search/components/support/dashboard/index",
+    "./search/JobDashboard": "./search/components/job-dashboard/index",
+    "./search/FinancialDashboard": "./search/components/financial/dashboard/index"
+  },
+  "remotes": {}
+}

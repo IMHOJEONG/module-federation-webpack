@@ -1,0 +1,6 @@
+{
+  "exposes": {
+    "./queryClient": "./query/queryClient"
+  },
+  "remotes": {}
+}

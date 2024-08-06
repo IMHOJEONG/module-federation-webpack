@@ -1,0 +1,13 @@
+{
+  "exposes": {
+    "./DataFlow": "./components/intro/DataFlow",
+    "./DataFlowWithSearch": "./components/intro/DataFlowWithSearch",
+    "./search/GlobalDrawer": "./search/components/drawer-views/container",
+    "./search/GlobalModal": "./search/components/modal-views/container",
+    "./search/Layout": "./search/pages/index",
+    "./search/Dashboards": "./search/pages/dashboards"
+  },
+  "remotes": {
+    "zustand": "zustand@http://localhost:3002/remoteEntry.js"
+  }
+}

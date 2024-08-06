@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg width="220" height="28" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#111111" height="19.93" id="svg_1" rx="5.08" transform="matrix(0.870431 0.49229 -0.479339 0.87763 9.55304 5.23999)" width="10.16"/>
+  <rect fill="#111111" height="25.62" id="svg_2" rx="5.08" transform="matrix(0.870431 0.49229 -0.479339 0.87763 27.1746 0)" width="10.16"/>
+  <rect fill="#111111" height="10.25" id="svg_3" opacity="0.5" rx="5.08" transform="matrix(0.870431 0.49229 -0.479339 0.87763 36.0203 13.8197)" width="10.16"/>
+  <text fill="#000000" font-family="Sans-serif" font-size="19" font-weight="bold" id="svg_5" letter-spacing="0" stroke-width="0" text-anchor="middle" textLength="0" x="134.5" xml:space="preserve" y="22.5">통합AI검색플랫폼</text>
+ </g>
+</svg>

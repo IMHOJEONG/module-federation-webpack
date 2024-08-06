@@ -1,0 +1,9 @@
+{
+  "exposes": {
+    "./ErrorBoundary": "./component/ReactErrorBoundary",
+    "./404": "./pages/404"
+  },
+  "remotes": {
+    
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "exposes": {
+    "./user.interface": "./user.interface.ts"
+  },
+  "remotes": {}
+}
