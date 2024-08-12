@@ -100,20 +100,20 @@ module.exports = {
     plugins: [new TsconfigPathsPlugin({})],
   },
   plugins: [
-    new ModuleFederationPlugin(federationConfig),
     new ExternalTemplateRemotesPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
       chunks: ["main"],
     }),
-    // new ReactRefreshWebpackPlugin({
-    //   exclude: [/node_modules/, /bootstrap\.js$/],
-    // }),
+    new ReactRefreshWebpackPlugin({
+      exclude: [/node_modules/, /bootstrap\.js$/],
+    }),
     NativeFederationTypeScriptHost({
       moduleFederationConfig: federationConfig,
     }),
     NativeFederationTypeScriptRemote({
       moduleFederationConfig: federationConfig,
     }),
+    new ModuleFederationPlugin(federationConfig),
   ],
 };

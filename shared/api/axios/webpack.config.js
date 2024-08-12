@@ -77,7 +77,6 @@ module.exports = {
     plugins: [new TsconfigPathsPlugin({})],
   },
   plugins: [
-    new ModuleFederationPlugin(federationConfig),
     new ExternalTemplateRemotesPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
@@ -92,5 +91,6 @@ module.exports = {
     NativeFederationTypeScriptRemote({
       moduleFederationConfig: federationConfig,
     }),
+    new ModuleFederationPlugin(federationConfig),
   ],
 };
