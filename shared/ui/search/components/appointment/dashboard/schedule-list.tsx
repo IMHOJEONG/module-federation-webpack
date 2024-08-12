@@ -2,6 +2,8 @@ import { Button, Title, Tooltip } from "rizzui";
 import { PiPlusLight } from "react-icons/pi";
 // import Calendar from "react-calendar";
 import cn from "@utils/class-names";
+import { DayPicker } from "react-day-picker";
+
 import { useState } from "react";
 
 function calculatePercentage(total: number, value: number) {
@@ -35,7 +37,9 @@ type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
 
 export default function ScheduleList({ className }: { className?: string }) {
-  const [value, onChange] = useState<Value>(new Date());
+  // const [value, onChange] = useState<Value>(new Date());
+  const [selected, setSelected] = useState<Date>();
+
   return (
     <div
       className={cn(
@@ -57,7 +61,17 @@ export default function ScheduleList({ className }: { className?: string }) {
           next2Label={false}
           className="!w-full !border-0 !bg-transparent !font-inter !text-base"
         /> */}
-        <></>
+        <DayPicker
+          mode="single"
+          selected={selected}
+          onSelect={setSelected}
+          footer={
+            selected
+              ? `Selected: ${selected.toLocaleDateString()}`
+              : "Pick a day."
+          }
+          className="job-schedule-calendar rounded-lg pt-2 md:pt-5 [&_.react-calendar\_\_month-view\_\_weekdays\_\_weekday]:p-0"
+        />
       </div>
       <div className="flex flex-col justify-between bg-gray-50 px-5 py-7 @lg:w-2/5 dark:bg-gray-100">
         <div className="mb-10 space-y-6 @lg:pt-2">

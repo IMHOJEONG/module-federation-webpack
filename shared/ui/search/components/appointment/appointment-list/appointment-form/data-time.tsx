@@ -16,7 +16,8 @@ import { useModal } from "@/components/modal-views/use-modal";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { PiXBold } from "react-icons/pi";
 import SimpleBar from "simplebar-react";
-// import Calendar from "react-calendar";
+import { DayPicker } from "react-day-picker";
+
 import cn from "@utils/class-names";
 import { useAtom } from "jotai";
 import Footer from "./footer";
@@ -114,6 +115,9 @@ type FormSchemaType = z.infer<typeof FormSchema>;
 
 export default function DateTime() {
   const { gotoNextStep } = useStepperAppointment();
+
+  const [selected, setSelected] = useState<Date>();
+
   const [formData, setFormData] = useAtom(formDataAtom);
   const { closeModal } = useModal();
   const {
@@ -174,7 +178,17 @@ export default function DateTime() {
               //   next2Label={false}
               //   className="!w-full !border-0 !bg-transparent px-4 pb-4 pt-2.5 !font-inter !text-base md:px-5 md:pb-5"
               // />
-              <></>
+              <DayPicker
+                mode="single"
+                selected={selected}
+                onSelect={setSelected}
+                footer={
+                  selected
+                    ? `Selected: ${selected.toLocaleDateString()}`
+                    : "Pick a day."
+                }
+                className="!w-full !border-0 !bg-transparent px-4 pb-4 pt-2.5 !font-inter !text-base md:px-5 md:pb-5"
+              />
             )}
           />
           <div className="w-full shrink-0 border-gray-300 md:w-72 md:border-s">

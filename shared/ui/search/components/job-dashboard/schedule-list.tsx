@@ -13,8 +13,11 @@ import JobUpgradeStorage from "./upgrade-storage";
 import ScheduleModal from "./schedule-modal";
 import SimpleBar from "simplebar-react";
 // import Calendar from "react-calendar";
+import { DayPicker } from "react-day-picker";
+
 import cn from "@utils/class-names";
 import dayjs from "dayjs";
+import { useState } from "react";
 
 interface ScheduledRowProps {
   data?: {
@@ -96,6 +99,8 @@ export default function JobScheduleList({ className }: { className?: string }) {
     return null;
   };
 
+  const [selected, setSelected] = useState<Date>();
+
   return (
     <div
       className={cn(
@@ -121,7 +126,17 @@ export default function JobScheduleList({ className }: { className?: string }) {
           nextLabel={<PiArrowRight className="size-4" />}
           prevLabel={<PiArrowLeft className="size-4" />}
         /> */}
-        <></>
+        <DayPicker
+          mode="single"
+          selected={selected}
+          onSelect={setSelected}
+          footer={
+            selected
+              ? `Selected: ${selected.toLocaleDateString()}`
+              : "Pick a day."
+          }
+          className="job-schedule-calendar"
+        />
       </div>
 
       <div className="flex flex-col p-5 @[90rem]:grow lg:p-7">

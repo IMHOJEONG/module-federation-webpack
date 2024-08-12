@@ -9,8 +9,8 @@ import {
   Title,
 } from "rizzui";
 import ScheduleLightIcon from "@components/icons/schedule-light";
-// import Calendar from "react-calendar";
 
+import { DayPicker } from "react-day-picker";
 import { PiArrowLeft, PiArrowRight, PiXBold } from "react-icons/pi";
 import { useModal } from "@/components/modal-views/use-modal";
 import SimpleBar from "simplebar-react";
@@ -100,6 +100,8 @@ export default function ScheduleModal() {
   const { closeModal } = useModal();
   const [timeState, setTimeState] = useState("10.30 AM");
 
+  const [selected, setSelected] = useState<Date>();
+
   return (
     <div className="relative">
       <ActionIcon
@@ -136,6 +138,17 @@ export default function ScheduleModal() {
               nextLabel={<PiArrowRight className="size-4" />}
               prevLabel={<PiArrowLeft className="size-4" />}
             /> */}
+            <DayPicker
+              mode="single"
+              selected={selected}
+              onSelect={setSelected}
+              footer={
+                selected
+                  ? `Selected: ${selected.toLocaleDateString()}`
+                  : "Pick a day."
+              }
+              className="job-schedule-calendar rounded-lg pt-2 md:pt-5 [&_.react-calendar\_\_month-view\_\_weekdays\_\_weekday]:p-0"
+            />
 
             <div className="w-full shrink-0 border-gray-300 md:w-72 md:border-s">
               <Title
