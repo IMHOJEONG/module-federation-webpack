@@ -22,6 +22,7 @@
     "esbuild-loader": "^4.2.2",
     "eslint": "^8",
     "eslint-config-next": "15.0.0-rc.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "webpack-dev-middleware": "^7.3.0"
   }
 }

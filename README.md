@@ -38,4 +38,8 @@ https://www.radix-ui.com/
 
 - Code Colocation 
 
-- 
+## Start 
+
+```sh
+pnpm run start
+```
