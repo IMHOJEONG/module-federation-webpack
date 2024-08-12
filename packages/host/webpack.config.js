@@ -59,18 +59,15 @@ module.exports = {
   },
   module: {
     rules: [
+      // Use esbuild to compile JavaScript & TypeScript
       {
-        test: /\.jsx?$/,
-        loader: "babel-loader",
-        exclude: /node_modules/,
+        // Match `.js`, `.jsx`, `.ts` or `.tsx` files
+        test: /\.[jt]sx?$/,
+        loader: "esbuild-loader",
         options: {
-          presets: ["@babel/preset-react"],
+          // JavaScript version to compile to
+          target: "es2015",
         },
-      },
-      {
-        test: /\.(tsx|ts)$/,
-        use: "ts-loader",
-        exclude: /node_modules/,
       },
       {
         test: /\.(png|jpg|gif)$/i,

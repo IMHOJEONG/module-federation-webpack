@@ -22,12 +22,9 @@ export default function Component(props: ComponentProps) {
   useEffect(() => {
     // const rootPath = "/";
     // const landingPath = "/landing";
-
-    console.log(user);
     // // const data = [rootPath, landingPath].every((path) => )
     // if (location.pathname !== rootPath) {
     // }
-
     // if (!user.id) {
     //   navigate("/landing", { replace: true });
     // } else {

@@ -7,6 +7,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@module-federation/native-federation-typescript": "^0.6.0"
+    "@module-federation/native-federation-typescript": "^0.6.0",
+    "esbuild-loader": "^4.2.2"
   }
 }
