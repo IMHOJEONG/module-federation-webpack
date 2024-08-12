@@ -17,6 +17,7 @@ const federationConfig = {
   remotes: remotes,
   exposes: exposes,
   shared: {
+    ...dependencies,
     react: {
       singleton: true,
       requiredVersion: dependencies["react"],
