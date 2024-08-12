@@ -17,7 +17,7 @@ export default function GlobalDrawer() {
       onClose={closeDrawer}
       placement={placement}
       // @ts-ignore
-      customSize={"420px"}
+      customSize={420}
       // NaN Error
       // customSize={customSize}
       overlayClassName="dark:bg-opacity-40 dark:backdrop-blur-md"

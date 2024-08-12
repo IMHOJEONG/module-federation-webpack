@@ -1,10 +1,10 @@
-import ThemeSwitcher from '@/layouts/settings/theme-switcher';
-import ColorOptions from '@/layouts/settings/color-options';
-import AppDirection from '@/layouts/settings/app-direction';
-import LayoutSwitcher from '@/layouts/layout-switcher';
-import EnvatoIcon from '@components/icons/envato';
-import SimpleBar from '@ui/simplebar';
-import { Button } from 'rizzui';
+import ThemeSwitcher from "@/layouts/settings/theme-switcher";
+import ColorOptions from "@/layouts/settings/color-options";
+import AppDirection from "@/layouts/settings/app-direction";
+import LayoutSwitcher from "@/layouts/layout-switcher";
+import EnvatoIcon from "@components/icons/envato";
+import SimpleBar from "@ui/simplebar";
+import { Button } from "rizzui";
 
 export default function SettingsDrawer() {
   return (
@@ -30,9 +30,9 @@ function SettingsFooterButton() {
       target="_blank"
       className="grid grid-cols-1 border-t border-muted px-6 pt-4"
     >
-      <Button size="lg" as="span" className={'text-base font-semibold'}>
+      <Button size="lg" as="span" className={"text-base font-semibold"}>
         <EnvatoIcon className="me-2 h-5 w-5" />
-        <span className="">Purchase for $24</span>
+        <span className="">Close</span>
       </Button>
     </a>
   );
