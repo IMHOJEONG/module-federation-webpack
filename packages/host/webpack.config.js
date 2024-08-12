@@ -10,6 +10,8 @@ const {
   NativeFederationTypeScriptHost,
 } = require("@module-federation/native-federation-typescript/webpack");
 
+const isDevelopment = process.env.NODE_ENV !== "production";
+
 const federationConfig = {
   name: "host",
   remotes: remotes,
@@ -32,7 +34,7 @@ const federationConfig = {
 
 module.exports = {
   entry: "./index.ts",
-  mode: "development",
+  mode: isDevelopment ? "development" : "production",
   devtool: "source-map",
   optimization: {
     minimize: false,
@@ -51,6 +53,9 @@ module.exports = {
       "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
       "Access-Control-Allow-Headers":
         "X-Requested-With, content-type, Authorization",
+    },
+    devMiddleware: {
+      writeToDisk: true,
     },
   },
   output: {

@@ -11,6 +11,8 @@ const {
   NativeFederationTypeScriptRemote,
 } = require("@module-federation/native-federation-typescript/webpack");
 
+const isDevelopment = process.env.NODE_ENV !== "production";
+
 const federationConfig = {
   name: "axios",
   filename: "remoteEntry.js",
@@ -35,7 +37,7 @@ const federationConfig = {
 
 module.exports = {
   entry: "./src/index",
-  mode: "development",
+  mode: isDevelopment ? "development" : "production",
   devtool: "source-map",
   optimization: {
     minimize: false,
