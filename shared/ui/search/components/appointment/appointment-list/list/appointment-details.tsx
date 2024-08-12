@@ -1,7 +1,7 @@
-import { PiCalendarCheckLight, PiMapPinLight, PiXBold } from 'react-icons/pi';
-import { useModal } from '@/components/modal-views/use-modal';
-import { Text, ActionIcon, Title, Button } from 'rizzui';
-import dayjs from 'dayjs';
+import { PiCalendarCheckLight, PiMapPinLight, PiXBold } from "react-icons/pi";
+import { useModal } from "@/components/modal-views/use-modal";
+import { Text, ActionIcon, Title, Button } from "rizzui";
+import dayjs from "dayjs";
 
 export default function AppointmentDetails({
   data,
@@ -14,7 +14,7 @@ export default function AppointmentDetails({
 }) {
   const { closeModal } = useModal();
 
-  console.log(data, 'doctor');
+  console.log(data, "doctor");
   return (
     <div className="block">
       <div className="flex items-center justify-between border-b border-gray-200 p-5 md:p-7">
@@ -57,23 +57,23 @@ export default function AppointmentDetails({
         <ul className="mt-7 space-y-4 text-xs sm:text-sm">
           <li className="flex items-center">
             <PiCalendarCheckLight className="me-2 hidden w-5 shrink-0 text-xl" />
-            Appointment Start:{' '}
+            Appointment Start:{" "}
             <span className="ps-2 font-medium text-gray-1000">
-              {dayjs(data.date).format('DD MMM, YYYY h:mm A')}
+              {dayjs(data.date).format("DD MMM, YYYY h:mm A")}
             </span>
           </li>
           <li className="flex items-center">
             <PiCalendarCheckLight className="me-2 hidden w-5 shrink-0 text-xl" />
-            Appointment End:{' '}
+            Appointment End:{" "}
             <span className="ps-2 font-medium text-gray-1000">
               {dayjs(data.date)
-                .add(data.duration / 60, 'h')
-                .format('DD MMM, YYYY h:mm A')}
+                .add(data.duration / 60, "h")
+                .format("DD MMM, YYYY h:mm A")}
             </span>
           </li>
           <li className="flex items-center">
             <PiMapPinLight className="me-2 hidden w-5 shrink-0 text-xl" />
-            Address:{' '}
+            Address:{" "}
             <span className="ps-2 font-medium text-gray-1000">
               {data.address}
             </span>

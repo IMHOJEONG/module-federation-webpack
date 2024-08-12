@@ -1,10 +1,10 @@
-import { Input, Textarea, RadioGroup, AdvancedRadio } from 'rizzui';
-import { Controller, useFormContext } from 'react-hook-form';
-import { PiCheckCircleFill, PiGift } from 'react-icons/pi';
-import UploadZone from '@ui/file-upload/upload-zone';
-import FormGroup from '@/components/form-group';
-import { toCurrency } from '@utils/to-currency';
-import cn from '@utils/class-names';
+import { Input, Textarea, RadioGroup, AdvancedRadio } from "rizzui";
+import { Controller, useFormContext } from "react-hook-form";
+import { PiCheckCircleFill, PiGift } from "react-icons/pi";
+import UploadZone from "@ui/file-upload/upload-zone";
+import FormGroup from "@/components/form-group";
+import { toCurrency } from "@utils/to-currency";
+import cn from "@utils/class-names";
 
 interface FormPackageInfoProps {
   className?: string;
@@ -33,7 +33,7 @@ export default function FormPackageInfo({ className }: FormPackageInfoProps) {
         placeholder="0"
         className="col-span-full"
         labelClassName="font-medium text-gray-900"
-        {...register('packageAmount')}
+        {...register("packageAmount")}
         error={errors.packageAmount?.message as string}
       />
       <div className="col-span-full grid grid-cols-2 gap-4 lg:grid-cols-4">
@@ -41,28 +41,28 @@ export default function FormPackageInfo({ className }: FormPackageInfoProps) {
           label="Width"
           placeholder="0"
           labelClassName="font-medium text-gray-900"
-          {...register('packageWidth')}
+          {...register("packageWidth")}
           error={errors.packageWidth?.message as string}
         />
         <Input
           label="Height"
           placeholder="0"
           labelClassName="font-medium text-gray-900"
-          {...register('packageHeight')}
+          {...register("packageHeight")}
           error={errors.packageHeight?.message as string}
         />
         <Input
           label="Length"
           placeholder="0"
           labelClassName="font-medium text-gray-900"
-          {...register('packageLength')}
+          {...register("packageLength")}
           error={errors.packageLength?.message as string}
         />
         <Input
           label="Weight"
           placeholder="0"
           labelClassName="font-medium text-gray-900"
-          {...register('packageWeight')}
+          {...register("packageWeight")}
           error={errors.packageWeight?.message as string}
         />
       </div>
@@ -71,7 +71,7 @@ export default function FormPackageInfo({ className }: FormPackageInfoProps) {
         labelClassName="font-medium text-gray-900"
         placeholder="Full | Mischievous dramedy featuring accordion, tuba & pizzica..."
         className="col-span-full"
-        {...register('packageDescription')}
+        {...register("packageDescription")}
         error={errors.packageDescription?.message as string}
       />
       <UploadZone
@@ -128,18 +128,18 @@ export default function FormPackageInfo({ className }: FormPackageInfoProps) {
         label="From"
         placeholder="Jerome Bell"
         labelClassName="font-medium text-gray-900"
-        {...register('giftFrom')}
+        {...register("giftFrom")}
         error={errors.giftFrom?.message as string}
       />
       <Input
         label="To"
         placeholder="Ronald Richards"
         labelClassName="font-medium text-gray-900"
-        {...register('giftTo')}
+        {...register("giftTo")}
         error={errors.giftTo?.message as string}
       />
       <Textarea
-        {...register('giftMessage')}
+        {...register("giftMessage")}
         label="Message"
         className="col-span-full"
         labelClassName="font-medium text-gray-900"

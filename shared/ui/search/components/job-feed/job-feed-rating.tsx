@@ -1,4 +1,4 @@
-import { PiStar, PiStarFill } from 'react-icons/pi';
+import { PiStar, PiStarFill } from "react-icons/pi";
 
 type RatingProps = {
   rating: number[];

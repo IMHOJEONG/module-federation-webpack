@@ -8,7 +8,9 @@ import {
 
 import { toast as reactHotToast } from "react-hot-toast";
 
-import { Info as InfoIcon } from "@mui/icons-material";
+// import { Info as InfoIcon } from "@mui/icons-material";
+import { MdInfo as InfoIcon } from "react-icons/md";
+
 
 export function ToastifyContainer() {
   return <_ToastContainer autoClose={3000} />;

@@ -10,6 +10,8 @@ const {
   NativeFederationTypeScriptHost,
   NativeFederationTypeScriptRemote,
 } = require("@module-federation/native-federation-typescript/webpack");
+const BundleAnalyzerPlugin =
+  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 const isDevelopment = process.env.NODE_ENV !== "production";
 
@@ -48,8 +50,8 @@ module.exports = {
   mode: isDevelopment ? "development" : "production",
   devtool: "source-map",
   optimization: {
-    // minimize: false,
-    minimize: true,
+    minimize: false,
+    // minimize: true,
     // splitChunks: {
     //   chunks: "async",
     // },
@@ -85,7 +87,12 @@ module.exports = {
       {
         test: /.css?$/,
         exclude: [],
-        use: ["style-loader", "css-loader", "postcss-loader"],
+        use: [
+          // MiniCssExtractPlugin.loader,
+          "style-loader",
+          "css-loader",
+          "postcss-loader",
+        ],
       },
       {
         test: /\.(png|jpg|gif|webp)$/i,
@@ -102,6 +109,7 @@ module.exports = {
     plugins: [new TsconfigPathsPlugin({})],
   },
   plugins: [
+    new BundleAnalyzerPlugin(),
     new ExternalTemplateRemotesPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",

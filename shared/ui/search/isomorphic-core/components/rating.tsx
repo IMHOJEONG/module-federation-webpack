@@ -1,4 +1,4 @@
-import { PiStar, PiStarFill } from 'react-icons/pi';
+import { PiStar, PiStarFill } from "react-icons/pi";
 
 type RatingProps = {
   rating: number[];
@@ -28,10 +28,10 @@ export default function Rating({ rating }: RatingProps) {
           ) : (
             <PiStar className="w-4 fill-gray-300 text-gray-500" key={index} />
           );
-        })}{' '}
+        })}{" "}
       </div>
       <span className="mt-1 shrink-0 text-gray-500">
-        {totalRating} {totalRating > 1 ? 'reviews' : 'review'}
+        {totalRating} {totalRating > 1 ? "reviews" : "review"}
       </span>
     </div>
   );

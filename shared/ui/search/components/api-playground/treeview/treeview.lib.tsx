@@ -1,9 +1,9 @@
-import { useApiValidateStore } from '@/store/playground/api-validate.store';
-import { NonFolderTreeViewItem, TreeViewItem } from './treeview.type';
-import { useTreeViewStore } from '@/store/playground/treeview.store';
-import { FcFolder, FcOpenedFolder } from 'react-icons/fc';
-import ApiPlaygroundTreeViewTag from './treeview.tag';
-import { TreeItem } from '@mui/x-tree-view/TreeItem';
+import { useApiValidateStore } from "@/store/playground/api-validate.store";
+import { NonFolderTreeViewItem, TreeViewItem } from "./treeview.type";
+import { useTreeViewStore } from "@/store/playground/treeview.store";
+import { FcFolder, FcOpenedFolder } from "react-icons/fc";
+import ApiPlaygroundTreeViewTag from "./treeview.tag";
+import { TreeItem } from "@mui/x-tree-view/TreeItem";
 
 export const generateTreeItems = (items: TreeViewItem[]) => {
   // child gen function
@@ -29,7 +29,7 @@ export const generateTreeItems = (items: TreeViewItem[]) => {
 
   // collect nodes & return
   return items.map((t) => {
-    if (t.type === 'FOLDER') {
+    if (t.type === "FOLDER") {
       const { activeNodeIds } = useTreeViewStore.getState();
       const isExpanded = activeNodeIds.includes(t.id);
 

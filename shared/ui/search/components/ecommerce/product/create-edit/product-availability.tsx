@@ -1,19 +1,19 @@
-import { Controller, useFormContext } from 'react-hook-form';
-import { PiCheckCircleFill } from 'react-icons/pi';
-import { RadioGroup, AdvancedRadio } from 'rizzui';
+import { Controller, useFormContext } from "react-hook-form";
+import { PiCheckCircleFill } from "react-icons/pi";
+import { RadioGroup, AdvancedRadio } from "rizzui";
 
 const availability = [
   {
-    value: 'online',
-    name: 'Only available online.',
+    value: "online",
+    name: "Only available online.",
   },
   {
-    value: 'coming-soon',
-    name: 'Coming soon',
+    value: "coming-soon",
+    name: "Coming soon",
   },
   {
-    value: 'offline',
-    name: 'Only available offline.',
+    value: "offline",
+    name: "Only available offline.",
   },
 ];
 

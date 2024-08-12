@@ -1,7 +1,7 @@
-import TrendingIcon from '@components/icons/trending';
-import { PiCaretDownBold } from 'react-icons/pi';
-import { Switch, Collapse } from 'rizzui';
-import cn from '@utils/class-names';
+import TrendingIcon from "@components/icons/trending";
+import { PiCaretDownBold } from "react-icons/pi";
+import { Switch, Collapse } from "rizzui";
+import cn from "@utils/class-names";
 
 type BookOnTripFinderProps = {
   title: string;
@@ -35,8 +35,8 @@ export default function BookOnTripFinder({
             <PiCaretDownBold
               strokeWidth={3}
               className={cn(
-                'h-3.5 w-3.5 -rotate-90 text-gray-500 transition-transform duration-200 rtl:rotate-90',
-                open && 'rotate-0 rtl:rotate-0'
+                "h-3.5 w-3.5 -rotate-90 text-gray-500 transition-transform duration-200 rtl:rotate-90",
+                open && "rotate-0 rtl:rotate-0"
               )}
             />
           </button>

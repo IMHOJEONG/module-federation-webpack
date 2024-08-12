@@ -2,13 +2,13 @@ import {
   paidBy,
   countries,
   paymentMethods,
-} from '@/components/logistics/shipment/create-edit/select-options';
-import { Select, Input, RadioGroup, AdvancedRadio } from 'rizzui';
-import { Controller, useFormContext } from 'react-hook-form';
-import { PiCheckCircleFill } from 'react-icons/pi';
-import FormGroup from '@/components/form-group';
-import NoSSR from '@components/no-ssr';
-import cn from '@utils/class-names';
+} from "@/components/logistics/shipment/create-edit/select-options";
+import { Select, Input, RadioGroup, AdvancedRadio } from "rizzui";
+import { Controller, useFormContext } from "react-hook-form";
+import { PiCheckCircleFill } from "react-icons/pi";
+import FormGroup from "@/components/form-group";
+import NoSSR from "@components/no-ssr";
+import cn from "@utils/class-names";
 
 interface FormPaymentMethodInfoProps {
   className?: string;
@@ -43,7 +43,7 @@ export default function FormPaymentMethodInfo({
               options={paidBy}
               getOptionValue={(option) => option.value}
               displayValue={(selected) =>
-                paidBy?.find((c) => c.value === selected)?.label ?? ''
+                paidBy?.find((c) => c.value === selected)?.label ?? ""
               }
               error={errors?.paidBy?.message as string}
             />
@@ -62,7 +62,7 @@ export default function FormPaymentMethodInfo({
               options={paymentMethods}
               getOptionValue={(option) => option.value}
               displayValue={(selected) =>
-                paymentMethods?.find((c) => c.value === selected)?.label ?? ''
+                paymentMethods?.find((c) => c.value === selected)?.label ?? ""
               }
               error={errors?.paymentMethod?.message as string}
             />
@@ -107,7 +107,7 @@ export default function FormPaymentMethodInfo({
         label="Payee Name"
         placeholder="Jane Cooper"
         labelClassName="font-medium text-gray-900"
-        {...register('payeeName')}
+        {...register("payeeName")}
         error={errors.payeeName?.message as string}
       />
       <NoSSR>
@@ -125,7 +125,7 @@ export default function FormPaymentMethodInfo({
               options={countries}
               getOptionValue={(option) => option.value}
               displayValue={(selected) =>
-                countries?.find((c) => c.value === selected)?.label ?? ''
+                countries?.find((c) => c.value === selected)?.label ?? ""
               }
               error={errors?.payeeCountry?.message as string}
             />
@@ -136,14 +136,14 @@ export default function FormPaymentMethodInfo({
         label="City"
         placeholder="City"
         labelClassName="font-medium text-gray-900"
-        {...register('payeeCity')}
+        {...register("payeeCity")}
         error={errors.payeeCity?.message as string}
       />
       <Input
         label="Street Address"
         labelClassName="font-medium text-gray-900"
         placeholder="Street Address"
-        {...register('payeeStreetAddress')}
+        {...register("payeeStreetAddress")}
         error={errors.payeeStreetAddress?.message as string}
       />
     </FormGroup>

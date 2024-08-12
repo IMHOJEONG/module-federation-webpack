@@ -2,21 +2,21 @@ import {
   regions,
   customerStatus,
   customerSources,
-} from '@/components/logistics/customer-profile/edit-profile/data';
+} from "@/components/logistics/customer-profile/edit-profile/data";
 import {
   customerProfileSchema,
   CustomerProfileSchema,
-} from '@/validators/customer-profile.schema';
-import { countries } from '@/components/logistics/shipment/create-edit/select-options';
-import { Title, Select, Input, Button, Password, ActionIcon } from 'rizzui';
-import { useModal } from '@/components/modal-views/use-modal';
-import { Controller, SubmitHandler } from 'react-hook-form';
-import AvatarUpload from '@ui/file-upload/avatar-upload';
-import UploadZone from '@ui/file-upload/upload-zone';
-import { PiX } from 'react-icons/pi';
-import toast from 'react-hot-toast';
-import { useState } from 'react';
-import { Form } from '@ui/form';
+} from "@/validators/customer-profile.schema";
+import { countries } from "@/components/logistics/shipment/create-edit/select-options";
+import { Title, Select, Input, Button, Password, ActionIcon } from "rizzui";
+import { useModal } from "@/components/modal-views/use-modal";
+import { Controller, SubmitHandler } from "react-hook-form";
+import AvatarUpload from "@ui/file-upload/avatar-upload";
+import UploadZone from "@ui/file-upload/upload-zone";
+import { PiX } from "react-icons/pi";
+import toast from "react-hot-toast";
+import { useState } from "react";
+import { Form } from "@ui/form";
 
 interface EditProfileFormProps {
   className?: string;
@@ -25,17 +25,17 @@ interface EditProfileFormProps {
 const initialValues = {
   avatar: undefined,
   coverPhoto: undefined,
-  fullName: '',
-  email: '',
-  phone: '',
-  password: '',
-  company: '',
-  region: '',
-  country: '',
-  city: '',
-  street: '',
-  status: '',
-  customerSource: '',
+  fullName: "",
+  email: "",
+  phone: "",
+  password: "",
+  company: "",
+  region: "",
+  country: "",
+  city: "",
+  street: "",
+  status: "",
+  customerSource: "",
 };
 
 export default function EditProfileForm({ className }: EditProfileFormProps) {
@@ -48,9 +48,9 @@ export default function EditProfileForm({ className }: EditProfileFormProps) {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      console.log('editProfile', data);
+      console.log("editProfile", data);
       setReset(initialValues);
-      toast.success('Profile updated successfully');
+      toast.success("Profile updated successfully");
     }, 600);
   };
 
@@ -98,7 +98,7 @@ export default function EditProfileForm({ className }: EditProfileFormProps) {
                 label="Full Name *"
                 placeholder="Enter your full name..."
                 labelClassName="font-medium text-gray-900 dark:text-white"
-                {...register('fullName')}
+                {...register("fullName")}
                 error={errors.fullName?.message}
               />
               <Input
@@ -106,28 +106,28 @@ export default function EditProfileForm({ className }: EditProfileFormProps) {
                 label="Email"
                 placeholder="Enter your email"
                 labelClassName="font-medium text-gray-900 dark:text-white"
-                {...register('email')}
+                {...register("email")}
                 error={errors.email?.message}
               />
               <Password
                 label="Password"
                 placeholder="Enter your password"
                 labelClassName="font-medium text-gray-900 dark:text-white"
-                {...register('password')}
+                {...register("password")}
                 error={errors.password?.message}
               />
               <Input
                 label="Company Name"
                 placeholder="Enter your company name..."
                 labelClassName="font-medium text-gray-900 dark:text-white"
-                {...register('company')}
+                {...register("company")}
                 error={errors.company?.message}
               />
               <Input
                 label="Phone "
                 placeholder="Enter your phone number..."
                 labelClassName="font-medium text-gray-900 dark:text-white"
-                {...register('phone')}
+                {...register("phone")}
                 error={errors.phone?.message}
               />
               <Controller
@@ -143,7 +143,7 @@ export default function EditProfileForm({ className }: EditProfileFormProps) {
                     options={regions}
                     getOptionValue={(option) => option.value}
                     displayValue={(selected: string) =>
-                      regions?.find((c) => c.value === selected)?.label ?? ''
+                      regions?.find((c) => c.value === selected)?.label ?? ""
                     }
                     error={errors?.region?.message as string}
                   />
@@ -162,7 +162,7 @@ export default function EditProfileForm({ className }: EditProfileFormProps) {
                     options={countries}
                     getOptionValue={(option) => option.value}
                     displayValue={(selected: string) =>
-                      countries?.find((c) => c.value === selected)?.label ?? ''
+                      countries?.find((c) => c.value === selected)?.label ?? ""
                     }
                     error={errors?.country?.message as string}
                   />
@@ -182,7 +182,7 @@ export default function EditProfileForm({ className }: EditProfileFormProps) {
                     getOptionValue={(option) => option.value}
                     displayValue={(selected: string) =>
                       customerStatus?.find((c) => c.value === selected)
-                        ?.label ?? ''
+                        ?.label ?? ""
                     }
                     error={errors?.status?.message as string}
                   />
@@ -202,7 +202,7 @@ export default function EditProfileForm({ className }: EditProfileFormProps) {
                     getOptionValue={(option) => option.value}
                     displayValue={(selected: string) =>
                       customerSources?.find((c) => c.value === selected)
-                        ?.label ?? ''
+                        ?.label ?? ""
                     }
                     error={errors?.customerSource?.message as string}
                   />
@@ -212,7 +212,7 @@ export default function EditProfileForm({ className }: EditProfileFormProps) {
                 label="City"
                 placeholder="Enter your city"
                 labelClassName="font-medium text-gray-900 dark:text-white"
-                {...register('city')}
+                {...register("city")}
                 error={errors.city?.message}
               />
               <Input
@@ -220,7 +220,7 @@ export default function EditProfileForm({ className }: EditProfileFormProps) {
                 placeholder="Enter your street address"
                 className="col-span-full"
                 labelClassName="font-medium text-gray-900 dark:text-white"
-                {...register('street')}
+                {...register("street")}
                 error={errors.street?.message}
               />
               <div className="col-span-full mt-2 flex items-center justify-end">

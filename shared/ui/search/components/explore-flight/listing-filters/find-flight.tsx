@@ -99,9 +99,7 @@ function FlightFilterDrawerView({ reset }: any) {
         </ActionIcon>
       </div>
       <SimpleBar className="-mx-5 min-h-[calc(100%-10rem)]">
-        <div className="px-5">
-          {/* <FlightFilterSidebar /> */}
-        </div>
+        <div className="px-5">{/* <FlightFilterSidebar /> */}</div>
       </SimpleBar>
 
       <div className="sticky bottom-0 flex items-center justify-center gap-3 bg-white pb-3 pt-5 dark:bg-gray-50">

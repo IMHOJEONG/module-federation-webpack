@@ -1,8 +1,8 @@
-import { Controller, useFormContext } from 'react-hook-form';
-import { PiEnvelopeSimple } from 'react-icons/pi';
-import FormGroup from '@/components/form-group';
-import { Input, Checkbox } from 'rizzui';
-import cn from '@utils/class-names';
+import { Controller, useFormContext } from "react-hook-form";
+import { PiEnvelopeSimple } from "react-icons/pi";
+import FormGroup from "@/components/form-group";
+import { Input, Checkbox } from "rizzui";
+import cn from "@utils/class-names";
 
 interface FormSenderInfoProps {
   className?: string;
@@ -24,28 +24,28 @@ export default function FormSenderInfo({ className }: FormSenderInfoProps) {
         label="Name"
         placeholder="Jane Cooper"
         labelClassName="font-medium text-gray-900"
-        {...register('senderName')}
+        {...register("senderName")}
         error={errors.senderName?.message as string}
       />
       <Input
         label="Address"
         labelClassName="font-medium text-gray-900"
         placeholder="2972 Westheimer Rd. Santa Ana, Illinois 85486"
-        {...register('senderAddress')}
+        {...register("senderAddress")}
         error={errors.senderAddress?.message as string}
       />
       <Input
         label="Email"
         labelClassName="font-medium text-gray-900"
         placeholder="kenzi.lawson@example.com"
-        {...register('senderEmail')}
+        {...register("senderEmail")}
         error={errors.senderEmail?.message as string}
       />
       <Input
         label="Phone Number"
         labelClassName="font-medium text-gray-900"
         placeholder="(480) 555-0103"
-        {...register('senderPhone')}
+        {...register("senderPhone")}
         error={errors.senderPhone?.message as string}
       />
       <Controller

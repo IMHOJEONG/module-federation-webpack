@@ -1,39 +1,39 @@
-import { PiClock, PiDeviceMobileLight } from 'react-icons/pi';
-import { Container } from '@react-email/container';
-import { formatDate } from '@utils/format-date';
-import { Preview } from '@react-email/preview';
-import { Section } from '@react-email/section';
-import { Heading } from '@react-email/heading';
-import { Column } from '@react-email/column';
-import { Html } from '@react-email/html';
-import { Body } from '@react-email/body';
-import { Head } from '@react-email/head';
-import { Link } from '@react-email/link';
-import { Text } from '@react-email/text';
-import { Img } from '@react-email/img';
-import { Row } from '@react-email/row';
-import { Hr } from '@react-email/hr';
+import { PiClock, PiDeviceMobileLight } from "react-icons/pi";
+import { Container } from "@react-email/container";
+import { formatDate } from "@utils/format-date";
+import { Preview } from "@react-email/preview";
+import { Section } from "@react-email/section";
+import { Heading } from "@react-email/heading";
+import { Column } from "@react-email/column";
+import { Html } from "@react-email/html";
+import { Body } from "@react-email/body";
+import { Head } from "@react-email/head";
+import { Link } from "@react-email/link";
+import { Text } from "@react-email/text";
+import { Img } from "@react-email/img";
+import { Row } from "@react-email/row";
+import { Hr } from "@react-email/hr";
 
 const orderedProducts = [
   {
     id: 1,
     quantity: 1,
     price: 99.99,
-    name: 'Hario Bauno Cattle',
+    name: "Hario Bauno Cattle",
     image: `https://isomorphic-furyroad.s3.amazonaws.com/public/products/modern/1.webp`,
   },
   {
     id: 2,
     quantity: 1,
     price: 122.12,
-    name: 'Hario Bauno Cattle',
+    name: "Hario Bauno Cattle",
     image: `https://isomorphic-furyroad.s3.amazonaws.com/public/products/modern/2.webp`,
   },
   {
     id: 3,
     quantity: 1,
     price: 241.66,
-    name: 'Hario Bauno Cattle',
+    name: "Hario Bauno Cattle",
     image: `https://isomorphic-furyroad.s3.amazonaws.com/public/products/modern/3.webp`,
   },
 ];
@@ -42,10 +42,10 @@ const totalPrice = orderedProducts
   .reduce((sum, product) => sum + product.price, 0)
   .toFixed(2);
 
-const baseUrl = 'https://isomorphic-furyroad.vercel.app';
+const baseUrl = "https://isomorphic-furyroad.vercel.app";
 
 export default function OrderConfirmationEmail(
-  name = 'Zeno Rocha',
+  name = "Zeno Rocha",
   products = orderedProducts
 ) {
   return (
@@ -63,7 +63,7 @@ export default function OrderConfirmationEmail(
                   src="https://isomorphic-furyroad.vercel.app/logo.svg"
                   alt="isomorphic furyroad logo"
                   style={{
-                    margin: '0',
+                    margin: "0",
                   }}
                 />
               </Column>
@@ -133,12 +133,12 @@ export default function OrderConfirmationEmail(
           </Section>
           {/* <Hr style={global.hr} /> */}
           <Section style={global.defaultPadding}>
-            <Row style={{ display: 'inline-flex', marginBottom: 40 }}>
-              <Column style={{ width: '170px' }}>
+            <Row style={{ display: "inline-flex", marginBottom: 40 }}>
+              <Column style={{ width: "170px" }}>
                 <Text style={global.paragraphWithBold}>Order Number</Text>
                 <Text style={track.number}>C0106373851</Text>
               </Column>
-              <Column style={{ width: '170px' }}>
+              <Column style={{ width: "170px" }}>
                 <Text style={global.paragraphWithBold}>Order Date</Text>
                 <Text style={track.number}>Sep 22, 2022</Text>
               </Column>
@@ -157,29 +157,29 @@ export default function OrderConfirmationEmail(
           <Section style={menu.container}>
             <Text style={menu.title}>Get Help</Text>
             <Row style={menu.content}>
-              <Column style={{ width: '33%' }} colSpan={1}>
+              <Column style={{ width: "33%" }} colSpan={1}>
                 <Link href={baseUrl} style={menu.text}>
                   Shipping Status
                 </Link>
               </Column>
-              <Column style={{ width: '33%' }} colSpan={1}>
+              <Column style={{ width: "33%" }} colSpan={1}>
                 <Link href={baseUrl} style={menu.text}>
                   Shipping & Delivery
                 </Link>
               </Column>
-              <Column style={{ width: '33%' }} colSpan={1}>
+              <Column style={{ width: "33%" }} colSpan={1}>
                 <Link href={baseUrl} style={menu.text}>
                   Returns & Exchanges
                 </Link>
               </Column>
             </Row>
-            <Row style={{ ...menu.content, paddingTop: '0' }}>
-              <Column style={{ width: '33%' }} colSpan={1}>
+            <Row style={{ ...menu.content, paddingTop: "0" }}>
+              <Column style={{ width: "33%" }} colSpan={1}>
                 <Link href={baseUrl} style={menu.text}>
                   How to Return
                 </Link>
               </Column>
-              <Column style={{ width: '66%' }} colSpan={2}>
+              <Column style={{ width: "66%" }} colSpan={2}>
                 <Link href={baseUrl} style={menu.text}>
                   Contact Options
                 </Link>
@@ -189,17 +189,17 @@ export default function OrderConfirmationEmail(
             <Row style={menu.tel}>
               <Column>
                 <Row>
-                  <Column style={{ width: '16px' }}>
+                  <Column style={{ width: "16px" }}>
                     <PiDeviceMobileLight
                       style={{
-                        width: '16px',
-                        height: '16px',
-                        marginRight: '8px',
+                        width: "16px",
+                        height: "16px",
+                        marginRight: "8px",
                       }}
                     />
                   </Column>
                   <Column>
-                    <Text style={{ ...menu.text, marginBottom: '0' }}>
+                    <Text style={{ ...menu.text, marginBottom: "0" }}>
                       0-000-000-0000
                     </Text>
                   </Column>
@@ -207,12 +207,12 @@ export default function OrderConfirmationEmail(
               </Column>
               <Column>
                 <Row>
-                  <Column style={{ width: '16px' }}>
+                  <Column style={{ width: "16px" }}>
                     <PiClock
                       style={{
-                        width: '16px',
-                        height: '16px',
-                        marginRight: '8px',
+                        width: "16px",
+                        height: "16px",
+                        marginRight: "8px",
                       }}
                     />
                   </Column>
@@ -220,7 +220,7 @@ export default function OrderConfirmationEmail(
                     <Text
                       style={{
                         ...menu.text,
-                        marginBottom: '0',
+                        marginBottom: "0",
                       }}
                     >
                       4 am - 11 pm PT
@@ -236,7 +236,7 @@ export default function OrderConfirmationEmail(
               src="https://isomorphic-furyroad.vercel.app/logo.svg"
               alt="isomorphic furyroad logo"
               style={{
-                margin: '12px auto 36px',
+                margin: "12px auto 36px",
               }}
             />
             <Row style={categories.container}>
@@ -262,9 +262,9 @@ export default function OrderConfirmationEmail(
               </Column>
             </Row>
           </Section>
-          <Hr style={{ ...global.hr, marginTop: '12px' }} />
+          <Hr style={{ ...global.hr, marginTop: "12px" }} />
           <Section
-            style={{ ...paddingY, paddingLeft: '12px', paddingRight: '12px' }}
+            style={{ ...paddingY, paddingLeft: "12px", paddingRight: "12px" }}
           >
             <Row style={footer.policy}>
               <Column>
@@ -295,18 +295,18 @@ export default function OrderConfirmationEmail(
 }
 
 const paddingX = {
-  paddingLeft: '40px',
-  paddingRight: '40px',
+  paddingLeft: "40px",
+  paddingRight: "40px",
 };
 
 const paddingY = {
-  paddingTop: '22px',
-  paddingBottom: '22px',
+  paddingTop: "22px",
+  paddingBottom: "22px",
 };
 
 const paragraph = {
-  margin: '0',
-  lineHeight: '2',
+  margin: "0",
+  lineHeight: "2",
 };
 
 const global = {
@@ -316,195 +316,195 @@ const global = {
     ...paddingX,
     ...paddingY,
   },
-  paragraphWithBold: { ...paragraph, fontWeight: 'bold' },
+  paragraphWithBold: { ...paragraph, fontWeight: "bold" },
   heading: {
-    fontSize: '28px',
-    lineHeight: '1.3',
-    fontWeight: '700',
-    textAlign: 'center',
-    letterSpacing: '-1px',
+    fontSize: "28px",
+    lineHeight: "1.3",
+    fontWeight: "700",
+    textAlign: "center",
+    letterSpacing: "-1px",
   } as React.CSSProperties,
   text: {
     ...paragraph,
-    color: '#747474',
-    fontWeight: '500',
+    color: "#747474",
+    fontWeight: "500",
   },
   button: {
-    backgroundColor: '#111',
-    fontSize: '16px',
+    backgroundColor: "#111",
+    fontSize: "16px",
     border: 0,
     borderRadius: 6,
-    textDecoration: 'none',
-    padding: '14px 24px',
-    display: 'inline-block',
-    textAlign: 'center',
+    textDecoration: "none",
+    padding: "14px 24px",
+    display: "inline-block",
+    textAlign: "center",
     fontWeight: 500,
-    color: '#fff',
+    color: "#fff",
   } as React.CSSProperties,
   hr: {
-    borderColor: '#E5E5E5',
-    margin: '0',
+    borderColor: "#E5E5E5",
+    margin: "0",
   },
 };
 
 const main = {
-  backgroundColor: '#ffffff',
+  backgroundColor: "#ffffff",
   fontFamily:
     '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif',
 };
 
 const container = {
-  margin: '10px auto',
-  width: '600px',
-  border: '1px solid #E5E5E5',
+  margin: "10px auto",
+  width: "600px",
+  border: "1px solid #E5E5E5",
   borderRadius: 6,
 };
 
 const track = {
   container: {
-    padding: '22px 40px',
-    backgroundColor: '#F7F7F7',
+    padding: "22px 40px",
+    backgroundColor: "#F7F7F7",
   },
   number: {
-    margin: '12px 0 0 0',
+    margin: "12px 0 0 0",
     fontWeight: 500,
-    lineHeight: '1.4',
-    color: '#6F6F6F',
+    lineHeight: "1.4",
+    color: "#6F6F6F",
   },
 };
 
 const message = {
-  padding: '40px 74px',
-  textAlign: 'center',
+  padding: "40px 74px",
+  textAlign: "center",
 } as React.CSSProperties;
 
 const adressTitle = {
   ...paragraph,
-  fontSize: '15px',
-  fontWeight: 'bold',
+  fontSize: "15px",
+  fontWeight: "bold",
 };
 
 const recomendationsText = {
-  margin: '0',
-  fontSize: '15px',
-  lineHeight: '1',
-  paddingLeft: '10px',
-  paddingRight: '10px',
+  margin: "0",
+  fontSize: "15px",
+  lineHeight: "1",
+  paddingLeft: "10px",
+  paddingRight: "10px",
 };
 
 const recomendations = {
   container: {
-    padding: '20px 0',
+    padding: "20px 0",
   },
   product: {
-    verticalAlign: 'top',
-    textAlign: 'left' as const,
-    paddingLeft: '2px',
-    paddingRight: '2px',
+    verticalAlign: "top",
+    textAlign: "left" as const,
+    paddingLeft: "2px",
+    paddingRight: "2px",
   },
-  title: { ...recomendationsText, paddingTop: '12px', fontWeight: '500' },
+  title: { ...recomendationsText, paddingTop: "12px", fontWeight: "500" },
   text: {
     ...recomendationsText,
-    paddingTop: '4px',
-    color: '#747474',
+    paddingTop: "4px",
+    color: "#747474",
   },
 };
 
 const menu = {
   container: {
-    paddingLeft: '20px',
-    paddingRight: '20px',
-    paddingTop: '20px',
-    backgroundColor: '#F7F7F7',
+    paddingLeft: "20px",
+    paddingRight: "20px",
+    paddingTop: "20px",
+    backgroundColor: "#F7F7F7",
   },
   content: {
     ...paddingY,
-    paddingLeft: '20px',
-    paddingRight: '20px',
+    paddingLeft: "20px",
+    paddingRight: "20px",
   },
   title: {
-    paddingLeft: '20px',
-    paddingRight: '20px',
-    fontWeight: 'bold',
+    paddingLeft: "20px",
+    paddingRight: "20px",
+    fontWeight: "bold",
   },
   text: {
-    fontSize: '13.5px',
+    fontSize: "13.5px",
     marginTop: 0,
     fontWeight: 500,
-    color: '#000',
+    color: "#000",
   },
   tel: {
-    paddingLeft: '20px',
-    paddingRight: '20px',
-    paddingTop: '32px',
-    paddingBottom: '22px',
+    paddingLeft: "20px",
+    paddingRight: "20px",
+    paddingTop: "32px",
+    paddingBottom: "22px",
   },
 };
 
 const orderTHead = {
-  paddingLeft: '20px',
-  paddingRight: '20px',
-  marginBottom: '8px',
+  paddingLeft: "20px",
+  paddingRight: "20px",
+  marginBottom: "8px",
   // borderRadius: '6px',
-  backgroundColor: '#F3F4F6',
+  backgroundColor: "#F3F4F6",
 };
 const tableCell = {
-  fontSize: '14px',
-  lineHeight: '20px',
-  color: '#111827',
+  fontSize: "14px",
+  lineHeight: "20px",
+  color: "#111827",
 };
 const itemRow = {
-  paddingLeft: '20px',
-  paddingRight: '20px',
-  paddingBottom: '12px',
-  marginBottom: '12px',
+  paddingLeft: "20px",
+  paddingRight: "20px",
+  paddingBottom: "12px",
+  marginBottom: "12px",
   borderBottomWidth: 1,
-  borderColor: '#E5E7EB',
-  borderStyle: 'solid',
+  borderColor: "#E5E7EB",
+  borderStyle: "solid",
 };
 const priceTitleCell = {
-  paddingRight: '16px',
+  paddingRight: "16px",
   margin: 0,
-  width: '100%',
-  fontSize: '14px',
-  lineHeight: '20px',
-  color: '#374151',
+  width: "100%",
+  fontSize: "14px",
+  lineHeight: "20px",
+  color: "#374151",
 };
 const priceCell = {
   margin: 0,
-  fontSize: '14px',
-  lineHeight: '20px',
+  fontSize: "14px",
+  lineHeight: "20px",
   fontWeight: 500,
-  color: '#111827',
+  color: "#111827",
 };
 const categories = {
   container: {
-    width: '370px',
-    margin: 'auto',
-    paddingTop: '12px',
+    width: "370px",
+    margin: "auto",
+    paddingTop: "12px",
   },
   text: {
-    fontWeight: '500',
-    color: '#000',
+    fontWeight: "500",
+    color: "#000",
   },
 };
 
 const footer = {
   policy: {
-    width: '166px',
-    margin: 'auto',
+    width: "166px",
+    margin: "auto",
   },
   text: {
-    margin: '0',
-    color: '#AFAFAF',
-    fontSize: '13px',
-    textAlign: 'center',
+    margin: "0",
+    color: "#AFAFAF",
+    fontSize: "13px",
+    textAlign: "center",
   } as React.CSSProperties,
   link: {
-    margin: '0',
-    color: '#AFAFAF',
-    fontSize: '13px',
-    textAlign: 'center',
-    textDecoration: 'underline',
+    margin: "0",
+    color: "#AFAFAF",
+    fontSize: "13px",
+    textAlign: "center",
+    textDecoration: "underline",
   } as React.CSSProperties,
 };

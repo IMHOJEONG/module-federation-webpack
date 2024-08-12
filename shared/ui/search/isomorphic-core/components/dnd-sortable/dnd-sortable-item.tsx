@@ -1,14 +1,14 @@
 /* eslint-disable no-duplicate-imports */
-import React, { createContext, useContext, useMemo } from 'react';
-import type { CSSProperties, PropsWithChildren } from 'react';
+import React, { createContext, useContext, useMemo } from "react";
+import type { CSSProperties, PropsWithChildren } from "react";
 import type {
   DraggableSyntheticListeners,
   UniqueIdentifier,
-} from '@dnd-kit/core';
-import { useSortable } from '@dnd-kit/sortable';
-import { CSS } from '@dnd-kit/utilities';
-import { PiDotsSixVerticalBold } from 'react-icons/pi';
-import cn from '../../utils/class-names';
+} from "@dnd-kit/core";
+import { useSortable } from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
+import { PiDotsSixVerticalBold } from "react-icons/pi";
+import cn from "../../utils/class-names";
 
 interface Props {
   id: UniqueIdentifier;
@@ -58,7 +58,7 @@ export function SortableItem({
   return (
     <SortableItemContext.Provider value={context}>
       <li
-        className={cn('SortableItem', className)}
+        className={cn("SortableItem", className)}
         ref={setNodeRef}
         style={style}
       >
@@ -81,7 +81,7 @@ export function DragHandle({
   return (
     <button
       type="button"
-      className={cn('h-5 w-5 text-gray-900', className)}
+      className={cn("h-5 w-5 text-gray-900", className)}
       {...attributes}
       {...listeners}
       ref={ref}

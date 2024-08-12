@@ -17,6 +17,7 @@
     "eslint-config-turbo": "^2.0.0",
     "eslint-plugin-only-warn": "^1.1.0",
     "typescript": "^5.3.3",
+    "webpack-bundle-analyzer": "^4.10.2",
     "webpack-dev-middleware": "^7.3.0"
   }
 }

@@ -1,8 +1,8 @@
-import { Button } from 'rizzui';
-import { useSwiper } from 'swiper/react';
+import { Button } from "rizzui";
+import { useSwiper } from "swiper/react";
 
 // import icons and images
-import { PiCaretLeftBold } from 'react-icons/pi';
+import { PiCaretLeftBold } from "react-icons/pi";
 
 export default function PrevBtn() {
   const swiper = useSwiper();

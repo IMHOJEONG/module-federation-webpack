@@ -1,10 +1,10 @@
 import {
   InitialStateType,
   squareFeetOptions,
-} from '@/components/explore-listing/listing-filters/filter-utils';
-import { useEffect, useState } from 'react';
-import { PiMinus } from 'react-icons/pi';
-import { Select, Title } from 'rizzui';
+} from "@/components/explore-listing/listing-filters/filter-utils";
+import { useEffect, useState } from "react";
+import { PiMinus } from "react-icons/pi";
+import { Select, Title } from "rizzui";
 
 export default function SquareFeetFilter({
   state,
@@ -13,13 +13,13 @@ export default function SquareFeetFilter({
   state: InitialStateType;
   applyFilter: (query: string, value: any) => void;
 }) {
-  const [minSquareFeet, setMinSquareFeet] = useState('500');
-  const [maxSquareFeet, setMaxSquareFeet] = useState('1000');
+  const [minSquareFeet, setMinSquareFeet] = useState("500");
+  const [maxSquareFeet, setMaxSquareFeet] = useState("1000");
 
   useEffect(() => {
     if (
-      typeof state.square_feet_min === 'string' &&
-      typeof state.square_feet_max === 'string'
+      typeof state.square_feet_min === "string" &&
+      typeof state.square_feet_max === "string"
     ) {
       setMinSquareFeet(state.square_feet_min);
       setMaxSquareFeet(state.square_feet_max);
@@ -39,12 +39,12 @@ export default function SquareFeetFilter({
           value={minSquareFeet}
           onChange={(value: string) => {
             setMinSquareFeet(value);
-            applyFilter('square_feet_min', value);
+            applyFilter("square_feet_min", value);
           }}
           getOptionValue={(option) => option.value}
           displayValue={(selected) =>
             squareFeetOptions?.find((minsf) => minsf.value === selected)
-              ?.label ?? ''
+              ?.label ?? ""
           }
           inPortal={false}
         />
@@ -58,12 +58,12 @@ export default function SquareFeetFilter({
           value={maxSquareFeet}
           onChange={(value: string) => {
             setMaxSquareFeet(value);
-            applyFilter('square_feet_max', value);
+            applyFilter("square_feet_max", value);
           }}
           getOptionValue={(option) => option.value}
           displayValue={(selected) =>
             squareFeetOptions?.find((maxsf) => maxsf.value === selected)
-              ?.label ?? ''
+              ?.label ?? ""
           }
           inPortal={false}
         />

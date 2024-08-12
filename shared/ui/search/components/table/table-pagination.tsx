@@ -3,15 +3,15 @@ import {
   PiCaretRightBold,
   PiCaretDoubleLeftBold,
   PiCaretDoubleRightBold,
-} from 'react-icons/pi';
-import { type Table as ReactTableType } from '@tanstack/react-table';
-import { ActionIcon, Select, SelectOption, Text } from 'rizzui';
+} from "react-icons/pi";
+import { type Table as ReactTableType } from "@tanstack/react-table";
+import { ActionIcon, Select, SelectOption, Text } from "rizzui";
 
 const options = [
-  { value: 5, label: '5' },
-  { value: 10, label: '10' },
-  { value: 15, label: '15' },
-  { value: 20, label: '20' },
+  { value: 5, label: "5" },
+  { value: 10, label: "10" },
+  { value: 15, label: "15" },
+  { value: 20, label: "20" },
 ];
 
 export default function TablePagination<TData extends Record<string, any>>({
@@ -23,7 +23,7 @@ export default function TablePagination<TData extends Record<string, any>>({
     <div className="flex w-full items-center justify-between @container">
       <div className="hidden @2xl:block">
         <Text>
-          {table.getFilteredSelectedRowModel().rows.length} of{' '}
+          {table.getFilteredSelectedRowModel().rows.length} of{" "}
           {table.getFilteredRowModel().rows.length} row(s) selected.
         </Text>
       </div>
@@ -44,7 +44,7 @@ export default function TablePagination<TData extends Record<string, any>>({
           />
         </div>
         <Text className="hidden font-medium text-gray-900 @3xl:block">
-          Page {table.getState().pagination.pageIndex + 1} of{' '}
+          Page {table.getState().pagination.pageIndex + 1} of{" "}
           {table.getPageCount().toLocaleString()}
         </Text>
         <div className="grid grid-cols-4 gap-2">

@@ -6,17 +6,17 @@ import {
   Checkbox,
   Tooltip,
   ActionIcon,
-} from 'rizzui';
-import CreateSnippetTemplateForm from '@/components/support/create-snippet-template-from';
-import { SnippetOrTemplate, SnippetType } from '@/data/snippets-and-templates';
-import { useModal } from '@/components/modal-views/use-modal';
-import FolderIcon from '@components/icons/folder-solid';
-import PencilIcon from '@components/icons/pencil';
-import TrashIcon from '@components/icons/trash';
-import { HeaderCell } from '@/components/table';
-import { PiWarning } from 'react-icons/pi';
-import AvatarCard from '@ui/avatar-card';
-import DateCell from '@ui/date-cell';
+} from "rizzui";
+import CreateSnippetTemplateForm from "@/components/support/create-snippet-template-from";
+import { SnippetOrTemplate, SnippetType } from "@/data/snippets-and-templates";
+import { useModal } from "@/components/modal-views/use-modal";
+import FolderIcon from "@components/icons/folder-solid";
+import PencilIcon from "@components/icons/pencil";
+import TrashIcon from "@components/icons/trash";
+import { HeaderCell } from "@/components/table";
+import { PiWarning } from "react-icons/pi";
+import AvatarCard from "@ui/avatar-card";
+import DateCell from "@ui/date-cell";
 
 type Columns = {
   data: any[];
@@ -41,15 +41,15 @@ export const getColumns = ({
     title: (
       <div className="ps-2">
         <Checkbox
-          title={'Select All'}
+          title={"Select All"}
           onChange={handleSelectAll}
           checked={checkedItems.length === data.length}
           className="cursor-pointer"
         />
       </div>
     ),
-    dataIndex: 'checked',
-    key: 'checked',
+    dataIndex: "checked",
+    key: "checked",
     width: 30,
     render: (_: any, row: any) => (
       <div className="inline-flex ps-2">
@@ -67,13 +67,13 @@ export const getColumns = ({
         title="Name"
         sortable
         ascending={
-          sortConfig?.direction === 'asc' && sortConfig?.key === 'name'
+          sortConfig?.direction === "asc" && sortConfig?.key === "name"
         }
       />
     ),
-    onHeaderCell: () => onHeaderCellClick('name'),
-    dataIndex: 'name',
-    key: 'name',
+    onHeaderCell: () => onHeaderCellClick("name"),
+    dataIndex: "name",
+    key: "name",
     width: 300,
     render: (name: string) => name,
   },
@@ -83,13 +83,13 @@ export const getColumns = ({
         title="Created By"
         sortable
         ascending={
-          sortConfig?.direction === 'asc' && sortConfig?.key === 'createdBy'
+          sortConfig?.direction === "asc" && sortConfig?.key === "createdBy"
         }
       />
     ),
-    onHeaderCell: () => onHeaderCellClick('createdBy'),
-    dataIndex: 'createdBy',
-    key: 'createdBy',
+    onHeaderCell: () => onHeaderCellClick("createdBy"),
+    dataIndex: "createdBy",
+    key: "createdBy",
     width: 300,
     render: (_: string, row: SnippetOrTemplate) => (
       <AvatarCard
@@ -97,7 +97,7 @@ export const getColumns = ({
         name={row.name}
         avatarProps={{
           name: row.name,
-          size: 'sm',
+          size: "sm",
         }}
       />
     ),
@@ -108,13 +108,13 @@ export const getColumns = ({
         title="Folder"
         sortable
         ascending={
-          sortConfig?.direction === 'asc' && sortConfig?.key === 'folder'
+          sortConfig?.direction === "asc" && sortConfig?.key === "folder"
         }
       />
     ),
-    onHeaderCell: () => onHeaderCellClick('folder'),
-    dataIndex: 'folder',
-    key: 'folder',
+    onHeaderCell: () => onHeaderCellClick("folder"),
+    dataIndex: "folder",
+    key: "folder",
     width: 300,
     render: (folder: string) => (
       <div className="flex items-center gap-2">
@@ -129,13 +129,13 @@ export const getColumns = ({
         title="Date Created"
         sortable
         ascending={
-          sortConfig?.direction === 'asc' && sortConfig?.key === 'createdAt'
+          sortConfig?.direction === "asc" && sortConfig?.key === "createdAt"
         }
       />
     ),
-    onHeaderCell: () => onHeaderCellClick('createdAt'),
-    dataIndex: 'createdAt',
-    key: 'createdAt',
+    onHeaderCell: () => onHeaderCellClick("createdAt"),
+    dataIndex: "createdAt",
+    key: "createdAt",
     width: 300,
     render: (value: Date) => <DateCell date={value} />,
   },
@@ -145,20 +145,20 @@ export const getColumns = ({
         title="Date Modified"
         sortable
         ascending={
-          sortConfig?.direction === 'asc' && sortConfig?.key === 'updatedAt'
+          sortConfig?.direction === "asc" && sortConfig?.key === "updatedAt"
         }
       />
     ),
-    onHeaderCell: () => onHeaderCellClick('updatedAt'),
-    dataIndex: 'updatedAt',
-    key: 'updatedAt',
+    onHeaderCell: () => onHeaderCellClick("updatedAt"),
+    dataIndex: "updatedAt",
+    key: "updatedAt",
     width: 300,
     render: (value: Date) => <DateCell date={value} />,
   },
   {
     title: <></>,
-    dataIndex: 'action',
-    key: 'action',
+    dataIndex: "action",
+    key: "action",
     render: (_: string, row: any) => (
       <RenderAction row={row} onDeleteItem={onDeleteItem} />
     ),
@@ -178,7 +178,7 @@ function RenderAction({
       <div className="flex items-center justify-end gap-3 pe-4">
         <Tooltip
           size="sm"
-          content={'View/Edit snippet'}
+          content={"View/Edit snippet"}
           placement="top"
           color="invert"
         >
@@ -194,7 +194,7 @@ function RenderAction({
                     data={row}
                   />
                 ),
-                customSize: '850px',
+                customSize: "850px",
               })
             }
           >

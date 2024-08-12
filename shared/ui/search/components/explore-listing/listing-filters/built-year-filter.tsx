@@ -1,6 +1,6 @@
-import { InitialStateType } from '@/components/explore-listing/listing-filters/filter-utils';
-import { Input, NumberInput, Title } from 'rizzui';
-import { PiMinus } from 'react-icons/pi';
+import { InitialStateType } from "@/components/explore-listing/listing-filters/filter-utils";
+import { Input, NumberInput, Title } from "rizzui";
+import { PiMinus } from "react-icons/pi";
 
 export default function BuiltYearFilter({
   state,
@@ -19,11 +19,11 @@ export default function BuiltYearFilter({
           value={state.built_year_min}
           formatType="pattern"
           format="####"
-          mask={['Y', 'Y', 'Y', 'Y']}
+          mask={["Y", "Y", "Y", "Y"]}
           allowEmptyFormatting
           customInput={Input as React.ComponentType<unknown>}
-          onChange={({ target }) => applyFilter('built_year_min', target.value)}
-          {...{ variant: 'outline' }}
+          onChange={({ target }) => applyFilter("built_year_min", target.value)}
+          {...{ variant: "outline" }}
         />
         <span className="relative top-0 inline-flex flex-shrink-0 items-center justify-center text-center">
           <PiMinus className=" w-3" />
@@ -32,11 +32,11 @@ export default function BuiltYearFilter({
           value={state.built_year_max}
           formatType="pattern"
           format="####"
-          mask={['Y', 'Y', 'Y', 'Y']}
+          mask={["Y", "Y", "Y", "Y"]}
           allowEmptyFormatting
           customInput={Input as React.ComponentType<unknown>}
-          onChange={({ target }) => applyFilter('built_year_max', target.value)}
-          {...{ variant: 'outline' }}
+          onChange={({ target }) => applyFilter("built_year_max", target.value)}
+          {...{ variant: "outline" }}
         />
       </div>
     </div>

@@ -1,12 +1,12 @@
-import EventForm from '@/components/event-calendar/event-form';
-import { useModal } from '@/components/modal-views/use-modal';
-import useEventCalendar from '@hooks/use-event-calendar';
-import { ActionIcon, Button, Text, Title } from 'rizzui';
-import { MdOutlineCalendarMonth } from 'react-icons/md';
-import { PiMapPin, PiXBold } from 'react-icons/pi';
-import { formatDate } from '@utils/format-date';
-import { CalendarEvent } from '@/types';
-import cn from '@utils/class-names';
+import EventForm from "@/components/event-calendar/event-form";
+import { useModal } from "@/components/modal-views/use-modal";
+import useEventCalendar from "@hooks/use-event-calendar";
+import { ActionIcon, Button, Text, Title } from "rizzui";
+import { MdOutlineCalendarMonth } from "react-icons/md";
+import { PiMapPin, PiXBold } from "react-icons/pi";
+import { formatDate } from "@utils/format-date";
+import { CalendarEvent } from "@/types";
+import cn from "@utils/class-names";
 
 function DetailsEvents({ event }: { event: CalendarEvent }) {
   const { deleteEvent } = useEventCalendar();
@@ -16,7 +16,7 @@ function DetailsEvents({ event }: { event: CalendarEvent }) {
     closeModal(),
       openModal({
         view: <EventForm event={event} />,
-        customSize: '650px',
+        customSize: "650px",
       });
   }
 
@@ -54,16 +54,16 @@ function DetailsEvents({ event }: { event: CalendarEvent }) {
             <MdOutlineCalendarMonth className="h-5 w-5" />
             <span>Event Start:</span>
             <span className="font-medium text-gray-1000">
-              {formatDate(event.start, 'MMMM D, YYYY')} at{' '}
-              {formatDate(event.start, 'h:mm A')}
+              {formatDate(event.start, "MMMM D, YYYY")} at{" "}
+              {formatDate(event.start, "h:mm A")}
             </span>
           </li>
           <li className="flex gap-2">
             <MdOutlineCalendarMonth className="h-5 w-5" />
             <span>Event End:</span>
             <span className="font-medium text-gray-1000">
-              {formatDate(event.end, 'MMMM D, YYYY')} at{' '}
-              {formatDate(event.end, 'h:mm A')}
+              {formatDate(event.end, "MMMM D, YYYY")} at{" "}
+              {formatDate(event.end, "h:mm A")}
             </span>
           </li>
           {event.location && (
@@ -76,7 +76,7 @@ function DetailsEvents({ event }: { event: CalendarEvent }) {
             </li>
           )}
         </ul>
-        <div className={cn('grid grid-cols-2 gap-4 pt-5 ')}>
+        <div className={cn("grid grid-cols-2 gap-4 pt-5 ")}>
           <Button
             variant="outline"
             onClick={() => handleDelete(event.id as string)}
