@@ -1,6 +1,7 @@
 import { useCart } from "@/store/_deprecated/quick-cart/cart.context";
 import CartDrawerView from "./ecommerce/cart/cart-drawer-view";
-import { PiShoppingCartBold } from "react-icons/pi";
+// import { PiShoppingCartBold } from "react-icons/pi";
+import PiShoppingCartBold from "react-icons/pi/PiShoppingCartBold";
 import { DUMMY_ID } from "@/config/constants";
 import { routes } from "@/config/routes";
 import cn from "@utils/class-names";

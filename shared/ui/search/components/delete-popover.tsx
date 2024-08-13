@@ -1,7 +1,8 @@
 import { Title, Text, ActionIcon, Button, Popover } from "rizzui";
 import TrashIcon from "@components/icons/trash";
 import { i18nextT } from "@utils/i18next-lang";
-import { PiTrashFill } from "react-icons/pi";
+// import { PiTrashFill } from "react-icons/pi";
+import PiTrashFill from "react-icons/pi/PiTrashFill";
 
 type DeletePopoverProps = {
   title: string;

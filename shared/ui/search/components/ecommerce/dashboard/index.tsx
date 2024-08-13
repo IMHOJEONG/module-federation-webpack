@@ -14,6 +14,7 @@ import { PiPlusBold } from "react-icons/pi";
 import { routes } from "@/config/routes";
 import { Button } from "rizzui";
 
+import { Link } from "react-router-dom";
 // import Link from "next/link";
 
 export default function EcommerceDashboard() {
@@ -44,11 +45,11 @@ export default function EcommerceDashboard() {
           contentClassName="@2xl:max-w-[calc(100%-340px)]"
           className="border border-muted bg-gray-0 pb-8 @4xl:col-span-2 @7xl:col-span-8 lg:pb-9 dark:bg-gray-100/30"
         >
-          {/* <Link href={routes.eCommerce.createProduct} className="inline-flex">
+          <Link to={routes.eCommerce.createProduct} className="inline-flex">
             <Button as="span" className="h-[38px] shadow md:h-10">
               <PiPlusBold className="me-1 h-4 w-4" /> Add Product
             </Button>
-          </Link> */}
+          </Link>
         </WelcomeBanner>
 
         <StatCards className="@2xl:grid-cols-3 @3xl:gap-6 @4xl:col-span-2 @7xl:col-span-8" />

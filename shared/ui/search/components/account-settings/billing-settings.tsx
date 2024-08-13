@@ -1,11 +1,19 @@
-import {
-  PiCheckCircleFill,
-  PiDownloadSimpleBold,
-  PiFire,
-  PiLightning,
-  PiPlusBold,
-  PiStackSimple,
-} from "react-icons/pi";
+// import {
+//   PiCheckCircleFill,
+//   PiDownloadSimpleBold,
+//   PiFire,
+//   PiLightning,
+//   PiPlusBold,
+//   PiStackSimple,
+// } from "react-icons/pi";
+
+import PiCheckCircleFill from "react-icons/pi/PiCheckCircleFill";
+import PiDownloadSimpleBold from "react-icons/pi/PiDownloadSimpleBold";
+import PiFire from "react-icons/pi/PiFire";
+import PiLightning from "react-icons/pi/PiLightning";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
+import PiStackSimple from "react-icons/pi/PiStackSimple";
+
 import AddBillingCardModalView from "@/components/account-settings/modal/add-billing-card";
 import HorizontalFormBlockWrapper from "@/components/account-settings/horiozontal-block";
 import BillingHistoryTable from "@/components/account-settings/billing-history/table";

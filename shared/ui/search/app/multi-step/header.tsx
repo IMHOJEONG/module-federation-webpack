@@ -1,6 +1,7 @@
 import { siteConfig } from "@/config/site.config";
 import { useMedia } from "@hooks/use-media";
-import { FiSave } from "react-icons/fi";
+// import { FiSave } from "react-icons/fi";
+import FiSave from "react-icons/fi/FiSave";
 import cn from "@utils/class-names";
 import { Button } from "rizzui";
 import Image from "next/image";

@@ -1,6 +1,7 @@
 import { Checkbox, Title, Text, Button, Badge } from "rizzui";
 import { exportToCSV } from "@utils/export-to-csv";
-import { PiCloudArrowDown } from "react-icons/pi";
+// import { PiCloudArrowDown } from "react-icons/pi";
+import PiCloudArrowDown from "react-icons/pi/PiCloudArrowDown";
 import { HeaderCell } from "@/components/table";
 
 import dayjs from "dayjs";

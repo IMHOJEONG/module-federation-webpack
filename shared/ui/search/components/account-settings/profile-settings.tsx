@@ -5,7 +5,9 @@ import {
 } from "@/validators/profile-settings.schema";
 import { useBerylliumSidebars } from "@/layouts/beryllium/beryllium-utils";
 import { Button, Title, Text, Input, Checkbox, Select } from "rizzui";
-import { PiEnvelopeSimple, PiSealCheckFill } from "react-icons/pi";
+// import { PiEnvelopeSimple, PiSealCheckFill } from "react-icons/pi";
+import PiEnvelopeSimple from "react-icons/piPiEnvelopeSimple";
+import PiSealCheckFill from "react-icons/pi/PiSealCheckFill";
 import { SubmitHandler, Controller } from "react-hook-form";
 import AvatarUpload from "@ui/file-upload/avatar-upload";
 import UploadZone from "@ui/file-upload/upload-zone";

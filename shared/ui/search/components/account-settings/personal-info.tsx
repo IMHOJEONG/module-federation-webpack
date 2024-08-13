@@ -5,7 +5,9 @@ import {
 } from "@/validators/personal-info.schema";
 import { countries, roles, timezones } from "@/data/forms/my-details";
 import { SubmitHandler, Controller } from "react-hook-form";
-import { PiClock, PiEnvelopeSimple } from "react-icons/pi";
+// import { PiClock, PiEnvelopeSimple } from "react-icons/pi";
+import PiEnvelopeSimple from "react-icons/pi/PiEnvelopeSimple";
+import PiClock from "react-icons/pi/PiClock";
 import AvatarUpload from "@ui/file-upload/avatar-upload";
 import UploadZone from "@ui/file-upload/upload-zone";
 import FormFooter from "@components/form-footer";

@@ -1,14 +1,24 @@
-import {
-  PiArrowLineDownBold,
-  PiFile,
-  PiFileCsv,
-  PiFileDoc,
-  PiFilePdf,
-  PiFileXls,
-  PiFileZip,
-  PiTrashBold,
-  PiXBold,
-} from "react-icons/pi";
+// import {
+//   PiArrowLineDownBold,
+//   PiFile,
+//   PiFileCsv,
+//   PiFileDoc,
+//   PiFilePdf,
+//   PiFileXls,
+//   PiFileZip,
+//   PiTrashBold,
+//   PiXBold,
+// } from "react-icons/pi";
+import PiArrowLineDownBold from "react-icons/pi/PiArrowLineDownBold";
+import PiFile from "react-icons/pi/PiFile";
+import PiFileCsv from "react-icons/pi/PiFileCsv";
+import PiFileDoc from "react-icons/pi/PiFileDoc";
+import PiFilePdf from "react-icons/pi/PiFilePdf";
+import PiFileXls from "react-icons/pi/PiFileXls";
+import PiFileZip from "react-icons/pi/PiFileZip";
+import PiTrashBold from "react-icons/pi/PiTrashBold";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { useModal } from "@/components/modal-views/use-modal";
 import { ActionIcon, Title, Text, Button } from "rizzui";
 import React, { useRef, useState } from "react";

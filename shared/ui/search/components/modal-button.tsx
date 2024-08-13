@@ -1,6 +1,7 @@
 import { useModal } from "@/components/modal-views/use-modal";
 import { Button, type ButtonProps } from "rizzui";
-import { PiPlusBold } from "react-icons/pi";
+// import { PiPlusBold } from "react-icons/pi";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
 import cn from "@utils/class-names";
 
 interface ModalButtonProps extends ButtonProps {

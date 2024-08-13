@@ -1,5 +1,6 @@
 import { Title, ActionIcon } from "rizzui";
-import { PiXBold } from "react-icons/pi";
+// import { PiXBold } from "react-icons/pi";
+import PiXBold from "react-icons/pi/PiXBold";
 import cn from "@utils/class-names";
 
 type DrawerHeaderProps = {

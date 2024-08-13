@@ -1,5 +1,6 @@
 import { useModal } from "@/components/modal-views/use-modal";
-import { PiArrowLineDownBold } from "react-icons/pi";
+// import { PiArrowLineDownBold } from "react-icons/pi/";
+import PiArrowLineDownBold from "react-icons/pi/PiArrowLineDownBold";
 import cn from "@utils/class-names";
 // import dynamic from "next/dynamic";
 import { Button } from "rizzui";

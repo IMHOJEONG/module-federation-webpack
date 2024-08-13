@@ -24,6 +24,7 @@
       "react": ["./node_modules/@types/react"],
       "#/*": ["./*"],
       "@/*": ["./search/*"],
+      "react-icons/*": ["./react-icons/*"],
       "*": ["./@mf-types/*"]
     }
   },

@@ -1,4 +1,5 @@
-import { PiPrinterBold } from "react-icons/pi";
+// import { PiPrinterBold } from "react-icons/pi";
+import PiPrinterBold from "react-icons/pi/PiPrinterBold";
 import { Button, ButtonProps } from "rizzui";
 import cn from "@utils/class-names";
 

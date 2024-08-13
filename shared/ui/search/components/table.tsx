@@ -8,7 +8,8 @@ import {
   Text,
 } from "rizzui";
 import { addSpacesToCamelCase } from "@utils/add-spaces-to-camel-case";
-import { PiTextColumns } from "react-icons/pi";
+// import { PiTextColumns } from "react-icons/pi";
+import PiTextColumns from "react-icons/pi/PiTextColumns";
 import cn from "@utils/class-names";
 import RcTable from "rc-table";
 

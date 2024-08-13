@@ -1,5 +1,7 @@
 import { Button, Input, Title, Text, Switch, ActionIcon } from "rizzui";
-import { PiMagnifyingGlass, PiX } from "react-icons/pi";
+// import { PiMagnifyingGlass, PiX } from "react-icons/pi";
+import PiX from "react-icons/pi/PiX";
+import PiMagnifyingGlass from "react-icons/pi/PiMagnifyingGlass";
 import { teams } from "@/data/teams-data";
 import cn from "@utils/class-names";
 import { useState } from "react";

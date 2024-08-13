@@ -8,7 +8,7 @@ import {
 } from "react-icons/pi";
 import FacebookIcon from "@components/icons/facebook";
 import XTwitter from "@components/icons/x-twitter";
-import { IconType } from "react-icons";
+import { IconType } from "react-icons/lib";
 
 export const jobFeedBannerLogo =
   "https://s3.amazonaws.com/redqteam.com/isomorphic-furyroad/public/food/job-feed-banner.webp";

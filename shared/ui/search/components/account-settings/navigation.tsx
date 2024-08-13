@@ -1,6 +1,8 @@
 import { useBerylliumSidebars } from "@/layouts/beryllium/beryllium-utils";
 import { useScrollableSlider } from "@hooks/use-scrollable-slider";
-import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+// import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
 import { useLayout } from "@/layouts/use-layout";
 import { LAYOUT_OPTIONS } from "@/config/enums";
 // import { usePathname } from "next/navigation";

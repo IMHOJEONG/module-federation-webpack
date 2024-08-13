@@ -5,7 +5,9 @@ import {
   useStepperOne,
 } from "@/components/multi-step/multi-step-1";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { PiArrowUpLight, PiCheck } from "react-icons/pi";
+// import { PiArrowUpLight, PiCheck } from "react-icons/pi";
+import PiArrowUpLight from "react-icons/pi/PiArrowUpLight";
+import PiCheck from "react-icons/pi/PiCheck";
 import { useResetAtom } from "jotai/utils";
 import cn from "@utils/class-names";
 import { useSetAtom } from "jotai";
@@ -15,7 +17,7 @@ import { Button } from "rizzui";
 interface FooterProps {
   formId?: number;
   className?: string;
-  isLoading?: boolean;
+  isLoading?: boolean;  
 }
 
 function buttonLabel(formId?: number) {

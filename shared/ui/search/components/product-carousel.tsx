@@ -1,6 +1,8 @@
 import { Navigation, Swiper, SwiperSlide } from "@ui/carousel/carousel";
 import ProductModernCard from "@components/cards/product-modern-card";
-import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+// import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
 import { useDirection } from "@hooks/use-direction";
 import { generateSlug } from "@utils/generate-slug";
 import { ActionIcon, Title } from "rizzui";

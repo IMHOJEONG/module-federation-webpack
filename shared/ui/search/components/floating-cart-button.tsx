@@ -1,4 +1,5 @@
-import { PiShoppingCartSimpleBold } from "react-icons/pi";
+// import { PiShoppingCartSimpleBold } from "react-icons/pi";
+import PiShoppingCartSimpleBold from "react-icons/pi/PiShoppingCartSimpleBold";
 import cn from "@utils/class-names";
 
 type FloatingCartButtonProps = {

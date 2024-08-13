@@ -13,7 +13,8 @@ import {
 } from "@/validators/credit-card.schema";
 import { useModal } from "@/components/modal-views/use-modal";
 import { Controller, SubmitHandler } from "react-hook-form";
-import { PiLockSimple } from "react-icons/pi";
+// import { PiLockSimple } from "react-icons/pi";
+import PiLockSimple from "react-icons/pi/PiLockSimple";
 import { useState } from "react";
 import { Form } from "@ui/form";
 

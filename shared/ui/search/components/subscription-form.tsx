@@ -4,7 +4,8 @@ import { Form } from "@ui/form";
 import z from "zod";
 
 // import images and icons
-import { PiBellBold } from "react-icons/pi";
+// import { PiBellBold } from "react-icons/pi";
+import PiBellBold from "react-icons/pi/PiBellBold";
 
 const subscriptionFormSchema = z.object({
   email: z.string({ required_error: "This email is required" }).email(),

@@ -1,5 +1,6 @@
 import { useModal } from "@/components/modal-views/use-modal";
-import { PiArrowLineDownBold } from "react-icons/pi";
+// import { PiArrowLineDownBold } from "react-icons/pi";
+import PiArrowLineDownBold from "react-icons/piPiArrowLineDownBold";
 import { Button } from "rizzui";
 
 type ExportButtonProps = {

@@ -1,5 +1,6 @@
 import { exportToCSV } from "@utils/export-to-csv";
-import { PiArrowLineUpBold } from "react-icons/pi";
+// import { PiArrowLineUpBold } from "react-icons/pi";
+import PiArrowLineUpBold from "react-icons/pi/PiArrowLineUpBold";
 import cn from "@utils/class-names";
 import { ReactNode } from "react";
 import { Button } from "rizzui";

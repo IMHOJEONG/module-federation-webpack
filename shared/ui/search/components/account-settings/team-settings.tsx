@@ -6,7 +6,8 @@ import { loggedInDeviceData } from "@/data/logged-in-device";
 import GithubIcon from "@components/icons/github";
 import TeamsIcon from "@components/icons/teams";
 import FigmaIcon from "@components/icons/figma";
-import { PiPlusBold } from "react-icons/pi";
+// import { PiPlusBold } from "react-icons/pi";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
 import { Button, Title } from "rizzui";
 import Link from "next/link";
 

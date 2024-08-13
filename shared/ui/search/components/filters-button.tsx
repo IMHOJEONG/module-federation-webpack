@@ -2,7 +2,8 @@ import {
   useDrawer,
   type DrawerPlacements,
 } from "@/components/drawer-views/use-drawer";
-import { PiSliders } from "react-icons/pi";
+// import { PiSliders } from "react-icons/pi";
+import PiSliders from "react-icons/pi/PiSliders";
 import cn from "@utils/class-names";
 import { Button } from "rizzui";
 

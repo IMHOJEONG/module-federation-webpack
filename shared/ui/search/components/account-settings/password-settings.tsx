@@ -6,7 +6,8 @@ import HorizontalFormBlockWrapper from "@/components/account-settings/horiozonta
 import { ProfileHeader } from "@/components/account-settings/profile-settings";
 import { SubmitHandler, Controller } from "react-hook-form";
 import { Button, Password, Title, Text } from "rizzui";
-import { PiDesktop } from "react-icons/pi";
+// import { PiDesktop } from "react-icons/pi";
+import PiDesktop from "react-icons/pi/PiDesktop";
 import cn from "@utils/class-names";
 import { useState } from "react";
 import { Form } from "@ui/form";
