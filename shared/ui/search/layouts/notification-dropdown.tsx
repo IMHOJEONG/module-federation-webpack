@@ -3,7 +3,9 @@ import { notificationsData } from "@/data/notifications";
 import relativeTime from "dayjs/plugin/relativeTime";
 import { useMedia } from "@hooks/use-media";
 import { RefObject, useState } from "react";
-import { PiCheck } from "react-icons/pi";
+
+import PiCheck from "react-icons/pi/PiCheck";
+
 import SimpleBar from "@ui/simplebar";
 // import Link from 'next/link';
 import dayjs from "dayjs";

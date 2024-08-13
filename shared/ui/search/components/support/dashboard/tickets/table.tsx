@@ -5,7 +5,9 @@ import ControlledTable from "@/components/controlled-table/index";
 import DateFiled from "@/components/controlled-table/date-field";
 import { useCallback, useMemo, useState } from "react";
 import { ticketsData } from "@/data/tickets-data";
-import { PiTrashDuotone } from "react-icons/pi";
+
+import PiTrashDuotone from "react-icons/pi/PiTrashDuotone";
+
 import { useColumn } from "@hooks/use-column";
 import { Button, Badge, Text } from "rizzui";
 import { useTable } from "@hooks/use-table";

@@ -3,7 +3,9 @@ import HeaderMenuRight from "@/layouts/header-menu-right";
 import HamburgerButton from "@/layouts/hamburger-button";
 import SearchWidget from "@/components/search/search";
 import StickyHeader from "@/layouts/sticky-header";
-import { PiMagnifyingGlass } from "react-icons/pi";
+
+import PiMagnifyingGlass from "react-icons/pi/PiMagnifyingGlass";
+
 import cn from "@utils/class-names";
 import Logo from "@components/logo";
 // import Link from 'next/link';

@@ -1,5 +1,8 @@
 import { shippingMethodData, shippingSpeedData } from "@/data/checkout-data";
-import { PiCheckCircleFill, PiQuestionFill } from "react-icons/pi";
+
+import PiCheckCircleFill from "react-icons/pi/PiCheckCircleFill";
+import PiQuestionFill from "react-icons/pi/PiQuestionFill";
+
 import { AdvancedRadio, FieldError, Title, Text } from "rizzui";
 import { useFormContext, useWatch } from "react-hook-form";
 import cn from "@utils/class-names";

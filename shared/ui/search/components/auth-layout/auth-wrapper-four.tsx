@@ -1,9 +1,10 @@
-import { PiArrowLineRight, PiUserCirclePlus } from "react-icons/pi";
+import PiArrowLineRight from "react-icons/pi/PiArrowLineRight";
+import PiUserCirclePlus from "react-icons/pi/PiUserCirclePlus";
 import OrSeparation from "@/components/auth-layout/or-separation";
 import { siteConfig } from "@/config/site.config";
 import { usePathname } from "next/navigation";
-import { BsFacebook } from "react-icons/bs";
-import { FcGoogle } from "react-icons/fc";
+import BsFacebook from "react-icons/bs/BsFacebook";
+import FcGoogle from "react-icons/fc/FcGoogle";
 import { routes } from "@/config/routes";
 import { Button, Title } from "rizzui";
 import cn from "@utils/class-names";

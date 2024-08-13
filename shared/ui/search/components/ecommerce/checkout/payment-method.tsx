@@ -9,11 +9,11 @@ import {
   NumberInput,
   NumberInputProps,
 } from "rizzui";
-import {
-  PiCaretDownBold,
-  PiCheckCircleFill,
-  PiLockKeyLight,
-} from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+import PiCheckCircleFill from "react-icons/pi/PiCheckCircleFill";
+import PiLockKeyLight from "react-icons/pi/PiLockKeyLight";
+
 import { Controller, useFormContext, useWatch } from "react-hook-form";
 import { usePatternFormat } from "@hooks/use-pattern-format";
 import { paymentMethodData } from "@/data/checkout-data";

@@ -1,8 +1,7 @@
-import {
-  PiChatCircleDotsFill,
-  PiBellSimpleRingingFill,
-  PiGearFill,
-} from "react-icons/pi";
+import PiChatCircleDotsFill from "react-icons/pi/PiChatCircleDotsFill";
+import PiBellSimpleRingingFill from "react-icons/pi/PiBellSimpleRingingFill";
+import PiGearFill from "react-icons/pi/PiGearFill";
+
 import NotificationDropdown from "@/layouts/notification-dropdown";
 import MessagesDropdown from "@/layouts/messages-dropdown";
 import HamburgerButton from "@/layouts/hamburger-button";

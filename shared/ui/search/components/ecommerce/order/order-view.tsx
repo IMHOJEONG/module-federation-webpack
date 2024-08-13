@@ -7,7 +7,9 @@ import OrderViewProducts from "@/components/ecommerce/order/order-products/order
 import { useCart } from "@/store/_deprecated/quick-cart/cart.context";
 import { toCurrency } from "@utils/to-currency";
 import { formatDate } from "@utils/format-date";
-import { PiCheckBold } from "react-icons/pi";
+
+import PiCheckBold from "react-icons/pi/PiCheckBold";
+
 import usePrice from "@hooks/use-price";
 import isEmpty from "lodash/isEmpty";
 import { Title, Text } from "rizzui";

@@ -1,7 +1,10 @@
 import ExpandedOrderRow from "@/components/ecommerce/order/order-list/expanded-row";
 import { getColumns } from "@/components/ecommerce/order/order-list/columns";
 import ControlledTable from "@/components/controlled-table/index";
-import { PiCaretDownBold, PiCaretUpBold } from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+import PiCaretUpBold from "react-icons/pi/PiCaretUpBold";
+
 import { useCallback, useMemo, useState } from "react";
 import { useColumn } from "@hooks/use-column";
 import { useTable } from "@hooks/use-table";

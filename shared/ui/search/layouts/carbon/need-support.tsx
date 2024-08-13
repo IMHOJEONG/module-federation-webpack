@@ -1,7 +1,7 @@
-
-
 import useSessionStorage from "react-use/lib/useSessionStorage";
-import { PiXBold } from "react-icons/pi";
+
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { Title, Text } from "rizzui";
 import cn from "@utils/class-names";
 

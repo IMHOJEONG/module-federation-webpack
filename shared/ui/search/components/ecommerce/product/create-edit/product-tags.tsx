@@ -1,4 +1,6 @@
-import { PiTagBold, PiXBold } from "react-icons/pi";
+import PiTagBold from "react-icons/pi/PiTagBold";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { useFormContext } from "react-hook-form";
 import FormGroup from "@/components/form-group";
 import { Input, Button } from "rizzui";

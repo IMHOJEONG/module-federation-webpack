@@ -2,8 +2,9 @@ import NFTFilterDropdown from "@/components/explore-nft/nft-filter-dropdown";
 import { initialState } from "@/components/explore-nft/nft-filter-utils";
 import { NFTFilterTags } from "@/components/explore-nft/nft-filter-tags";
 import { useFilterControls } from "@hooks/use-filter-control";
-// import { useSearchParams } from "next/navigation";
-import { PiTrashDuotone } from "react-icons/pi";
+
+import PiTrashDuotone from "react-icons/pi/PiTrashDuotone";
+
 import { useEffect, useState } from "react";
 import cn from "@utils/class-names";
 import { Button } from "rizzui";

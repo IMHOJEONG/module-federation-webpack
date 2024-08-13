@@ -1,5 +1,8 @@
 import Timeline from "@/components/logistics/tracking/timeline";
-import { PiCheckCircle, PiCaretDownBold } from "react-icons/pi";
+
+import PiCheckCircle from "react-icons/pi/PiCheckCircle";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import { Element } from "react-scroll";
 import cn from "@utils/class-names";
 import { Collapse } from "rizzui";

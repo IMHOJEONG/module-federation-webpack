@@ -1,4 +1,7 @@
-import { PiMinusBold, PiPlusBold, PiTrashBold } from "react-icons/pi";
+import PiMinusBold from "react-icons/pi/PiMinusBold";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
+import PiTrashBold from "react-icons/pi/PiTrashBold";
+
 import { FormBlockWrapper } from "@/components/invoice/form-utils";
 import { calculateTotalPrice } from "@utils/calculate-total-price";
 import { Text, Button, Input, Textarea, ActionIcon } from "rizzui";

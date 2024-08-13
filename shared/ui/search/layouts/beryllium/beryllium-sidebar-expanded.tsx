@@ -5,7 +5,7 @@ import {
 import { useBerylliumSidebars } from "@/layouts/beryllium/beryllium-utils";
 import { useColorPresetName } from "@/layouts/settings/use-theme-color";
 import StatusBadge from "@components/get-status-badge";
-import { PiCaretDownBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
 // import { usePathname } from "next/navigation";
 import SimpleBar from "@ui/simplebar";
 import { useAtomValue } from "jotai";

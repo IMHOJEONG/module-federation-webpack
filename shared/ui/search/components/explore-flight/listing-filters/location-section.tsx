@@ -1,6 +1,8 @@
 import { locationData } from "@/data/flight-filter-data";
 import { Combobox, Transition } from "@headlessui/react";
-import { PiAirplaneLight } from "react-icons/pi";
+
+import PiAirplaneLight from "react-icons/pi/PiAirplaneLight";
+
 import { Fragment, useState } from "react";
 
 type LocationProps = {

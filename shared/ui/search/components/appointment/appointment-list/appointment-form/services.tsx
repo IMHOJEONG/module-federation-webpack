@@ -7,7 +7,7 @@ import { useModal } from "@/components/modal-views/use-modal";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ActionIcon, Select, Title } from "rizzui";
 import { appointmentTypesOptions } from "../list";
-import { PiXBold } from "react-icons/pi";
+import PiXBold from "react-icons/pi/PiXBold";
 import { useAtom } from "jotai";
 import Footer from "./footer";
 import { z } from "zod";

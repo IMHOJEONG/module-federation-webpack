@@ -25,7 +25,8 @@ import { getRandomArrayElement } from "@utils/get-random-array-element";
 import { useModal } from "@/components/modal-views/use-modal";
 import { Controller, SubmitHandler } from "react-hook-form";
 import { avatarIds } from "@utils/get-avatar";
-import { PiXBold } from "react-icons/pi";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import toast from "react-hot-toast";
 // import dynamic from "next/dynamic";
 import { useState } from "react";

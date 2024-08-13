@@ -1,5 +1,8 @@
 import DropdownAction from "@components/charts/dropdown-action";
-import { PiCalendarBlank, PiCheckBold } from "react-icons/pi";
+
+import PiCalendarBlank from "react-icons/pi/PiCalendarBlank";
+import PiCheckBold from "react-icons/pi/PiCheckBold";
+
 import WidgetCard from "@components/cards/widget-card";
 import { AdvancedCheckbox, Button } from "rizzui";
 import SimpleBar from "simplebar-react";

@@ -12,7 +12,10 @@ import {
   TableHeader,
   TableRow,
 } from "./table";
-import { PiCaretDownFill, PiCaretUpFill } from "react-icons/pi";
+
+import PiCaretDownFill from "react-icons/pi/PiCaretDownFill";
+import PiCaretUpFill from "react-icons/pi/PiCaretUpFill";
+
 import { useScrollPosition } from "@hooks/use-Scroll-position";
 import { Empty, Loader, Text, Title } from "rizzui";
 import { flexRender } from "@tanstack/react-table";

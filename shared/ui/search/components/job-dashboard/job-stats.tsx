@@ -1,11 +1,10 @@
-import {
-  PiCheckCircle,
-  PiPauseCircle,
-  PiArrowUpRightBold,
-  PiArrowDownRightBold,
-  PiDownloadSimple,
-  PiClock,
-} from "react-icons/pi";
+import PiCheckCircle from "react-icons/pi/PiCheckCircle";
+import PiPauseCircle from "react-icons/pi/PiPauseCircle";
+import PiArrowUpRightBold from "react-icons/pi/PiArrowUpRightBold";
+import PiArrowDownRightBold from "react-icons/pi/PiArrowDownRightBold";
+import PiDownloadSimple from "react-icons/pi/PiDownloadSimple";
+import PiClock from "react-icons/pi/PiClock";
+
 import { IconType } from "react-icons/lib";
 import SimpleBar from "simplebar-react";
 import cn from "@utils/class-names";

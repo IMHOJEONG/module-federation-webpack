@@ -1,6 +1,8 @@
 import { ActionIcon, Badge, Checkbox, Text, Tooltip } from "rizzui";
 import { createColumnHelper } from "@tanstack/react-table";
-import { PiPushPin, PiPushPinSlash } from "react-icons/pi";
+import PiPushPin from "react-icons/pi/PiPushPin";
+import PiPushPinSlash from "react-icons/pi/PiPushPinSlash";
+
 import DeletePopover from "@/components/delete-popover";
 import PencilIcon from "@components/icons/pencil";
 import { Person } from "@/data/tan-table-data";

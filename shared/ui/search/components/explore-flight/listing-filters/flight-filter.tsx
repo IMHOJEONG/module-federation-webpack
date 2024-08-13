@@ -7,7 +7,7 @@ import PersonSelect from "@/components/explore-flight/listing-filters/person-sel
 import { InitialStateType, roadTripData } from "@/data/flight-filter-data";
 // import { usePathname, useRouter } from "next/navigation";
 import ExchangeIcon from "@components/icons/exchange";
-import { IoSearchOutline } from "react-icons/io5";
+import IoSearchOutline from "react-icons/io5/IoSearchOutline";
 import { formatDate } from "@utils/format-date";
 import { Controller } from "react-hook-form";
 import { DatePicker } from "@ui/datepicker";

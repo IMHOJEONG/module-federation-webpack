@@ -1,5 +1,8 @@
 import { Text, Checkbox, ActionIcon, Tooltip, Select } from "rizzui";
-import { PiCheckCircleBold, PiPlusCircle } from "react-icons/pi";
+
+import PiCheckCircleBold from "react-icons/pi/PiCheckCircleBold";
+import PiPlusCircle from "react-icons/pi/PiPlusCircle";
+
 import DeletePopover from "@/components/delete-popover";
 import PencilIcon from "@components/icons/pencil";
 import { HeaderCell } from "@/components/table";

@@ -1,4 +1,7 @@
-import { PiMagnifyingGlassBold, PiFunnel, PiXBold } from "react-icons/pi";
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+import PiFunnel from "react-icons/pi/PiFunnel";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { Button, ActionIcon, Input, Title } from "rizzui";
 import { ToggleColumns } from "@/components/table";
 import { i18nextT } from "@utils/i18next-lang";

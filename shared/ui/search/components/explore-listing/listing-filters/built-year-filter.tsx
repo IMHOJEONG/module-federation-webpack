@@ -1,6 +1,6 @@
 import { InitialStateType } from "@/components/explore-listing/listing-filters/filter-utils";
 import { Input, NumberInput, Title } from "rizzui";
-import { PiMinus } from "react-icons/pi";
+import PiMinus from "react-icons/pi/PiMinus";
 
 export default function BuiltYearFilter({
   state,

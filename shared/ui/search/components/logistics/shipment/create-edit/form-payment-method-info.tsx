@@ -5,7 +5,9 @@ import {
 } from "@/components/logistics/shipment/create-edit/select-options";
 import { Select, Input, RadioGroup, AdvancedRadio } from "rizzui";
 import { Controller, useFormContext } from "react-hook-form";
-import { PiCheckCircleFill } from "react-icons/pi";
+
+import PiCheckCircleFill from "react-icons/pi/PiCheckCircleFill";
+
 import FormGroup from "@/components/form-group";
 import NoSSR from "@components/no-ssr";
 import cn from "@utils/class-names";

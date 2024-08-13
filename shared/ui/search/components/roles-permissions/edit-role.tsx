@@ -12,7 +12,10 @@ import {
 import { permissions, roles } from "@/components/roles-permissions/utils";
 import { useModal } from "@/components/modal-views/use-modal";
 import { Controller, SubmitHandler } from "react-hook-form";
-import { PiCheckBold, PiXBold } from "react-icons/pi";
+
+import PiXBold from "react-icons/pi/PiXBold";
+import PiCheckBold from "react-icons/pi/PiCheckBold";
+
 import { PERMISSIONS } from "@/data/users-data";
 import { useState } from "react";
 import { Form } from "@ui/form";

@@ -14,7 +14,7 @@ import FolderIcon from "@components/icons/folder-solid";
 import PencilIcon from "@components/icons/pencil";
 import TrashIcon from "@components/icons/trash";
 import { HeaderCell } from "@/components/table";
-import { PiWarning } from "react-icons/pi";
+import PiWarning from "react-icons/pi/PiWarning";
 import AvatarCard from "@ui/avatar-card";
 import DateCell from "@ui/date-cell";
 

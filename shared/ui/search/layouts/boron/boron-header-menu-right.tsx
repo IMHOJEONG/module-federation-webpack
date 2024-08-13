@@ -1,5 +1,9 @@
 import { useColorPresetName } from "@/layouts/settings/use-theme-color";
-import { PiGearFill, PiChatText, PiBellRinging } from "react-icons/pi";
+
+import PiGearFill from "react-icons/pi/PiGearFill";
+import PiChatText from "react-icons/pi/PiChatText";
+import PiBellRinging from "react-icons/pi/PiBellRinging";
+
 import NotificationDropdown from "@/layouts/notification-dropdown";
 import MessagesDropdown from "@/layouts/messages-dropdown";
 import SettingsButton from "@/layouts/settings-button";

@@ -4,7 +4,8 @@ import { messagesData } from "@/data/messages";
 import { useMedia } from "@hooks/use-media";
 import { RefObject, useState } from "react";
 import { routes } from "@/config/routes";
-import { PiCheck } from "react-icons/pi";
+import PiCheck from "react-icons/pi/PiCheck";
+
 import SimpleBar from "@ui/simplebar";
 import cn from "@utils/class-names";
 // import Link from 'next/link';

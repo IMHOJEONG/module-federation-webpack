@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
-import { PiX } from "react-icons/pi";
+
+import PiX from "react-icons/pi/PiX";
+
 import Upload from "@ui/upload";
 
 interface FileInputProps {

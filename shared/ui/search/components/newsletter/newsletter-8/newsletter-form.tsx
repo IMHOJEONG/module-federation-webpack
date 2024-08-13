@@ -2,7 +2,7 @@ import {
   NewsLetterFormSchema,
   newsLetterFormSchema,
 } from "@/validators/newsletter.schema";
-import { PiPaperPlaneRightFill } from "react-icons/pi";
+import PiPaperPlaneRightFill from "react-icons/pi/PiPaperPlaneRightFill";
 import { SubmitHandler } from "react-hook-form";
 import { Button, Input } from "rizzui";
 import { useState } from "react";

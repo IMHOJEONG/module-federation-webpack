@@ -8,7 +8,8 @@ import {
 import ButtonGroupAction from "@components/charts/button-group-action";
 import { CustomTooltip } from "@components/charts/custom-tooltip";
 import WidgetCard from "@components/cards/widget-card";
-import { PiInfoFill } from "react-icons/pi";
+
+import PiInfoFill from "react-icons/pi/PiInfoFill";
 import { Button, Text } from "rizzui";
 import cn from "@utils/class-names";
 

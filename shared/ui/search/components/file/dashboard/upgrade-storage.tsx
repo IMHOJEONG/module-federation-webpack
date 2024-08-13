@@ -1,5 +1,5 @@
 import BannerCard from "@components/banners/banner-card";
-import { PiCheckCircleFill } from "react-icons/pi";
+import PiCheckCircleFill from "react-icons/pi/PiCheckCircleFill";
 import { Text } from "rizzui";
 // import Link from 'next/link';
 

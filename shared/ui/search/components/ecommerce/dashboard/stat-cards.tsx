@@ -1,10 +1,9 @@
-import {
-  PiCaretDoubleUpDuotone,
-  PiCaretDoubleDownDuotone,
-  PiGiftDuotone,
-  PiBankDuotone,
-  PiChartPieSliceDuotone,
-} from "react-icons/pi";
+import PiCaretDoubleUpDuotone from "react-icons/pi/PiCaretDoubleUpDuotone";
+import PiCaretDoubleDownDuotone from "react-icons/pi/PiCaretDoubleDownDuotone";
+import PiGiftDuotone from "react-icons/pi/PiGiftDuotone";
+import PiBankDuotone from "react-icons/pi/PiBankDuotone";
+import PiChartPieSliceDuotone from "react-icons/pi/PiChartPieSliceDuotone";
+
 import { BarChart, Bar, ResponsiveContainer } from "recharts";
 import MetricCard from "@components/cards/metric-card";
 import cn from "@utils/class-names";

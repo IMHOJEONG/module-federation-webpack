@@ -1,5 +1,7 @@
 import { useScrollableSlider } from "@hooks/use-scrollable-slider";
-import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
 import FolderIcon from "@components/icons/folder-solid";
 import ImageIcon from "@components/icons/image-solid";
 import PDFIcon from "@components/icons/pdf-solid";

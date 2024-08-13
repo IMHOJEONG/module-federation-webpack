@@ -5,7 +5,8 @@ import { getDateRangeStateValues } from "@utils/get-formatted-date";
 import ControlledTable from "@/components/controlled-table/index";
 import DateFiled from "@/components/controlled-table/date-field";
 import { useCallback, useMemo, useState } from "react";
-import { PiTrashDuotone } from "react-icons/pi";
+
+import PiTrashDuotone from "react-icons/pi/PiTrashDuotone";
 import { useColumn } from "@hooks/use-column";
 import { useMedia } from "@hooks/use-media";
 import { useTable } from "@hooks/use-table";

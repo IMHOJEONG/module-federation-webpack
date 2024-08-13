@@ -23,7 +23,7 @@ import { useFilterControls } from "@hooks/use-filter-control";
 import hasSearchedParams from "@utils/has-searched-params";
 import { Button, Title, ActionIcon } from "rizzui";
 import { useMedia } from "@hooks/use-media";
-import { PiXBold } from "react-icons/pi";
+import PiXBold from "react-icons/pi/PiXBold";
 import SimpleBar from "@ui/simplebar";
 
 export default function FilterDrawerView() {

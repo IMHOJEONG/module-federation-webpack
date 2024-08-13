@@ -1,6 +1,6 @@
 import EditProfileForm from "@/components/logistics/customer-profile/edit-profile/edit-profile-form";
 import { useModal } from "@/components/modal-views/use-modal";
-import { PiNotePencil } from "react-icons/pi";
+import PiNotePencil from "react-icons/pi/PiNotePencil";
 import cn from "@utils/class-names";
 import { Button } from "rizzui";
 

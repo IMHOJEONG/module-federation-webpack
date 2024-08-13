@@ -8,7 +8,7 @@ import {
 } from "recharts";
 import { CustomTooltip } from "@components/charts/custom-tooltip";
 import WidgetCard from "@components/cards/widget-card";
-import { PiChartBarLight } from "react-icons/pi";
+import PiChartBarLight from "react-icons/pi/PiChartBarLight";
 import { Title, Text } from "rizzui";
 
 const data = [

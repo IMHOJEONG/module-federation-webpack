@@ -7,11 +7,10 @@ import { InvoiceInput } from "./invoice-forms/invoice-input";
 import { useFieldArray, useFormContext } from "react-hook-form";
 import { InvoiceTextarea } from "./invoice-forms/invoice-textarea";
 import { SortableList } from "../../dnd-sortable/dnd-sortable-list";
-import {
-  PiPlusCircle,
-  PiTrashBold,
-  PiArrowsOutCardinalBold,
-} from "react-icons/pi";
+
+import PiPlusCircle from "react-icons/pi/PiPlusCircle";
+import PiTrashBold from "react-icons/pi/PiTrashBold";
+import PiArrowsOutCardinalBold from "react-icons/pi/PiArrowsOutCardinalBold";
 
 export default function TableBlock() {
   const { control, register, getValues } = useFormContext();

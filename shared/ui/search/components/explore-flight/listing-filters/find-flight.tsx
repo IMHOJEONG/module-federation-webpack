@@ -1,9 +1,8 @@
-import {
-  PiAirplaneTakeoffBold,
-  PiFunnelBold,
-  PiX,
-  PiXBold,
-} from "react-icons/pi";
+import PiAirplaneTakeoffBold from "react-icons/pi/PiAirplaneTakeoffBold";
+import PiFunnelBold from "react-icons/pi/PiFunnelBold";
+import PiX from "react-icons/pi/PiX";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import FlightFilter from "@/components/explore-flight/listing-filters/flight-filter";
 import { useDrawer } from "@/components/drawer-views/use-drawer";
 import { useFilterControls } from "@hooks/use-filter-control";

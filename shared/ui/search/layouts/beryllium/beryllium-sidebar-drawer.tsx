@@ -1,6 +1,8 @@
 import { berylliumSidebarMenuItems } from "@/layouts/beryllium/beryllium-sidebar-menu-items";
 import StatusBadge from "@components/get-status-badge";
-import { PiCaretDownBold } from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import { Title, Collapse } from "rizzui";
 import SimpleBar from "@ui/simplebar";
 import cn from "@utils/class-names";

@@ -1,9 +1,10 @@
 import OrSeparation from "@/components/auth-layout/or-separation";
-import { PiAppleLogoFill, PiArrowLeftBold } from "react-icons/pi";
+import PiAppleLogoFill from "react-icons/pi/PiAppleLogoFill";
+import PiArrowLeftBold from "react-icons/pi/PiArrowLeftBold";
 import logoImgText from "@public/logo-primary-text.svg";
 import logoImg from "@public/logo-primary.svg";
 import { Button, Title, Text } from "rizzui";
-import { FcGoogle } from "react-icons/fc";
+import FcGoogle from "react-icons/fc/FcGoogle";
 import toast from "react-hot-toast";
 
 import Link from "next/link";

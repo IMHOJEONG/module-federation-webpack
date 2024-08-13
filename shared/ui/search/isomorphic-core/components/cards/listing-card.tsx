@@ -1,7 +1,9 @@
 import { Title, Text } from "rizzui";
 import cn from "../../utils/class-names";
 // import Link from "next/link";
-import { PiStarFill } from "react-icons/pi";
+
+import PiStarFill from "react-icons/pi/PiStarFill";
+
 import WishlistButton from "../wishlist-button";
 
 export function RatingsCount({

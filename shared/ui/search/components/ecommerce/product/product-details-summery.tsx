@@ -10,7 +10,9 @@ import { GetColor } from "@/components/ecommerce/product/get-color";
 import { calculatePercentage } from "@utils/calculate-percentage";
 import GetSize from "@/components/ecommerce/product/get-size";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { PiShoppingCartSimple } from "react-icons/pi";
+
+import PiShoppingCartSimple from "react-icons/pi/PiShoppingCartSimple";
+
 import { toCurrency } from "@utils/to-currency";
 import { Button, Title, Text } from "rizzui";
 import isEmpty from "lodash/isEmpty";

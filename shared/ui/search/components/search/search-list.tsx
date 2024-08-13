@@ -7,11 +7,11 @@ import {
   Input,
   cn,
 } from "rizzui";
-import {
-  PiFileTextDuotone,
-  PiMagnifyingGlassBold,
-  PiXBold,
-} from "react-icons/pi";
+
+import PiXBold from "react-icons/pi/PiXBold";
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+import PiFileTextDuotone from "react-icons/pi/PiFileTextDuotone";
+
 import { Fragment, useEffect, useRef, useState } from "react";
 import { pageLinks } from "./page-links.data";
 import { Link } from "react-router-dom";

@@ -11,7 +11,9 @@ import { ProductType } from "@/data/products-data";
 import PencilIcon from "@components/icons/pencil";
 import { HeaderCell } from "@/components/table";
 import EyeIcon from "@components/icons/eye";
-import { PiStarFill } from "react-icons/pi";
+
+import PiStarFill from "react-icons/pi/PiStarFill";
+
 import { routes } from "@/config/routes";
 import AvatarCard from "@ui/avatar-card";
 import { Link } from "react-router-dom";

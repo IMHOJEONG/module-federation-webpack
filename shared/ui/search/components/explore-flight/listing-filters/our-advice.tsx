@@ -1,6 +1,7 @@
 import { Tooltip, Button, Switch, Text, Title } from "rizzui";
-import { BsExclamationCircle } from "react-icons/bs";
-import { BiTrendingUp } from "react-icons/bi";
+
+import BsExclamationCircle from "react-icons/bs/BsExclamationCircle";
+import BiTrendingUp from "react-icons/bi/BiTrendingUp";
 
 function OurAdvice({ reset }: { reset: () => void }) {
   return (

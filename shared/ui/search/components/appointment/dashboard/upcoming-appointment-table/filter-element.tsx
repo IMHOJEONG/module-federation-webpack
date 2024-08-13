@@ -1,6 +1,6 @@
 import StatusField from "@/components/controlled-table/status-field";
 import { appointmentTypes } from "@/data/appointment-data";
-import { PiTrashDuotone } from "react-icons/pi";
+import PiTrashDuotone from "react-icons/pi/PiTrashDuotone";
 import { Button } from "rizzui";
 
 const appointmentTypesOptions = Object.entries(appointmentTypes).map(

@@ -1,5 +1,8 @@
 import DeliveryTruckIcon from "@components/icons/delivery-truck";
-import { PiCaretDownBold, PiPackageFill } from "react-icons/pi";
+
+import PiPackageFill from "react-icons/pi/PiPackageFill";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import PackageOpenIcon from "@components/icons/package-open";
 import { Collapse, Title, Text } from "rizzui";
 import cn from "@utils/class-names";

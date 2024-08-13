@@ -1,12 +1,10 @@
-import {
-  PiTShirtFill,
-  PiBowlFoodFill,
-  PiAirplaneTakeoffFill,
-  PiBasketballFill,
-  PiBuildingsFill,
-  PiTruckFill,
-  PiBasketFill,
-} from "react-icons/pi";
+import PiTShirtFill from "react-icons/pi/PiTShirtFill";
+import PiBowlFoodFill from "react-icons/pi/PiBowlFoodFill";
+import PiAirplaneTakeoffFill from "react-icons/pi/PiAirplaneTakeoffFill";
+import PiBasketballFill from "react-icons/pi/PiBasketballFill";
+import PiBuildingsFill from "react-icons/pi/PiBuildingsFill";
+import PiTruckFill from "react-icons/pi/PiTruckFill";
+import PiBasketFill from "react-icons/pi/PiBasketFill";
 
 export const transactions = [
   {

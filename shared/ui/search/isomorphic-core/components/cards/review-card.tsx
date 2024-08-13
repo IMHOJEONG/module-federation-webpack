@@ -1,5 +1,8 @@
 import dayjs from "dayjs";
-import { PiStar, PiStarFill } from "react-icons/pi";
+
+import PiStarFill from "react-icons/pi/PiStarFill";
+import PiStar from "react-icons/pi/PiStar";
+
 import { Title, Text } from "rizzui";
 
 type ReviewCardProps = {

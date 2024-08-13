@@ -10,7 +10,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { messages } from "@/config/messages";
 import { toast } from "react-hot-toast";
 import { Button, Input } from "rizzui";
-import { PiX } from "react-icons/pi";
+import PiX from "react-icons/pi/PiX";
 import { useState } from "react";
 
 export default function EmailTemplateForm({ template }: { template: string }) {

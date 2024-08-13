@@ -1,5 +1,6 @@
 import TrendingIcon from "@components/icons/trending";
-import { PiCaretDownBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import { Switch, Collapse } from "rizzui";
 import cn from "@utils/class-names";
 

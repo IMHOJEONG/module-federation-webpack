@@ -1,5 +1,7 @@
 import { ActionIcon, Badge, Checkbox, Text, Tooltip } from "rizzui";
-import { PiCaretDownBold, PiCaretUpBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+import PiCaretUpBold from "react-icons/pi/PiCaretUpBold";
+
 import { createColumnHelper } from "@tanstack/react-table";
 import DeletePopover from "@/components/delete-popover";
 import PencilIcon from "@components/icons/pencil";

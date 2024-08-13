@@ -1,8 +1,8 @@
 import OrSeparation from "@/components/auth-layout/or-separation";
-import { PiArrowLeftBold } from "react-icons/pi";
+import PiArrowLeftBold from "react-icons/pi/PiArrowLeftBold";
 import logoImg from "@public/logo-short.svg";
-import { BsFacebook } from "react-icons/bs";
-import { FcGoogle } from "react-icons/fc";
+import BsFacebook from "react-icons/bs/BsFacebook";
+import FcGoogle from "react-icons/fc/FcGoogle";
 import { Button, Title } from "rizzui";
 import cn from "@utils/class-names";
 

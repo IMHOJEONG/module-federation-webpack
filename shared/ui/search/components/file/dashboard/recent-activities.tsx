@@ -1,5 +1,7 @@
 import WidgetCard from "@components/cards/widget-card";
-import { PiImageDuotone } from "react-icons/pi";
+
+import PiImageDuotone from "react-icons/pi/PiImageDuotone";
+
 import { Title, Text } from "rizzui";
 
 const activities = [

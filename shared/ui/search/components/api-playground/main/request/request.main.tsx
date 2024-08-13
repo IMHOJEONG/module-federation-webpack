@@ -1,17 +1,17 @@
-import ApiPlaygroundRequestPathVariablesItem from './request-items/request-items.path-variables';
-import ApiPlaygroundRequestAuthorizationItem from './request-items/request-items.authorization';
-import ApiPlaygroundRequestHeadersItem from './request-items/request-items.headers';
-import ApiPlaygroundRequestBodyItem from './request-items/request-items.body';
-import { useAutoResizeTextArea } from '@/util/hooks/useAutoResizeTextarea';
-import { ApiItemType } from '@/store/playground/api-validate.store';
-import { FolderTreeViewItem } from '../../treeview/treeview.type';
-import { MOCK_TREE_ITEMS } from '../../treeview/treeview.mock';
-import ApiPlaygroundButton from '../../api-playground.button';
-import { MdOutlineContentCopy } from 'react-icons/md';
-import { BsFillCaretRightFill } from 'react-icons/bs';
-import ApiPlaygroundMainTag from '../main.tag';
-import { IoClose } from 'react-icons/io5';
-import { FetchType } from '@/types/fetch';
+import ApiPlaygroundRequestPathVariablesItem from "./request-items/request-items.path-variables";
+import ApiPlaygroundRequestAuthorizationItem from "./request-items/request-items.authorization";
+import ApiPlaygroundRequestHeadersItem from "./request-items/request-items.headers";
+import ApiPlaygroundRequestBodyItem from "./request-items/request-items.body";
+import { useAutoResizeTextArea } from "@/util/hooks/useAutoResizeTextarea";
+import { ApiItemType } from "@/store/playground/api-validate.store";
+import { FolderTreeViewItem } from "../../treeview/treeview.type";
+import { MOCK_TREE_ITEMS } from "../../treeview/treeview.mock";
+import ApiPlaygroundButton from "../../api-playground.button";
+import MdOutlineContentCopy from "react-icons/md/MdOutlineContentCopy";
+import BsFillCaretRightFill from "react-icons/bs/BsFillCaretRightFill";
+import ApiPlaygroundMainTag from "../main.tag";
+import IoClose from "react-icons/io5/IoClose";
+import { FetchType } from "@/types/fetch";
 
 interface ApiPlaygroundRequestMainProps {
   selectedItem: ApiItemType;
@@ -48,12 +48,12 @@ export default function ApiPlaygroundRequestMain(
           <ApiPlaygroundButton
             className="select-none bg-gray-500 text-white hover:bg-gray-600 hover:text-white active:bg-gray-600"
             onAction={() => {
-              const item = MOCK_TREE_ITEMS.filter((t) => t.type === 'FOLDER')
+              const item = MOCK_TREE_ITEMS.filter((t) => t.type === "FOLDER")
                 .map((t) => (t as FolderTreeViewItem).children)
                 .flat(1)
                 .find((item) => item.id === selectedItem.id);
 
-              if (item && item.type === 'ITEM') {
+              if (item && item.type === "ITEM") {
                 setSelectedItem(item);
               }
             }}

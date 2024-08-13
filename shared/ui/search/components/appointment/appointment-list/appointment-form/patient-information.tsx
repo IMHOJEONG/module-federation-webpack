@@ -6,7 +6,7 @@ import { useModal } from "@/components/modal-views/use-modal";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { ActionIcon, Input, Text, Title } from "rizzui";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { PiXBold } from "react-icons/pi";
+import PiXBold from "react-icons/pi/PiXBold";
 import toast from "react-hot-toast";
 import { useState } from "react";
 import { useAtom } from "jotai";

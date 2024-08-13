@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { Checkbox, CheckboxGroup, Collapse, Tooltip, Button } from "rizzui";
 import cn from "../utils/class-names";
-import { PiCaretDownBold, PiPlusBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
 import { generateSlug } from "../utils/generate-slug";
-import { BsExclamationCircle } from "react-icons/bs";
-
+import BsExclamationCircle from "react-icons/bs/BsExclamationCircle";
 type FilterOptions = {
   name: string;
   count?: number;

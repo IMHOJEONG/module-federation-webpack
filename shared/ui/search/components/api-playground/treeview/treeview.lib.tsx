@@ -1,7 +1,8 @@
 import { useApiValidateStore } from "@/store/playground/api-validate.store";
 import { NonFolderTreeViewItem, TreeViewItem } from "./treeview.type";
 import { useTreeViewStore } from "@/store/playground/treeview.store";
-import { FcFolder, FcOpenedFolder } from "react-icons/fc";
+import FcFolder from "react-icons/fc/FcFolder";
+import FcOpenedFolder from "react-icons/fc/FcOpenedFolder";
 import ApiPlaygroundTreeViewTag from "./treeview.tag";
 import { TreeItem } from "@mui/x-tree-view/TreeItem";
 

@@ -1,4 +1,4 @@
-import { PiXBold } from "react-icons/pi";
+import PiXBold from "react-icons/pi/PiXBold";
 import { Title, Text } from "rizzui";
 
 export default function ExpandedOrderRow({ record }: any) {

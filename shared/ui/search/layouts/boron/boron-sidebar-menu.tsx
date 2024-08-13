@@ -1,7 +1,10 @@
 import { useColorPresetName } from "@/layouts/settings/use-theme-color";
 import { useBoronKbdShortcuts } from "@/layouts/boron/boron-utils";
 import { menuItems } from "@/layouts/boron/boron-menu-items";
-import { PiCaretDownBold, PiCommand } from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+import PiCommand from "react-icons/pi/PiCommand";
+
 import { Title, Collapse } from "rizzui";
 import cn from "@utils/class-names";
 import { Fragment } from "react";

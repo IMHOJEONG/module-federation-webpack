@@ -1,9 +1,8 @@
-import {
-  PiCaretLeftBold,
-  PiCaretRightBold,
-  PiCaretDoubleLeftBold,
-  PiCaretDoubleRightBold,
-} from "react-icons/pi";
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
+import PiCaretDoubleLeftBold from "react-icons/pi/PiCaretDoubleLeftBold";
+import PiCaretDoubleRightBold from "react-icons/pi/PiCaretDoubleRightBold";
+
 import { type Table as ReactTableType } from "@tanstack/react-table";
 import { ActionIcon, Select, SelectOption, Text } from "rizzui";
 

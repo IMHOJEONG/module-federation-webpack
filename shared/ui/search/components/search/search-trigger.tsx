@@ -1,4 +1,6 @@
-import { PiCommand, PiMagnifyingGlassBold } from "react-icons/pi";
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+import PiCommand from "react-icons/pi/PiCommand";
+
 import cn from "@utils/class-names";
 
 type SearchTriggerProps = {

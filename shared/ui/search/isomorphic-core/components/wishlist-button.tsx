@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { Button, Tooltip, ActionIcon } from "rizzui";
 import cn from "../utils/class-names";
-import { PiHeartBold, PiHeartFill } from "react-icons/pi";
+
+import PiHeartFill from "react-icons/pi/PiHeartFill";
+import PiHeartBold from "react-icons/pi/PiHeartBold";
 
 export function useFavorite() {
   const [favorite, setFavorite] = useState(false);

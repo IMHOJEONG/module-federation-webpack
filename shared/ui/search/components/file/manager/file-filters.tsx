@@ -1,7 +1,9 @@
 import FileDateSortingDropdown from "@/components/file/manager/file-sortby-date";
 import FileTypeDropdown from "@/components/file/manager/file-sortby-type";
 import ViewSwitcher from "@/components/file/manager/view-switcher";
-import { PiMagnifyingGlassBold } from "react-icons/pi";
+
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+
 import { Title, Input } from "rizzui";
 
 export default function FileFilters({

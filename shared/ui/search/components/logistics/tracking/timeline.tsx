@@ -1,4 +1,6 @@
-import { PiArrowDownBold, PiTriangle } from "react-icons/pi";
+import PiArrowDownBold from "react-icons/pi/PiArrowDownBold";
+import PiTriangle from "react-icons/pi/PiTriangle";
+
 import { Title, Text } from "rizzui";
 import cn from "@utils/class-names";
 import { Link } from "react-scroll";

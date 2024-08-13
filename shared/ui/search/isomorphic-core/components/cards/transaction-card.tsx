@@ -1,6 +1,7 @@
 import cn from "../../utils/class-names";
 import { IconType } from "react-icons/lib";
-import { PiArrowDownRight, PiArrowUpRight } from "react-icons/pi";
+import PiArrowDownRight from "react-icons/pi/PiArrowDownRight";
+import PiArrowUpRight from "react-icons/pi/PiArrowUpRight";
 
 export type TransactionType = {
   icon: IconType;

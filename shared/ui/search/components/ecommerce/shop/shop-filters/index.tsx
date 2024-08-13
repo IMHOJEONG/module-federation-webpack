@@ -12,7 +12,8 @@ import FilterWithSearch from "@components/filter-with-search";
 import { useFilterControls } from "@hooks/use-filter-control";
 import hasSearchedParams from "@utils/has-searched-params";
 import { ActionIcon, Title, Button } from "rizzui";
-import { PiXBold } from "react-icons/pi";
+
+import PiXBold from "react-icons/pi/PiXBold";
 
 export default function ShopFilters() {
   const { state, applyFilter, clearFilter, reset } = useFilterControls<

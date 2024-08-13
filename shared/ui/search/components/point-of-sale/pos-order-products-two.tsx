@@ -1,5 +1,9 @@
 import { useCart } from "@/store/_deprecated/quick-cart/cart.context";
-import { PiMinus, PiPlus, PiTrash } from "react-icons/pi";
+
+import PiTrash from "react-icons/pi/PiTrash";
+import PiPlus from "react-icons/pi/PiPlus";
+import PiMinus from "react-icons/pi/PiMinus";
+
 import { generateSlug } from "@utils/generate-slug";
 import { toCurrency } from "@utils/to-currency";
 import { routes } from "@/config/routes";

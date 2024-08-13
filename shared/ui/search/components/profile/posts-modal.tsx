@@ -1,10 +1,9 @@
-import {
-  PiChatTextBold,
-  PiXBold,
-  PiHeartBold,
-  PiUsers,
-  PiShareFat,
-} from "react-icons/pi";
+import PiHeartBold from "react-icons/pi/PiHeartBold";
+import PiChatTextBold from "react-icons/pi/PiChatTextBold";
+import PiUsers from "react-icons/pi/PiUsers";
+import PiShareFat from "react-icons/pi/PiShareFat";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { Swiper, SwiperSlide, Pagination } from "@ui/carousel/carousel";
 import { Title, Text, Button, Avatar, Textarea } from "rizzui";
 import NextBtn from "@ui/carousel/next-btn";

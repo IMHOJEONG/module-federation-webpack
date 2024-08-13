@@ -1,7 +1,8 @@
 import { getColumns } from "@/components/analytics-dashboard/website-metrics/columns";
 import { websiteMetricData } from "@/data/website-metrics-data";
 import WidgetCard from "@components/cards/widget-card";
-import { PiMagnifyingGlassBold } from "react-icons/pi";
+// import { PiMagnifyingGlassBold } from "react-icons/pi";
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
 import { useColumn } from "@hooks/use-column";
 import { useTable } from "@hooks/use-table";
 import Pagination from "@ui/pagination";

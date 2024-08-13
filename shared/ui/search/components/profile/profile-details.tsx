@@ -4,7 +4,9 @@ import PostFeed from "@/components/profile/post-feed";
 import { Badge, Title, Modal, Button } from "rizzui";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { PiXBold } from "react-icons/pi";
+
+import PiXBold from "react-icons/pi/PiXBold";
+
 import cn from "@utils/class-names";
 
 const tabs = [

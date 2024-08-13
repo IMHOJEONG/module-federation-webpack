@@ -1,5 +1,5 @@
 import WidgetCard from "@components/cards/widget-card";
-import { PiMagnifyingGlassBold } from "react-icons/pi";
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
 import { useColumn } from "@hooks/use-column";
 import { useTable } from "@hooks/use-table";
 import ControlledTable from "./index";

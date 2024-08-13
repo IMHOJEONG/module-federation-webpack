@@ -1,10 +1,9 @@
-import {
-  PiArrowRight,
-  PiArrowLeft,
-  PiPlusBold,
-  PiClock,
-  PiDotsThreeVerticalBold,
-} from "react-icons/pi";
+import PiArrowRight from "react-icons/pi/PiArrowRight";
+import PiArrowLeft from "react-icons/pi/PiArrowLeft";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
+import PiClock from "react-icons/pi/PiClock";
+import PiDotsThreeVerticalBold from "react-icons/pi/PiDotsThreeVerticalBold";
+
 // @ts-ignore
 // import { LooseValue } from "node_modules/react-calendar/dist/esm/shared/types";
 import { useModal } from "../modal-views/use-modal";

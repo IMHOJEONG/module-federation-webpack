@@ -1,6 +1,9 @@
 import { useCart } from "@/store/_deprecated/quick-cart/cart.context";
 import { ActionIcon, Popover, Title, Text, Button } from "rizzui";
-import { PiTrashBold, PiTrashFill } from "react-icons/pi";
+
+import PiTrashBold from "react-icons/pi/PiTrashBold";
+import PiTrashFill from "react-icons/pi/PiTrashFill";
+
 import { Placement } from "@floating-ui/react";
 import cn from "@utils/class-names";
 

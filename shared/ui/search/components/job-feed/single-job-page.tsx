@@ -1,9 +1,8 @@
-import {
-  PiCaretLeftBold,
-  PiLinkSimpleBold,
-  PiBookmarkSimpleThin,
-  PiBookmarkSimpleFill,
-} from "react-icons/pi";
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiLinkSimpleBold from "react-icons/pi/PiLinkSimpleBold";
+import PiBookmarkSimpleThin from "react-icons/pi/PiBookmarkSimpleThin";
+import PiBookmarkSimpleFill from "react-icons/pi/PiBookmarkSimpleFill";
+
 import { useCopyToClipboard } from "@hooks/use-copy-to-clipboard";
 import { JobType, socialInfos } from "@/data/job-feed-data";
 import { Badge, Button, Text, Title } from "rizzui";

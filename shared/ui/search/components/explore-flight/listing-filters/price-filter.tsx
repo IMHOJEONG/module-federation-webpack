@@ -1,4 +1,4 @@
-import { PiCaretDownBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
 import { useEffect, useState } from "react";
 import RangeSlider from "@ui/range-slider";
 import cn from "@utils/class-names";

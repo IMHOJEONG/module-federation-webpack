@@ -1,5 +1,7 @@
 import { Controller, useFormContext } from "react-hook-form";
-import { PiCheckCircleFill } from "react-icons/pi";
+
+import PiCheckCircleFill from "react-icons/pi/PiCheckCircleFill";
+
 import { RadioGroup, AdvancedRadio } from "rizzui";
 
 const availability = [

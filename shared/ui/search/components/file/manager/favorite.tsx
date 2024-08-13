@@ -1,4 +1,5 @@
-import { PiStar, PiStarFill } from "react-icons/pi";
+import PiStar from "react-icons/pi/PiStar";
+import PiStarFill from "react-icons/pi/PiStarFill";
 import { ActionIcon } from "rizzui";
 import { useState } from "react";
 

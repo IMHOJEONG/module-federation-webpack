@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { Input, InputProps } from "rizzui";
 import cn from "../utils/class-names";
-import { PiCalendarBlank, PiCaretDownBold } from "react-icons/pi";
+
+import PiCalendarBlank from "react-icons/pi/PiCalendarBlank";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import ReactDatePicker, { type ReactDatePickerProps } from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 

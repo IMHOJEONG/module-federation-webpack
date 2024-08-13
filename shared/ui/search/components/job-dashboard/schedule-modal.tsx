@@ -11,7 +11,11 @@ import {
 import ScheduleLightIcon from "@components/icons/schedule-light";
 
 import { DayPicker } from "react-day-picker";
-import { PiArrowLeft, PiArrowRight, PiXBold } from "react-icons/pi";
+
+import PiArrowLeft from "react-icons/pi/PiArrowLeft";
+import PiArrowRight from "react-icons/pi/PiArrowRight";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { useModal } from "@/components/modal-views/use-modal";
 import SimpleBar from "simplebar-react";
 import cn from "@utils/class-names";

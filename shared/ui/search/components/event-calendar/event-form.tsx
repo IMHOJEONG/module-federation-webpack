@@ -7,7 +7,9 @@ import { useModal } from "@/components/modal-views/use-modal";
 import { Controller, SubmitHandler } from "react-hook-form";
 import useEventCalendar from "@hooks/use-event-calendar";
 import { DatePicker } from "@ui/datepicker";
-import { PiXBold } from "react-icons/pi";
+
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { CalendarEvent } from "@/types";
 import uniqueId from "lodash/uniqueId";
 import cn from "@utils/class-names";

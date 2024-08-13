@@ -1,6 +1,8 @@
 import { menuItems } from "@/layouts/helium/helium-menu-items";
 import StatusBadge from "@components/get-status-badge";
-import { PiCaretDownBold } from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 // import { usePathname } from 'next/navigation';
 import { Title, Collapse } from "rizzui";
 import cn from "@utils/class-names";

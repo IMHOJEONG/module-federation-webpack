@@ -2,8 +2,12 @@ import EventForm from "@/components/event-calendar/event-form";
 import { useModal } from "@/components/modal-views/use-modal";
 import useEventCalendar from "@hooks/use-event-calendar";
 import { ActionIcon, Button, Text, Title } from "rizzui";
-import { MdOutlineCalendarMonth } from "react-icons/md";
-import { PiMapPin, PiXBold } from "react-icons/pi";
+
+import MdOutlineCalendarMonth from "react-icons/md/MdOutlineCalendarMonth";
+
+import PiMapPin from "react-icons/pi/PiMapPin";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { formatDate } from "@utils/format-date";
 import { CalendarEvent } from "@/types";
 import cn from "@utils/class-names";

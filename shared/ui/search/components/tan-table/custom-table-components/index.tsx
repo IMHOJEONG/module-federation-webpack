@@ -9,12 +9,12 @@ import {
   CustomBodyRowProps,
   CustomHeaderCellProps,
 } from "../../table/main-table-types";
-import {
-  PiCaretUpFill,
-  PiCaretDownFill,
-  PiXBold,
-  PiDotsSixVerticalBold,
-} from "react-icons/pi";
+
+import PiCaretUpFill from "react-icons/pi/PiCaretUpFill";
+import PiCaretDownFill from "react-icons/pi/PiCaretDownFill";
+import PiXBold from "react-icons/pi/PiXBold";
+import PiDotsSixVerticalBold from "react-icons/pi/PiDotsSixVerticalBold";
+
 import { TableCell, TableHead, TableRow } from "@/components/table/index";
 import { Cell, Header, Row, flexRender } from "@tanstack/react-table";
 import { getColumnOptions } from "@/components/table/util";

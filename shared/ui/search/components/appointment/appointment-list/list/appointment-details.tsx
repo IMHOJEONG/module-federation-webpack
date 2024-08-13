@@ -1,4 +1,7 @@
-import { PiCalendarCheckLight, PiMapPinLight, PiXBold } from "react-icons/pi";
+import PiCalendarCheckLight from "react-icons/pi/PiCalendarCheckLight";
+import PiMapPinLight from "react-icons/pi/PiMapPinLight";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { useModal } from "@/components/modal-views/use-modal";
 import { Text, ActionIcon, Title, Button } from "rizzui";
 import dayjs from "dayjs";

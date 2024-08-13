@@ -1,6 +1,8 @@
 import ControlledTable from "@/components/controlled-table/index";
 import WidgetCard from "@components/cards/widget-card";
-import { PiMagnifyingGlassBold } from "react-icons/pi";
+
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+
 import { useCallback, useState, useMemo } from "react";
 import { useColumn } from "@hooks/use-column";
 import FilterElement from "./filter-element";

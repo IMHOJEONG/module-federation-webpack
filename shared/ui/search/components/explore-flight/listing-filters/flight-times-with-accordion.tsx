@@ -1,5 +1,5 @@
 import PriceFilter from "@/components/explore-flight/listing-filters/time-filter";
-import { PiCaretDownBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
 import cn from "@utils/class-names";
 import { Collapse } from "rizzui";
 

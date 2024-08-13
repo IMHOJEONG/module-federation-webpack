@@ -1,12 +1,12 @@
-import UpcomingAppointmentTable from '@/components/appointment/dashboard/upcoming-appointment-table';
-import AppointmentDiseases from '@/components/appointment/dashboard/appointment-diseases';
-import PatientAppointment from '@/components/appointment/dashboard/patient-appointment';
-import AppointmentStats from '@/components/appointment/dashboard/appointment-stats';
-import TotalAppointment from '@/components/appointment/dashboard/total-appointment';
-import AppointmentTodo from '@/components/appointment/dashboard/appointment-todo';
-import ScheduleList from '@/components/appointment/dashboard/schedule-list';
-import Department from '@/components/appointment/dashboard/department';
-import Patients from '@/components/appointment/dashboard/patients';
+import UpcomingAppointmentTable from "@/components/appointment/dashboard/upcoming-appointment-table";
+import AppointmentDiseases from "@/components/appointment/dashboard/appointment-diseases";
+import PatientAppointment from "@/components/appointment/dashboard/patient-appointment";
+import AppointmentStats from "@/components/appointment/dashboard/appointment-stats";
+import TotalAppointment from "@/components/appointment/dashboard/total-appointment";
+import AppointmentTodo from "@/components/appointment/dashboard/appointment-todo";
+import ScheduleList from "@/components/appointment/dashboard/schedule-list";
+import Department from "@/components/appointment/dashboard/department";
+import Patients from "@/components/appointment/dashboard/patients";
 
 export default function AppointmentDashboard() {
   return (

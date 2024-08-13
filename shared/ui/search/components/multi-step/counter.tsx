@@ -1,4 +1,6 @@
-import { PiPlusBold, PiMinusBold } from "react-icons/pi";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
+import PiMinusBold from "react-icons/pi/PiMinusBold";
+
 import { useEffect, useState } from "react";
 import { Input, ActionIcon } from "rizzui";
 

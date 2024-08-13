@@ -1,5 +1,9 @@
 import ShipmentNewsletterForm from "@/components/logistics/tracking/shipment-newsletter";
-import { PiCheckCircle, PiCopySimple, PiMoped } from "react-icons/pi";
+
+import PiCheckCircle from "react-icons/pi/PiCheckCircle";
+import PiCopySimple from "react-icons/pi/PiCopySimple";
+import PiMoped from "react-icons/pi/PiMoped";
+
 import { useCopyToClipboard } from "@hooks/use-copy-to-clipboard";
 import Timeline from "@/components/logistics/tracking/timeline";
 import { Title, Text, Button } from "rizzui";

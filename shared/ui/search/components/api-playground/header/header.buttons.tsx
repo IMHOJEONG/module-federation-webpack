@@ -1,7 +1,8 @@
 import { useApiValidateStore } from "@/store/playground/api-validate.store";
 import ApiPlaygroundHeaderButton from "./header.button";
-import { MdOutlineHelp, MdClear } from "react-icons/md";
-import { FaGear } from "react-icons/fa6";
+import MdOutlineHelp from "react-icons/md/MdOutlineHelp";
+import MdClear from "react-icons/md/MdClear";
+import FaGear from "react-icons/fa6/FaGear";
 
 export default function ApiPlaygroundHeaderButtons() {
   const { setSelectedItem } = useApiValidateStore();

@@ -17,10 +17,11 @@ import MessageBody from "@/components/support/inbox/message-body";
 import { SupportType, supportTypes } from "@/data/support-inbox";
 import { SubmitHandler, Controller } from "react-hook-form";
 import { useElementSize } from "@hooks/use-element-size";
-import { PiCaretDownBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import { useMedia } from "@hooks/use-media";
 import { useState, useEffect, lazy, Suspense } from "react";
-import { LuReply } from "react-icons/lu";
+import LuReply from "react-icons/lu/LuReply";
 import SimpleBar from "@ui/simplebar";
 import { useAtomValue } from "jotai";
 import cn from "@utils/class-names";

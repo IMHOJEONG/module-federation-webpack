@@ -8,7 +8,10 @@ import {
   Area,
 } from "recharts";
 import { CustomTooltip } from "@components/charts/custom-tooltip";
-import { PiDownloadSimple, PiUploadSimple } from "react-icons/pi";
+
+import PiDownloadSimple from "react-icons/pi/PiDownloadSimple";
+import PiUploadSimple from "react-icons/pi/PiUploadSimple";
+
 import WidgetCard from "@components/cards/widget-card";
 import { useMedia } from "@hooks/use-media";
 import SimpleBar from "@ui/simplebar";

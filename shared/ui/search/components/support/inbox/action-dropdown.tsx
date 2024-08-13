@@ -1,10 +1,9 @@
-import {
-  PiCheckCircle,
-  PiTrashSimple,
-  PiWarningCircle,
-  PiProhibitInset,
-  PiDotsThreeBold,
-} from "react-icons/pi";
+import PiDotsThreeBold from "react-icons/pi/PiDotsThreeBold";
+import PiCheckCircle from "react-icons/pi/PiCheckCircle";
+import PiTrashSimple from "react-icons/pi/PiTrashSimple";
+import PiProhibitInset from "react-icons/pi/PiProhibitInset";
+import PiWarningCircle from "react-icons/pi/PiWarningCircle";
+
 import { ActionIcon, Dropdown } from "rizzui";
 
 const actions = [

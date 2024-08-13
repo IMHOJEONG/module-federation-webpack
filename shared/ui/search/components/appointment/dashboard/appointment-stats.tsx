@@ -1,13 +1,12 @@
-import {
-  PiCalendarCheck,
-  PiCaretLeftBold,
-  PiCaretRightBold,
-  PiCheckCircle,
-  PiClock,
-  PiPhoneSlash,
-  PiArrowDownRight,
-  PiArrowUpRight,
-} from "react-icons/pi";
+import PiCalendarCheck from "react-icons/pi/PiCalendarCheck";
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
+import PiCheckCircle from "react-icons/pi/PiCheckCircle";
+import PiClock from "react-icons/pi/PiClock";
+import PiPhoneSlash from "react-icons/pi/PiPhoneSlash";
+import PiArrowDownRight from "react-icons/pi/PiArrowDownRight";
+import PiArrowUpRight from "react-icons/pi/PiArrowUpRight";
+
 import { useScrollableSlider } from "@hooks/use-scrollable-slider";
 import { IconType } from "react-icons/lib";
 import cn from "@utils/class-names";

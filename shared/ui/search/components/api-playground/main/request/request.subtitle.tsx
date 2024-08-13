@@ -1,4 +1,4 @@
-import { BiPlus } from 'react-icons/bi';
+import BiPlus from "react-icons/bi/BiPlus";
 
 interface ApiPlaygroundSubtitleProps {
   title: string;

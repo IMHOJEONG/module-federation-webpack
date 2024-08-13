@@ -1,8 +1,9 @@
-import { getOptionByValue } from '@/components/explore-flight/listing-filters/filter-utils';
-import { InitialStateType, otherOptions } from '@/data/flight-filter-data';
-import { HiOutlineAdjustmentsHorizontal } from 'react-icons/hi2';
-import cn from '@utils/class-names';
-import { Select } from 'rizzui';
+import { getOptionByValue } from "@/components/explore-flight/listing-filters/filter-utils";
+import { InitialStateType, otherOptions } from "@/data/flight-filter-data";
+import HiOutlineAdjustmentsHorizontal from "react-icons/hi2/HiOutlineAdjustmentsHorizontal";
+
+import cn from "@utils/class-names";
+import { Select } from "rizzui";
 
 export default function Filter({
   className,
@@ -16,17 +17,17 @@ export default function Filter({
   // console.log(state['filter']);
 
   return (
-    <div className={cn('flex', className)}>
+    <div className={cn("flex", className)}>
       <Select
-        placeholder={'Other sort'}
+        placeholder={"Other sort"}
         variant="text"
         prefix={<HiOutlineAdjustmentsHorizontal className="h-5 w-5" />}
         selectClassName="h-[42px] pl-5 pr-3.5 min-w-[150px] focus:ring-0"
         dropdownClassName="p-1.5 !z-0"
         optionClassName="h-9"
         options={otherOptions}
-        onChange={(option: any) => applyFilter('filter', option.value)}
-        value={getOptionByValue(state['filter'], otherOptions)}
+        onChange={(option: any) => applyFilter("filter", option.value)}
+        value={getOptionByValue(state["filter"], otherOptions)}
         className="w-[296px]"
       />
     </div>

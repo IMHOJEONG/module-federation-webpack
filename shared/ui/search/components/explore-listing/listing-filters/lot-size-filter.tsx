@@ -3,7 +3,7 @@ import {
   lotSizeOptions,
 } from "@/components/explore-listing/listing-filters/filter-utils";
 import { useEffect, useState } from "react";
-import { PiMinus } from "react-icons/pi";
+import PiMinus from "react-icons/pi/PiMinus";
 import { Select, Title } from "rizzui";
 
 export default function LotSizeFilter({

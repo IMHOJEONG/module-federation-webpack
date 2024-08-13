@@ -1,9 +1,8 @@
-import {
-  PiCopySimple,
-  PiDotsThreeOutlineVerticalFill,
-  PiShareFat,
-  PiTrashSimple,
-} from "react-icons/pi";
+import PiCopySimple from "react-icons/pi/PiCopySimple";
+import PiShareFat from "react-icons/pi/PiShareFat";
+import PiTrashSimple from "react-icons/pi/PiTrashSimple";
+import PiDotsThreeOutlineVerticalFill from "react-icons/pi/PiDotsThreeOutlineVerticalFill";
+
 import { ActionIcon, Button, Popover, Title } from "rizzui";
 import Favorite from "@/components/file/manager/favorite";
 import cn from "@utils/class-names";

@@ -1,4 +1,6 @@
-import { PiAlignLeft, PiAlignRight } from "react-icons/pi";
+import PiAlignRight from "react-icons/pi/PiAlignRight";
+import PiAlignLeft from "react-icons/pi/PiAlignLeft";
+
 import DrawerBlock from "@/layouts/settings/drawer-block";
 import RadioBox from "@/layouts/settings/radio-box";
 import { useDirection } from "@hooks/use-direction";

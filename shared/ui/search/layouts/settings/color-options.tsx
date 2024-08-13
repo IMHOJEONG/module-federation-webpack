@@ -4,7 +4,9 @@ import {
 } from "@/layouts/settings/use-theme-color";
 import DrawerBlock from "@/layouts/settings/drawer-block";
 import { usePresets } from "@/config/color-presets";
-import { PiCheckBold } from "react-icons/pi";
+
+import PiCheckBold from "react-icons/pi/PiCheckBold";
+
 import cn from "@utils/class-names";
 import { useDarkMode } from "usehooks-ts";
 

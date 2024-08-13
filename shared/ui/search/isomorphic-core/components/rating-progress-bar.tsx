@@ -1,5 +1,5 @@
 import cn from "../utils/class-names";
-import { PiStarFill } from "react-icons/pi";
+import PiStarFill from "react-icons/pi/PiStarFill";
 
 type RatingProgressProps = {
   label?: number;

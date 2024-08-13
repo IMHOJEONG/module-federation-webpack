@@ -10,8 +10,11 @@ import { useActivePathname } from "./use-pathname-active";
 import BulletIcon from "@/layouts/lithium/bullet-icon";
 import { useDirection } from "@hooks/use-direction";
 import NavMenu from "@/layouts/nav-menu/nav-menu";
-import { AiFillCaretRight } from "react-icons/ai";
-import { PiCaretDownBold } from "react-icons/pi";
+
+import AiFillCaretRight from "react-icons/ai/AiFillCaretRight";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import cn from "@utils/class-names";

@@ -7,7 +7,10 @@ import {
   AreaChart,
   Area,
 } from "recharts";
-import { PiCaretDoubleUpDuotone, PiDownloadSimpleBold } from "react-icons/pi";
+
+import PiDownloadSimpleBold from "react-icons/pi/PiDownloadSimpleBold";
+import PiCaretDoubleUpDuotone from "react-icons/pi/PiCaretDoubleUpDuotone";
+
 import { CustomTooltip } from "@components/charts/custom-tooltip";
 import WidgetCard from "@components/cards/widget-card";
 import { toCurrency } from "@utils/to-currency";

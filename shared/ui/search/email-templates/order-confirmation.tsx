@@ -1,4 +1,5 @@
-import { PiClock, PiDeviceMobileLight } from "react-icons/pi";
+import PiDeviceMobileLight from "react-icons/pi/PiDeviceMobileLight";
+import PiClock from "react-icons/pi/PiClock";
 import { Container } from "@react-email/container";
 import { formatDate } from "@utils/format-date";
 import { Preview } from "@react-email/preview";

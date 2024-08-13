@@ -4,7 +4,9 @@ import { carbonMenuItems } from "@/layouts/carbon/carbon-menu-items";
 import React, { ElementType, Fragment, useState } from "react";
 import StatusBadge from "@components/get-status-badge";
 import Menu from "@ui/carbon-menu/dropdown/menu";
-import { PiCaretDownBold } from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import { arrayMove } from "@dnd-kit/sortable";
 // import { usePathname } from 'next/navigation';
 import { DragEndEvent } from "@dnd-kit/core";

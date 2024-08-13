@@ -1,5 +1,5 @@
 import Pagination, { type PaginationProps } from "@ui/pagination";
-import { PiCaretDownBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
 import cn from "@utils/class-names";
 import { Select } from "rizzui";
 

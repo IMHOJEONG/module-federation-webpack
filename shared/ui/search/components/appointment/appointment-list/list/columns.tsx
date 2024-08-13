@@ -1,10 +1,9 @@
-import {
-  PiCalendarCheckLight,
-  PiCheckCircleBold,
-  PiClockBold,
-  PiMapPinLight,
-  PiXBold,
-} from "react-icons/pi";
+import PiCalendarCheckLight from "react-icons/pi/PiCalendarCheckLight";
+import PiCheckCircleBold from "react-icons/pi/PiCheckCircleBold";
+import PiClockBold from "react-icons/pi/PiClockBold";
+import PiMapPinLight from "react-icons/pi/PiMapPinLight";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import {
   Text,
   Checkbox,

@@ -1,5 +1,6 @@
 import { useCart } from "@/store/_deprecated/quick-cart/cart.context";
-import { PiMinusBold, PiPlusBold } from "react-icons/pi";
+import PiMinusBold from "react-icons/pi/PiMinusBold";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
 import { ActionIcon } from "rizzui";
 import { CartItem } from "@/types";
 

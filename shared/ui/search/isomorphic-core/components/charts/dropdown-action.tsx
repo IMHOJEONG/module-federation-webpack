@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { Select } from "rizzui";
 import cn from "../../utils/class-names";
-import { PiCalendarBlank, PiCaretDownBold } from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+import PiCalendarBlank from "react-icons/pi/PiCalendarBlank";
 
 type Options = {
   value: string;

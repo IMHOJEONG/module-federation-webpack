@@ -1,6 +1,9 @@
 import CircleProgressBar from "@components/charts/circle-progressbar";
 import { useScrollableSlider } from "@hooks/use-scrollable-slider";
-import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
+
 import MetricCard from "@components/cards/metric-card";
 import ImageIcon from "@components/icons/image-solid";
 import MusicIcon from "@components/icons/music-solid";

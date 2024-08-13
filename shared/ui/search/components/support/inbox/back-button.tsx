@@ -1,4 +1,4 @@
-import { PiArrowLeft } from "react-icons/pi";
+import PiArrowLeft from "react-icons/pi/PiArrowLeft";
 // import { useRouter } from "next/navigation";
 import { Button } from "rizzui";
 

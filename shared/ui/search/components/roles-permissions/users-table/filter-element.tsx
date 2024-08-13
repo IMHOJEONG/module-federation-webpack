@@ -1,4 +1,6 @@
-import { PiTrashDuotone, PiMagnifyingGlassBold } from "react-icons/pi";
+import PiTrashDuotone from "react-icons/pi/PiTrashDuotone";
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+
 import StatusField from "@/components/controlled-table/status-field";
 import CreateUser from "@/components/roles-permissions/create-user";
 import { Badge, Text, Title, Button, Input } from "rizzui";

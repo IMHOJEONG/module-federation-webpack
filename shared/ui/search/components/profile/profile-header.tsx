@@ -1,5 +1,8 @@
 import { useBerylliumSidebars } from "@/layouts/beryllium/beryllium-utils";
-import { PiChatCircleText, PiUsers } from "react-icons/pi";
+
+import PiUsers from "react-icons/pi/PiUsers";
+import PiChatCircleText from "react-icons/pi/PiChatCircleText";
+
 import { useLayout } from "@/layouts/use-layout";
 import { LAYOUT_OPTIONS } from "@/config/enums";
 import { Button, Title, Text } from "rizzui";

@@ -1,4 +1,6 @@
-import { PiDotsThreeVerticalBold, PiHeadsetBold } from "react-icons/pi";
+import PiDotsThreeVerticalBold from "react-icons/pi/PiDotsThreeVerticalBold";
+import PiHeadsetBold from "react-icons/pi/PiHeadsetBold";
+
 import WorkSpaceSwitcher from "@/layouts/carbon/work-space-switcher";
 import ProfileCardMenu from "@/layouts/carbon/profile-card-menu";
 import { CarbonSidebarMenu } from "./carbon-sidebar-menu";

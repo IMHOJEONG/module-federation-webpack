@@ -1,11 +1,10 @@
-import {
-  PiCaretDown,
-  PiChartLineUpLight,
-  PiCurrencyDollarBold,
-  PiCurrencyEurBold,
-  PiCurrencyJpyBold,
-  PiWalletLight,
-} from "react-icons/pi";
+import PiCaretDown from "react-icons/pi/PiCaretDown";
+import PiChartLineUpLight from "react-icons/pi/PiChartLineUpLight";
+import PiCurrencyDollarBold from "react-icons/pi/PiCurrencyDollarBold";
+import PiCurrencyEurBold from "react-icons/pi/PiCurrencyEurBold";
+import PiCurrencyJpyBold from "react-icons/pi/PiCurrencyJpyBold";
+import PiWalletLight from "react-icons/pi/PiWalletLight";
+
 import { Input, Button, Popover, Title, Text } from "rizzui";
 import { Dispatch, SetStateAction, useState } from "react";
 import WidgetCard from "@components/cards/widget-card";

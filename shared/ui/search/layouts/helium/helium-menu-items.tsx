@@ -1,49 +1,48 @@
-import {
-  PiCurrencyCircleDollarFill,
-  PiShoppingCart,
-  PiHeadset,
-  PiPackage,
-  PiChartBar,
-  PiCurrencyDollar,
-  PiSquaresFour,
-  PiGridFour,
-  PiFeather,
-  PiChartLineUp,
-  PiMapPinLine,
-  PiUserGear,
-  PiBellSimpleRinging,
-  PiUser,
-  PiEnvelopeSimpleOpen,
-  PiSteps,
-  PiCreditCard,
-  PiTable,
-  PiBrowser,
-  PiHourglassSimple,
-  PiUserCircle,
-  PiShootingStar,
-  PiRocketLaunch,
-  PiFolderLock,
-  PiBinoculars,
-  PiHammer,
-  PiNoteBlank,
-  PiUserPlus,
-  PiShieldCheck,
-  PiLockKey,
-  PiChatCenteredDots,
-  PiCalendarPlus,
-  PiHouseLine,
-  PiAirplaneTilt,
-  PiPokerChip,
-  PiFolder,
-  PiListNumbers,
-  PiCaretCircleUpDown,
-  PiBriefcase,
-  PiCalendarDuotone,
-  PiShapes,
-  PiNewspaperClippingDuotone,
-  PiTableDuotone,
-  PiShapesDuotone,
-} from "react-icons/pi";
+import PiCurrencyCircleDollarFill from "react-icons/pi/PiCurrencyCircleDollarFill";
+import PiShoppingCart from "react-icons/pi/PiShoppingCart";
+import PiHeadset from "react-icons/pi/PiHeadset";
+import PiPackage from "react-icons/pi/PiPackage";
+import PiChartBar from "react-icons/pi/PiChartBar";
+import PiCurrencyDollar from "react-icons/pi/PiCurrencyDollar";
+import PiSquaresFour from "react-icons/pi/PiSquaresFour";
+import PiGridFour from "react-icons/pi/PiGridFour";
+import PiFeather from "react-icons/pi/PiFeather";
+import PiChartLineUp from "react-icons/pi/PiChartLineUp";
+import PiMapPinLine from "react-icons/pi/PiMapPinLine";
+import PiUserGear from "react-icons/pi/PiUserGear";
+import PiBellSimpleRinging from "react-icons/pi/PiBellSimpleRinging";
+import PiUser from "react-icons/pi/PiUser";
+import PiEnvelopeSimpleOpen from "react-icons/pi/PiEnvelopeSimpleOpen";
+import PiSteps from "react-icons/pi/PiSteps";
+import PiCreditCard from "react-icons/pi/PiCreditCard";
+import PiTable from "react-icons/pi/PiTable";
+import PiBrowser from "react-icons/pi/PiBrowser";
+import PiHourglassSimple from "react-icons/pi/PiHourglassSimple";
+import PiUserCircle from "react-icons/pi/PiUserCircle";
+import PiShootingStar from "react-icons/pi/PiShootingStar";
+import PiRocketLaunch from "react-icons/pi/PiRocketLaunch";
+import PiFolderLock from "react-icons/pi/PiFolderLock";
+import PiBinoculars from "react-icons/pi/PiBinoculars";
+import PiHammer from "react-icons/pi/PiHammer";
+import PiNoteBlank from "react-icons/pi/PiNoteBlank";
+import PiUserPlus from "react-icons/pi/PiUserPlus";
+import PiShieldCheck from "react-icons/pi/PiShieldCheck";
+import PiLockKey from "react-icons/pi/PiLockKey";
+import PiChatCenteredDots from "react-icons/pi/PiChatCenteredDots";
+import PiCalendarPlus from "react-icons/pi/PiCalendarPlus";
+import PiHouseLine from "react-icons/pi/PiHouseLine";
+import PiAirplaneTilt from "react-icons/pi/PiAirplaneTilt";
+import PiPokerChip from "react-icons/pi/PiPokerChip";
+import PiFolder from "react-icons/pi/PiFolder";
+import PiListNumbers from "react-icons/pi/PiListNumbers";
+import PiCaretCircleUpDown from "react-icons/pi/PiCaretCircleUpDown";
+import PiBriefcase from "react-icons/pi/PiBriefcase";
+import PiCalendarDuotone from "react-icons/pi/PiCalendarDuotone";
+import PiShapes from "react-icons/pi/PiShapes";
+import PiNewspaperClippingDuotone from "react-icons/pi/PiNewspaperClippingDuotone";
+import PiTableDuotone from "react-icons/pi/PiTableDuotone";
+import PiShapesDuotone from "react-icons/pi/PiShapesDuotone";
+
 import { DUMMY_ID } from "@/config/constants";
 import { routes } from "@/config/routes";
 

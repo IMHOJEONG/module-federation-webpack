@@ -3,7 +3,8 @@ import ImageIcon from "@components/icons/image-solid";
 import DocIcon from "@components/icons/doc-solid";
 import PDFIcon from "@components/icons/pdf-solid";
 import XMLIcon from "@components/icons/xml-solid";
-import { PiCaretDownBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import { Button, Popover } from "rizzui";
 import cn from "@utils/class-names";
 

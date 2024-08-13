@@ -1,5 +1,6 @@
 import { ResponsiveContainer, BarChart, Bar } from "recharts";
-import { PiArrowSquareOut } from "react-icons/pi";
+// import { PiArrowSquareOut } from "react-icons/pi";
+import PiArrowSquareOut from "react-icons/pi/PiArrowSquareOut";
 import { HeaderCell } from "@/components/table";
 import { Badge, Title, Text } from "rizzui";
 import dayjs from "dayjs";

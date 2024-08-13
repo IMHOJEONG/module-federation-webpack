@@ -1,6 +1,8 @@
 import { Button, Text, Title, Badge, Collapse } from "rizzui";
 import cn from "../../utils/class-names";
-import { PiCaretDownBold } from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import LuggageTwoIcon from "../icons/luggage-two";
 import PlaneIcon from "../icons/plane";
 import { FlightingCardProps } from "../../types";

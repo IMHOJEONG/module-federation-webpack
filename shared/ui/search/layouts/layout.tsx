@@ -9,7 +9,7 @@ import { useLayout } from "@/layouts/use-layout";
 import { LAYOUT_OPTIONS } from "@/config/enums";
 import "#/styles/globals.css";
 import { Helmet } from "react-helmet";
-import useDarkThemeStore from "zustand/useDarkThemeStore";
+import { useDarkThemeStore } from "zustand/useDarkThemeStore";
 
 type LayoutProps = {
   children: React.ReactNode;

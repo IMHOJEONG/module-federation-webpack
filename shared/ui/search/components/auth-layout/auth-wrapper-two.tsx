@@ -1,14 +1,13 @@
-import {
-  PiAppleLogoFill,
-  PiArrowLeftBold,
-  PiDribbbleLogo,
-  PiFacebookLogo,
-  PiInstagramLogo,
-  PiLinkedinLogo,
-  PiTwitterLogo,
-  PiArrowLineRight,
-  PiUserCirclePlus,
-} from "react-icons/pi";
+import PiAppleLogoFill from "react-icons/pi/PiAppleLogoFill";
+import PiArrowLeftBold from "react-icons/pi/PiArrowLeftBold";
+import PiDribbbleLogo from "react-icons/pi/PiDribbbleLogo";
+import PiFacebookLogo from "react-icons/pi/PiFacebookLogo";
+import PiInstagramLogo from "react-icons/pi/PiInstagramLogo";
+import PiLinkedinLogo from "react-icons/pi/PiLinkedinLogo";
+import PiTwitterLogo from "react-icons/pi/PiTwitterLogo";
+import PiArrowLineRight from "react-icons/pi/PiArrowLineRight";
+import PiUserCirclePlus from "react-icons/pi/PiUserCirclePlus";
+
 import { Avatar, Title, Text, Button } from "rizzui";
 import ArrowShape from "@components/shape/arrow";
 import { usePathname } from "next/navigation";

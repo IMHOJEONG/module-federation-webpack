@@ -5,8 +5,8 @@ import {
   FetchType,
 } from "@/types/fetch";
 import { Button, Input, Select, Text } from "rizzui";
-import { FaArrowRight } from "react-icons/fa";
-import { GoDotFill } from "react-icons/go";
+import FaArrowRight from "react-icons/fa/FaArrowRight";
+import GoDotFill from "react-icons/go/GoDotFill";
 import { useState } from "react";
 
 const options = FETCH_TYPES.map((fetchType) => ({

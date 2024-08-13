@@ -3,7 +3,11 @@ import isEmpty from "lodash/isEmpty";
 import prettyBytes from "pretty-bytes";
 import { useCallback, useState } from "react";
 import { useDropzone } from "@uploadthing/react/hooks";
-import { PiCheckBold, PiTrashBold, PiUploadSimpleBold } from "react-icons/pi";
+
+import PiCheckBold from "react-icons/pi/PiCheckBold";
+import PiTrashBold from "react-icons/pi/PiTrashBold";
+import PiUploadSimpleBold from "react-icons/pi/PiUploadSimpleBold";
+
 import { generateClientDropzoneAccept } from "uploadthing/client";
 // import { useUploadThing } from "../../utils/uploadthing";
 import { Button, Text, FieldError } from "rizzui";

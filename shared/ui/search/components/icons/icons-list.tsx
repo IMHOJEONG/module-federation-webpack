@@ -1,6 +1,8 @@
 import { useCopyToClipboard } from "@hooks/use-copy-to-clipboard";
 import { Input, Empty, EmptyProductBoxIcon } from "rizzui";
-import { PiMagnifyingGlassBold } from "react-icons/pi";
+
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+
 import { useState, useRef, useEffect } from "react";
 import PageHeader from "@/components/page-header";
 import SVGLoader from "@components/svg-loader";

@@ -4,7 +4,9 @@ import { useModal } from "@/components/modal-views/use-modal";
 import { Title, ActionIcon, Dropdown } from "rizzui";
 import ModalButton from "@/components/modal-button";
 import UserCog from "@components/icons/user-cog";
-import { PiDotsThreeBold } from "react-icons/pi";
+
+import PiDotsThreeBold from "react-icons/pi/PiDotsThreeBold";
+
 import { ROLES } from "@/config/constants";
 import cn from "@utils/class-names";
 

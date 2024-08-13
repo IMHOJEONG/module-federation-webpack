@@ -1,6 +1,9 @@
 import { Input, Textarea, RadioGroup, AdvancedRadio } from "rizzui";
 import { Controller, useFormContext } from "react-hook-form";
-import { PiCheckCircleFill, PiGift } from "react-icons/pi";
+
+import PiCheckCircleFill from "react-icons/pi/PiCheckCircleFill";
+import PiGift from "react-icons/pi/PiGift";
+
 import UploadZone from "@ui/file-upload/upload-zone";
 import FormGroup from "@/components/form-group";
 import { toCurrency } from "@utils/to-currency";

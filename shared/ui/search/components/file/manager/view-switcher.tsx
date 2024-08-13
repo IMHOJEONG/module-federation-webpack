@@ -1,5 +1,8 @@
 // import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { PiGridFour, PiListBullets } from "react-icons/pi";
+
+import PiGridFour from "react-icons/pi/PiGridFour";
+import PiListBullets from "react-icons/pi/PiListBullets";
+
 import cn from "@utils/class-names";
 import { ActionIcon } from "rizzui";
 import { useCallback } from "react";

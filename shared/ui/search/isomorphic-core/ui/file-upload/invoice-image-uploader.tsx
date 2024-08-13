@@ -3,7 +3,9 @@ import { Text } from "rizzui";
 import cn from "../../utils/class-names";
 import UploadIcon from "../../components/shape/upload";
 import React, { ChangeEvent, useState } from "react";
-import { PiPencilBold, PiTrashBold } from "react-icons/pi";
+
+import PiPencilBold from "react-icons/pi/PiPencilBold";
+import PiTrashBold from "react-icons/pi/PiTrashBold";
 
 interface InvoiceImageUploaderProps {
   name: string;

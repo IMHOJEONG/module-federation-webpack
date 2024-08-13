@@ -14,7 +14,7 @@ import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import ScheduleLightIcon from "@components/icons/schedule-light";
 import { useModal } from "@/components/modal-views/use-modal";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { PiXBold } from "react-icons/pi";
+import PiXBold from "react-icons/pi/PiXBold";
 import SimpleBar from "simplebar-react";
 import { DayPicker } from "react-day-picker";
 

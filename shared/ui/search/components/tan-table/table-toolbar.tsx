@@ -1,10 +1,9 @@
-import {
-  PiTrash,
-  PiFunnel,
-  PiTextColumns,
-  PiTrashDuotone,
-  PiMagnifyingGlassBold,
-} from "react-icons/pi";
+import PiTrash from "react-icons/pi/PiTrash";
+import PiFunnel from "react-icons/pi/PiFunnel";
+import PiTextColumns from "react-icons/pi/PiTextColumns";
+import PiTrashDuotone from "react-icons/pi/PiTrashDuotone";
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+
 import {
   statusOptions,
   renderOptionDisplayValue,

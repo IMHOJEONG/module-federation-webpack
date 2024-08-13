@@ -1,7 +1,7 @@
-import { useAutoResizeTextArea } from '@/util/hooks/useAutoResizeTextarea';
-import { MdOutlineContentCopy } from 'react-icons/md';
-import { HTMLAttributes } from 'react';
-import cn from '@utils/class-names';
+import { useAutoResizeTextArea } from "@/util/hooks/useAutoResizeTextarea";
+import MdOutlineContentCopy from "react-icons/md/MdOutlineContentCopy";
+import { HTMLAttributes } from "react";
+import cn from "@utils/class-names";
 
 interface ResponseTextAreaProps extends HTMLAttributes<HTMLTextAreaElement> {
   value: string;
@@ -21,7 +21,7 @@ export default function ApiPlaygroundResponseTextArea(
       <textarea
         ref={textAreaRef}
         className={cn(
-          'w-full pr-8 outline-none border-none bg-white text-gray-800 rounded-md text-xs resize-none custom-scrollbar max-h-64',
+          "w-full pr-8 outline-none border-none bg-white text-gray-800 rounded-md text-xs resize-none custom-scrollbar max-h-64",
           className
         )}
         value={value}

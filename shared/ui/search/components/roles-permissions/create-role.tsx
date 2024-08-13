@@ -2,7 +2,11 @@ import {
   CreateRoleInput,
   createRoleSchema,
 } from "@/validators/create-role.schema";
-import { PiChecksBold, PiFilesBold, PiXBold } from "react-icons/pi";
+
+import PiXBold from "react-icons/pi/PiXBold";
+import PiChecksBold from "react-icons/pi/PiChecksBold";
+import PiFilesBold from "react-icons/pi/PiFilesBold";
+
 import { Input, Button, Tooltip, ActionIcon, Title } from "rizzui";
 import { useCopyToClipboard } from "@hooks/use-copy-to-clipboard";
 import { useModal } from "@/components/modal-views/use-modal";

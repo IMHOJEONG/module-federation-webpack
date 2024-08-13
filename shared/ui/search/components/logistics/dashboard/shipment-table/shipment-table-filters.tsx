@@ -2,7 +2,9 @@ import StatusField from "@/components/controlled-table/status-field";
 import { getDateRangeStateValues } from "@utils/get-formatted-date";
 import DateFiled from "@/components/controlled-table/date-field";
 import { shippingStatuses } from "@/data/shipment-data";
-import { PiTrashDuotone } from "react-icons/pi";
+
+import PiTrashDuotone from "react-icons/pi/PiTrashDuotone";
+
 import { useMedia } from "@hooks/use-media";
 import { Button } from "rizzui";
 

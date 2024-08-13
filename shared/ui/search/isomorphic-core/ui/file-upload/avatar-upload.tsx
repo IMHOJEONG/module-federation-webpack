@@ -6,7 +6,9 @@ import { generateClientDropzoneAccept } from "uploadthing/client";
 import UploadIcon from "../../components/shape/upload";
 import { FieldError, Loader, Text } from "rizzui";
 import cn from "../../utils/class-names";
-import { PiPencilSimple } from "react-icons/pi";
+
+import PiPencilSimple from "react-icons/pi/PiPencilSimple";
+
 import { LoadingSpinner } from "../../ui/file-upload/upload-zone";
 import { FileWithPath } from "react-dropzone";
 import { ClientUploadedFileData } from "uploadthing/types";

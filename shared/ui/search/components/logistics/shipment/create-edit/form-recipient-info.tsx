@@ -1,5 +1,7 @@
 import { Controller, useFormContext } from "react-hook-form";
-import { PiEnvelopeSimple } from "react-icons/pi";
+
+import PiEnvelopeSimple from "react-icons/pi/PiEnvelopeSimple";
+
 import FormGroup from "@/components/form-group";
 import { Input, Checkbox } from "rizzui";
 import cn from "@utils/class-names";

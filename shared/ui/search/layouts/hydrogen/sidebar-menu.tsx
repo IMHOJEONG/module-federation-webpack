@@ -1,6 +1,8 @@
 import { menuItems } from "@/layouts/hydrogen/menu-items";
 import StatusBadge from "@components/get-status-badge";
-import { PiCaretDownBold } from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 // import { usePathname } from "next/navigation";
 // import { useSession } from "next-auth/react";
 import { Title, Collapse } from "rizzui";

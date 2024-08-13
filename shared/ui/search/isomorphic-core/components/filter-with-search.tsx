@@ -11,9 +11,13 @@ import {
   Text,
 } from "rizzui";
 import cn from "../utils/class-names";
-import { PiMagnifyingGlassBold, PiPlusBold, PiXBold } from "react-icons/pi";
+
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { generateSlug } from "../utils/generate-slug";
-import { BsExclamationCircle } from "react-icons/bs";
+import BsExclamationCircle from "react-icons/bs/BsExclamationCircle";
 
 type FilterOptions = {
   name: string;

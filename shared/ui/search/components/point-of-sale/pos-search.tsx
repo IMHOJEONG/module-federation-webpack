@@ -1,4 +1,5 @@
-import { PiMagnifyingGlassBold } from "react-icons/pi";
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+
 import { atom, useAtom } from "jotai";
 import { Input } from "rizzui";
 

@@ -1,11 +1,10 @@
-import {
-  PiMapPinLight,
-  PiClockLight,
-  PiCurrencyCircleDollarLight,
-  PiCalendarBlankLight,
-  PiShoppingBagLight,
-  PiBuildingsLight,
-} from "react-icons/pi";
+import PiMapPinLight from "react-icons/pi/PiMapPinLight";
+import PiClockLight from "react-icons/pi/PiClockLight";
+import PiCurrencyCircleDollarLight from "react-icons/pi/PiCurrencyCircleDollarLight";
+import PiCalendarBlankLight from "react-icons/pi/PiCalendarBlankLight";
+import PiShoppingBagLight from "react-icons/pi/PiShoppingBagLight";
+import PiBuildingsLight from "react-icons/pi/PiBuildingsLight";
+
 import FacebookIcon from "@components/icons/facebook";
 import XTwitter from "@components/icons/x-twitter";
 import { IconType } from "react-icons/lib";

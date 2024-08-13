@@ -8,7 +8,11 @@ import {
   Button,
   Popover,
 } from "rizzui";
-import { PiDotsThreeVerticalBold, PiStarFill, PiXBold } from "react-icons/pi";
+
+import PiDotsThreeVerticalBold from "react-icons/pi/PiDotsThreeVerticalBold";
+import PiStarFill from "react-icons/pi/PiStarFill";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import PencilIcon from "@components/icons/pencil";
 import TrashIcon from "@components/icons/trash";
 import { HeaderCell } from "@/components/table";

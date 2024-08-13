@@ -1,50 +1,12 @@
-import {
-  PiShoppingCartDuotone,
-  PiHeadsetDuotone,
-  PiPackageDuotone,
-  PiChartBarDuotone,
-  PiCurrencyDollarDuotone,
-  PiSquaresFourDuotone,
-  PiGridFourDuotone,
-  PiFeatherDuotone,
-  PiChartLineUpDuotone,
-  PiMapPinLineDuotone,
-  PiUserGearDuotone,
-  PiBellSimpleRingingDuotone,
-  PiUserDuotone,
-  PiEnvelopeSimpleOpenDuotone,
-  PiStepsDuotone,
-  PiCreditCardDuotone,
-  PiTableDuotone,
-  PiBrowserDuotone,
-  PiHourglassSimpleDuotone,
-  PiUserCircleDuotone,
-  PiShootingStarDuotone,
-  PiRocketLaunchDuotone,
-  PiFolderLockDuotone,
-  PiBinocularsDuotone,
-  PiHammerDuotone,
-  PiNoteBlankDuotone,
-  PiUserPlusDuotone,
-  PiShieldCheckDuotone,
-  PiLockKeyDuotone,
-  PiChatCenteredDotsDuotone,
-  PiCalendarPlusDuotone,
-  PiEnvelopeDuotone,
-  PiCurrencyCircleDollarDuotone,
-  PiBriefcaseDuotone,
-  PiHouseLineDuotone,
-  PiAirplaneTiltDuotone,
-  PiFolder,
-  PiCaretCircleUpDownDuotone,
-  PiListNumbersDuotone,
-  PiCoinDuotone,
-  PiCalendarDuotone,
-  PiShapesDuotone,
-  PiNewspaperClippingDuotone,
-} from "react-icons/pi";
-import { DUMMY_ID } from "@/config/constants";
-import { routes } from "@/config/routes";
+import PiPackageDuotone from "react-icons/pi/PiPackageDuotone";
+import PiBinocularsDuotone from "react-icons/pi/PiBinocularsDuotone";
+import PiShootingStarDuotone from "react-icons/pi/PiShootingStarDuotone";
+import PiUserGearDuotone from "react-icons/pi/PiUserGearDuotone";
+import PiBellSimpleRingingDuotone from "react-icons/pi/PiBellSimpleRingingDuotone";
+import PiFolder from "react-icons/pi/PiFolder";
+import PiFolderLockDuotone from "react-icons/pi/PiFolderLockDuotone";
+import PiHammerDuotone from "react-icons/pi/PiHammerDuotone";
+import PiRocketLaunchDuotone from "react-icons/pi/PiRocketLaunchDuotone";
 
 type GeneralRecord = Record<string, unknown>;
 

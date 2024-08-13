@@ -1,9 +1,8 @@
-import {
-  PiBellSimpleRingingDuotone,
-  PiChatsCircleDuotone,
-  PiGearDuotone,
-  PiMagnifyingGlassDuotone,
-} from "react-icons/pi";
+import PiBellSimpleRingingDuotone from "react-icons/pi/PiBellSimpleRingingDuotone";
+import PiChatsCircleDuotone from "react-icons/pi/PiChatsCircleDuotone";
+import PiGearDuotone from "react-icons/pi/PiGearDuotone";
+import PiMagnifyingGlassDuotone from "react-icons/pi/PiMagnifyingGlassDuotone";
+
 import NotificationDropdown from "@/layouts/notification-dropdown";
 import HeaderMenuLeft from "@/layouts/lithium/lithium-menu";
 import MessagesDropdown from "@/layouts/messages-dropdown";

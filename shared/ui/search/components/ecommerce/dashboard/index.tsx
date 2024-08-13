@@ -10,7 +10,8 @@ import StatCards from "@/components/ecommerce/dashboard/stat-cards";
 import WelcomeBanner from "@components/banners/welcome";
 import welcomeImg from "@public/shop-illustration.png";
 import HandWaveIcon from "@components/icons/hand-wave";
-import { PiPlusBold } from "react-icons/pi";
+
+import PiPlusBold from "react-icons/pi/PiPlusBold";
 import { routes } from "@/config/routes";
 import { Button } from "rizzui";
 

@@ -15,7 +15,11 @@ import SwimmingPoolIcon from "@components/icons/swimming-pool";
 import { Text, CheckboxGroup, AdvancedCheckbox } from "rizzui";
 import CarParkingIcon from "@components/icons/car-parking";
 import SmokeAlarmIcon from "@components/icons/smoke-alarm";
-import { PiTelevision, PiWifiHigh } from "react-icons/pi";
+
+import PiTelevision from "react-icons/pi/PiTelevision";
+import PiWifiHigh from "react-icons/pi/PiWifiHigh";
+
+
 import PoolTableIcon from "@components/icons/pool-table";
 import WorkplaceIcon from "@components/icons/workplace";
 import BBQGrillIcon from "@components/icons/bbq-grill";

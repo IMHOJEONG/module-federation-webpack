@@ -1,4 +1,7 @@
-import { PiMinus, PiPlus, PiTrash } from "react-icons/pi";
+import PiMinus from "react-icons/pi/PiMinus";
+import PiPlus from "react-icons/pi/PiPlus";
+import PiTrash from "react-icons/pi/PiTrash";
+
 import { generateSlug } from "@utils/generate-slug";
 import { toCurrency } from "@utils/to-currency";
 import { routes } from "@/config/routes";

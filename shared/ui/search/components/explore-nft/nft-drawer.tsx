@@ -1,6 +1,7 @@
 import NFTDrawerView from "@/components/explore-nft/nft-drawer-view";
 import { useDrawer } from "@/components/drawer-views/use-drawer";
-import { PiSliders } from "react-icons/pi";
+
+import PiSliders from "react-icons/pi/PiSliders";
 import { Button } from "rizzui";
 
 export default function NFTDrawer() {

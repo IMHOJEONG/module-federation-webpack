@@ -8,7 +8,9 @@ import JobFeedSalaryRangeCard from "./job-feed-salary-range-card";
 import FilterWithSearch from "@components/filter-with-search";
 import { useFilterControls } from "@hooks/use-filter-control";
 import { useDrawer } from "../drawer-views/use-drawer";
-import { PiFunnel } from "react-icons/pi";
+
+import PiFunnel from "react-icons/pi/PiFunnel";
+
 import { Button, Title } from "rizzui";
 import cn from "@utils/class-names";
 

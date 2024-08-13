@@ -1,4 +1,5 @@
-import { PiImagesSquareBold, PiVideoCameraFill } from "react-icons/pi";
+import PiImagesSquareBold from "react-icons/pi/PiImagesSquareBold";
+import PiVideoCameraFill from "react-icons/pi/PiVideoCameraFill";
 
 type POST_TYPE = "image" | "gallery" | "video";
 

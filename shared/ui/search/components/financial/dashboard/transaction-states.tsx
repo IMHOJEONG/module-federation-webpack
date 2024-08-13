@@ -1,11 +1,10 @@
-import {
-  PiBank,
-  PiCaretLeftBold,
-  PiCaretRightBold,
-  PiCube,
-  PiCurrencyCircleDollar,
-  PiFolder,
-} from "react-icons/pi";
+import PiBank from "react-icons/pi/PiBank";
+import PiCube from "react-icons/pi/PiCube";
+import PiCurrencyCircleDollar from "react-icons/pi/PiCurrencyCircleDollar";
+import PiFolder from "react-icons/pi/PiFolder";
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
+
 import TransactionCard, {
   TransactionType,
 } from "@components/cards/transaction-card";

@@ -4,9 +4,7 @@ interface PiArrowLeftProps {
   className?: string;
 }
 
-export default function PiArrowLeft({
-  className,
-}: PiSliderPiArrowLeftPropssProps) {
+export default function PiArrowLeft({ className }: PiArrowLeftProps) {
   return (
     <svg
       stroke="currentColor"

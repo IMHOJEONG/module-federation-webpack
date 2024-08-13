@@ -1,9 +1,7 @@
-import {
-  PiBankDuotone,
-  PiFileTextDuotone,
-  PiGiftDuotone,
-  PiPulseDuotone,
-} from "react-icons/pi";
+import PiBankDuotone from "react-icons/pi/PiBankDuotone";
+import PiFileTextDuotone from "react-icons/pi/PiFileTextDuotone";
+import PiGiftDuotone from "react-icons/pi/PiGiftDuotone";
+import PiPulseDuotone from "react-icons/pi/PiPulseDuotone";
 
 export const widgetCardStat = [
   {

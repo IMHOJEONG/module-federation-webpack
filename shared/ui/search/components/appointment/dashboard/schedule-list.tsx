@@ -1,5 +1,5 @@
 import { Button, Title, Tooltip } from "rizzui";
-import { PiPlusLight } from "react-icons/pi";
+import PiPlusLight from "react-icons/pi/PiPlusLight";
 // import Calendar from "react-calendar";
 import cn from "@utils/class-names";
 import { DayPicker } from "react-day-picker";

@@ -10,7 +10,8 @@ import {
 import { Input, Button, ActionIcon, Title, Select } from "rizzui";
 import { useModal } from "@/components/modal-views/use-modal";
 import { Controller, SubmitHandler } from "react-hook-form";
-import { PiXBold } from "react-icons/pi";
+import PiXBold from "react-icons/pi/PiXBold";
+
 import { useState } from "react";
 import { Form } from "@ui/form";
 export default function CreateUser() {

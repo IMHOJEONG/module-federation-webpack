@@ -1,9 +1,7 @@
-import {
-  PiFacebookLogoFill,
-  PiInstagramLogoFill,
-  PiTwitterLogoFill,
-  PiYoutubeLogoFill,
-} from "react-icons/pi";
+import PiFacebookLogoFill from "react-icons/pi/PiFacebookLogoFill";
+import PiInstagramLogoFill from "react-icons/pi/PiInstagramLogoFill";
+import PiTwitterLogoFill from "react-icons/pi/PiTwitterLogoFill";
+import PiYoutubeLogoFill from "react-icons/pi/PiYoutubeLogoFill";
 
 const socialData = [
   {

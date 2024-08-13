@@ -1,9 +1,8 @@
-import {
-  PiMapPin,
-  PiSealCheckFill,
-  PiBookmarkSimpleFill,
-  PiBookmarkSimpleThin,
-} from "react-icons/pi";
+import PiMapPin from "react-icons/pi/PiMapPin";
+import PiSealCheckFill from "react-icons/pi/PiSealCheckFill";
+import PiBookmarkSimpleFill from "react-icons/pi/PiBookmarkSimpleFill";
+import PiBookmarkSimpleThin from "react-icons/pi/PiBookmarkSimpleThin";
+
 import { type JobType, jobFeedData } from "@/data/job-feed-data";
 import { JobFeedFilterDrawer } from "./job-feed-filter";
 import { Button, Drawer, Text, Title } from "rizzui";

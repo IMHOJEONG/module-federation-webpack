@@ -1,8 +1,7 @@
-import {
-  PiCaretLeftBold,
-  PiCaretRightBold,
-  PiArrowsClockwiseFill,
-} from "react-icons/pi";
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
+import PiArrowsClockwiseFill from "react-icons/pi/PiArrowsClockwiseFill";
+
 import { postData } from "@/data/profile-data";
 // import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";

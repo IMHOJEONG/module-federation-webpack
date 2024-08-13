@@ -2,7 +2,9 @@ import { customFields } from "@/components/ecommerce/product/create-edit/form-ut
 import { useFieldArray, useFormContext } from "react-hook-form";
 import { Input, Button, ActionIcon } from "rizzui";
 import TrashIcon from "@components/icons/trash";
-import { PiPlusBold } from "react-icons/pi";
+
+import PiPlusBold from "react-icons/pi/PiPlusBold";
+
 import { useCallback } from "react";
 
 export default function CustomFields() {

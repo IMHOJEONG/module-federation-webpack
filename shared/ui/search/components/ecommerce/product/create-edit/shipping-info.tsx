@@ -3,7 +3,9 @@ import { Controller, useFieldArray, useFormContext } from "react-hook-form";
 import { Input, Switch, Button, ActionIcon } from "rizzui";
 import FormGroup from "@/components/form-group";
 import TrashIcon from "@components/icons/trash";
-import { PiPlusBold } from "react-icons/pi";
+
+import PiPlusBold from "react-icons/pi/PiPlusBold";
+
 import cn from "@utils/class-names";
 import { useCallback } from "react";
 

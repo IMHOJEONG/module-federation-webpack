@@ -3,7 +3,9 @@ import { getColumns } from "@/components/financial/dashboard/transaction-history
 import ControlledTable from "@/components/controlled-table/index";
 import { transactionHistory } from "@/data/transaction-history";
 import WidgetCard from "@components/cards/widget-card";
-import { PiMagnifyingGlassBold } from "react-icons/pi";
+
+import PiMagnifyingGlassBold from "react-icons/pi/PiMagnifyingGlassBold";
+
 import { useCallback, useState, useMemo } from "react";
 import { useColumn } from "@hooks/use-column";
 import { useTable } from "@hooks/use-table";

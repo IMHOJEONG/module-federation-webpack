@@ -3,7 +3,10 @@ import {
   messageIdAtom,
 } from "@/components/support/inbox/message-list";
 import { DotSeparator } from "@/components/support/inbox/message-details";
-import { PiEye, PiDownloadSimpleBold, PiCheck } from "react-icons/pi";
+import PiCheck from "react-icons/pi/PiCheck";
+import PiDownloadSimpleBold from "react-icons/pi/PiDownloadSimpleBold";
+import PiEye from "react-icons/pi/PiEye";
+
 import { useCopyToClipboard } from "@hooks/use-copy-to-clipboard";
 import { HiOutlineClipboardDocument } from "react-icons/hi2";
 import { getRelativeTime } from "@utils/get-relative-time";

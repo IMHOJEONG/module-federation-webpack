@@ -1,7 +1,7 @@
-import { useApiAddModalStore } from '@/store/playground/api-add-modal.store';
-import ApiPlaygroundRequestKeyPair from '../request.keypair';
-import { MdClear } from 'react-icons/md';
-import { Button, Modal, Text } from 'rizzui';
+import { useApiAddModalStore } from "@/store/playground/api-add-modal.store";
+import ApiPlaygroundRequestKeyPair from "../request.keypair";
+import MdClear from "react-icons/md/MdClear";
+import { Button, Modal, Text } from "rizzui";
 
 export default function RequestAddModal() {
   // input props
@@ -25,8 +25,12 @@ export default function RequestAddModal() {
           />
 
           <div className="flex justify-end mt-4 gap-2">
-            <Button variant='flat' size='sm' className="flex">Cancel</Button>
-            <Button variant='flat' size='sm' className="flex">OK</Button>
+            <Button variant="flat" size="sm" className="flex">
+              Cancel
+            </Button>
+            <Button variant="flat" size="sm" className="flex">
+              OK
+            </Button>
           </div>
         </div>
       </Modal>

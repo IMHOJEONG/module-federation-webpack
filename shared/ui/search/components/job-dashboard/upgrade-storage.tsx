@@ -1,4 +1,5 @@
-import { PiArrowCircleUpFill } from "react-icons/pi";
+import PiArrowCircleUpFill from "react-icons/pi/PiArrowCircleUpFill";
+
 // import Link from "next/link";
 
 import UpStorageImg from "@public/upgrade-plan.webp";

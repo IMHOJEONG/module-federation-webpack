@@ -7,7 +7,7 @@ import { RadioGroup, Button, AdvancedRadio, Select } from "rizzui";
 import { useIsMounted } from "@hooks/use-is-mounted";
 import { useMedia } from "@hooks/use-media";
 import { useEffect, useState } from "react";
-import { PiMinus } from "react-icons/pi";
+import PiMinus from "react-icons/pi/PiMinus";
 
 export default function PriceFilter({
   state,

@@ -1,6 +1,7 @@
 import StatusField from "@/components/controlled-table/status-field";
 import { transactionTypes } from "@/data/transaction-history";
-import { PiTrashDuotone } from "react-icons/pi";
+import PiTrashDuotone from "react-icons/pi/PiTrashDuotone";
+
 import { Badge, Text, Button } from "rizzui";
 
 const transactionTypesOptions = Object.entries(transactionTypes).map(

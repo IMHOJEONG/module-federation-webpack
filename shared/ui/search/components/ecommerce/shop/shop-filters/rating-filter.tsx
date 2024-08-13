@@ -1,6 +1,9 @@
 import { ratingData } from "@/components/ecommerce/shop/shop-filters/filter-utils";
 import { Checkbox, Title, CheckboxGroup } from "rizzui";
-import { PiStar, PiStarFill } from "react-icons/pi";
+
+import PiStarFill from "react-icons/pi/PiStarFill";
+import PiStar from "react-icons/pi/PiStar";
+
 import { useEffect, useState } from "react";
 
 // get rating calculation

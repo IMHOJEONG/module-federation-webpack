@@ -1,6 +1,9 @@
 import CircleProgressBar from "@components/charts/circle-progressbar";
 import { useScrollableSlider } from "@hooks/use-scrollable-slider";
-import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+
+import PiCaretLeftBold from "react-icons/pi/PiCaretLeftBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
+
 import TrendingDownIcon from "@components/icons/trending-down";
 import TrendingUpIcon from "@components/icons/trending-up";
 import MetricCard from "@components/cards/metric-card";
@@ -15,7 +18,7 @@ const filesStatData = [
   {
     id: 1,
     title: "Total Images",
-    metric: "36,476 GB",
+    metric: "36,475 GB",
     fill: "#3872FA",
     percentage: 32,
     increased: true,

@@ -13,7 +13,9 @@ import { useModal } from "@/components/modal-views/use-modal";
 import { Controller, SubmitHandler } from "react-hook-form";
 import AvatarUpload from "@ui/file-upload/avatar-upload";
 import UploadZone from "@ui/file-upload/upload-zone";
-import { PiX } from "react-icons/pi";
+
+import PiX from "react-icons/pi/PiX";
+
 import toast from "react-hot-toast";
 import { useState } from "react";
 import { Form } from "@ui/form";

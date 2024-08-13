@@ -1,4 +1,6 @@
-import { PiCaretDownBold, PiTagLight } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+import PiTagLight from "react-icons/pi/PiTagLight";
+
 import { Collapse, Title, Text } from "rizzui";
 import cn from "@utils/class-names";
 

@@ -1,7 +1,9 @@
 import RatingProgressBar from "@components/rating-progress-bar";
 import ReviewCard from "@components/cards/review-card";
 import ProductReviewForm from "./product-review-form";
-import { PiCaretDownBold } from "react-icons/pi";
+
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import cn from "@utils/class-names";
 import { Collapse } from "rizzui";
 

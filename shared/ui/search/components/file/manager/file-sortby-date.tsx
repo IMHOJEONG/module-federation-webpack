@@ -1,4 +1,6 @@
-import { PiCaretDownBold, PiCaretRightBold } from "react-icons/pi";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+import PiCaretRightBold from "react-icons/pi/PiCaretRightBold";
+
 import { Popover, Button, Text } from "rizzui";
 import { useMedia } from "@hooks/use-media";
 import { DatePicker } from "@ui/datepicker";

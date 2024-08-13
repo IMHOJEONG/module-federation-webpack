@@ -9,7 +9,8 @@ import {
 } from "@/layouts/beryllium/beryllium-utils";
 import { useWindowSize } from "@hooks/use-window-size";
 // import { usePathname } from 'next/navigatiosn';
-import { PiTextIndent } from "react-icons/pi";
+import PiTextIndent from "react-icons/pi/PiTextIndent";
+
 import { useAtom, useSetAtom } from "jotai";
 import SimpleBar from "@ui/simplebar";
 import cn from "@utils/class-names";

@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { Checkbox, CheckboxGroup, Collapse } from "rizzui";
 import cn from "../utils/class-names";
-import { PiCaretDownBold, PiPlusBold } from "react-icons/pi";
+import PiPlusBold from "react-icons/pi/PiPlusBold";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import { generateSlug } from "../utils/generate-slug";
 import { LayoverAirPortOptionType } from "../types";
 

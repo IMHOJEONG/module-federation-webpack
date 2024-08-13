@@ -1,10 +1,9 @@
-import {
-  PiAppleLogoBold,
-  PiArrowLeftBold,
-  PiFacebookLogoBold,
-  PiGithubLogoBold,
-  PiLinkedinLogoBold,
-} from "react-icons/pi";
+import PiAppleLogoBold from "react-icons/pi/PiAppleLogoBold";
+import PiArrowLeftBold from "react-icons/pi/PiArrowLeftBold";
+import PiFacebookLogoBold from "react-icons/pi/PiFacebookLogoBold";
+import PiGithubLogoBold from "react-icons/pi/PiGithubLogoBold";
+import PiLinkedinLogoBold from "react-icons/pi/PiLinkedinLogoBold";
+
 import { siteConfig } from "@/config/site.config";
 import TreeShape from "@components/shape/tree";
 import { FcGoogle } from "react-icons/fc";

@@ -1,6 +1,10 @@
 import { customer, stats } from "@/components/logistics/customer-profile/data";
 import { getRandomArrayElement } from "@utils/get-random-array-element";
-import { PiEnvelopeSimple, PiPhone, PiStarFill } from "react-icons/pi";
+
+import PiEnvelopeSimple from "react-icons/pi/PiEnvelopeSimple";
+import PiPhone from "react-icons/pi/PiPhone";
+import PiStarFill from "react-icons/pi/PiStarFill";
+
 import { Title, Text, Button, Badge } from "rizzui";
 import { toCurrency } from "@utils/to-currency";
 import { avatarIds } from "@utils/get-avatar";

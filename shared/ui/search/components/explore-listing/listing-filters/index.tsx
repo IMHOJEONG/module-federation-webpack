@@ -1,13 +1,12 @@
-import {
-  PiBed,
-  PiCaretDownBold,
-  PiCurrencyDollar,
-  PiHouse,
-  PiMapPin,
-  PiSignpost,
-  PiSliders,
-  PiTrashDuotone,
-} from "react-icons/pi";
+import PiBed from "react-icons/pi/PiBed";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+import PiCurrencyDollar from "react-icons/pi/PiCurrencyDollar";
+import PiHouse from "react-icons/pi/PiHouse";
+import PiMapPin from "react-icons/pi/PiMapPin";
+import PiSignpost from "react-icons/pi/PiSignpost";
+import PiSliders from "react-icons/pi/PiSliders";
+import PiTrashDuotone from "react-icons/pi/PiTrashDuotone";
+
 import AccommodationFilter from "@/components/explore-listing/listing-filters/accommodation-filter";
 import HometypeFilter from "@/components/explore-listing/listing-filters/hometype-filter";
 import ForSaleFilter from "@/components/explore-listing/listing-filters/for-sale-filter";

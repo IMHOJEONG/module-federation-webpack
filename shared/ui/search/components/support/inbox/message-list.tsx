@@ -5,9 +5,14 @@ import {
   SupportStatusType,
   supportTypes,
 } from "@/data/support-inbox";
-import { PiCaretDownBold, PiChats, PiPaperclipLight } from "react-icons/pi";
+
+import PiChats from "react-icons/pi/PiChats";
+import PiPaperclipLight from "react-icons/pi/PiPaperclipLight";
+import PiCaretDownBold from "react-icons/pi/PiCaretDownBold";
+
 import { Select, Title, Badge, Checkbox, ActionIcon } from "rizzui";
-import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
+import HiOutlineAdjustmentsHorizontal from "react-icons/hi2/HiOutlineAdjustmentsHorizontal";
+
 import { atomWithReset, atomWithStorage } from "jotai/utils";
 import { getRelativeTime } from "@utils/get-relative-time";
 import { useState, useEffect, useRef } from "react";

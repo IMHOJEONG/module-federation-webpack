@@ -7,7 +7,7 @@ import type {
 } from "@dnd-kit/core";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
-import { PiDotsSixVerticalBold } from "react-icons/pi";
+import PiDotsSixVerticalBold from "react-icons/pi/PiDotsSixVerticalBold";
 import cn from "../../utils/class-names";
 
 interface Props {
