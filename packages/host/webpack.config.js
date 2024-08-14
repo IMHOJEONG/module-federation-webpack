@@ -54,9 +54,6 @@ module.exports = {
       "Access-Control-Allow-Headers":
         "X-Requested-With, content-type, Authorization",
     },
-    devMiddleware: {
-      writeToDisk: true,
-    },
   },
   output: {
     publicPath: "auto",

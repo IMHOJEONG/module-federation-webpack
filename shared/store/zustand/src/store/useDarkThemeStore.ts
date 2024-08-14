@@ -8,7 +8,7 @@ enum MODE {
 
 interface ThemeStore {
   theme: MODE.LIGHT | MODE.DARK;
-  toggleTheme: () => void;
+  setTheme: (value: MODE.LIGHT | MODE.DARK) => void;
 }
 
 const defaultThemeState = {
@@ -19,9 +19,9 @@ const useDarkThemeStore = create(
   persist<ThemeStore>(
     (set) => ({
       ...defaultThemeState,
-      toggleTheme: () => {
-        set((state) => ({
-          theme: state.theme === MODE.LIGHT ? MODE.DARK : MODE.LIGHT,
+      setTheme: (value) => {
+        set(() => ({
+          theme: value,
         }));
       },
     }),
@@ -41,4 +41,4 @@ const onFinishHydrate = useDarkThemeStore.persist.onFinishHydration((state) => {
 
 onFinishHydrate();
 
-export default useDarkThemeStore;
+export { MODE, useDarkThemeStore };

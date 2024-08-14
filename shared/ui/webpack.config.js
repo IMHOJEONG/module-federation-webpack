@@ -10,8 +10,8 @@ const {
   NativeFederationTypeScriptHost,
   NativeFederationTypeScriptRemote,
 } = require("@module-federation/native-federation-typescript/webpack");
-const BundleAnalyzerPlugin =
-  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin =
+//   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 const isDevelopment = process.env.NODE_ENV !== "production";
 
@@ -109,7 +109,6 @@ module.exports = {
     plugins: [new TsconfigPathsPlugin({})],
   },
   plugins: [
-    new BundleAnalyzerPlugin(),
     new ExternalTemplateRemotesPlugin(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",

@@ -9,15 +9,14 @@ import { siteConfig } from "@/config/site.config";
 import { RadioGroup } from "rizzui";
 import { useEffect } from "react";
 import { useDarkMode } from "usehooks-ts";
-import useDarkThemeStore from "zustand/useDarkThemeStore";
+import { MODE, useDarkThemeStore } from "zustand/useDarkThemeStore";
 
 const themeOptions = ["light", "dark"];
 
 export default function ThemeSwitcher({}: any) {
-  const { isDarkMode, toggle: setTheme } = useDarkMode();
-  const theme = isDarkMode ? "dark" : "light";
+  const { isDarkMode, enable, disable } = useDarkMode();
   const { colorPresetName, setColorPresetName } = useColorPresetName();
-  const { toggleTheme } = useDarkThemeStore();
+  const { theme, setTheme } = useDarkThemeStore();
 
   useEffect(() => {
     if (theme === "light" && colorPresetName === "black") {
@@ -46,9 +45,14 @@ export default function ThemeSwitcher({}: any) {
         value={theme}
         setValue={(selectedTheme: any) => {
           console.log("value : ", selectedTheme);
-          setTheme();
-          // setColorPresetName("black");
-          toggleTheme();
+
+          if (selectedTheme === "dark") {
+            enable();
+            setTheme(MODE.DARK);
+          } else {
+            disable();
+            setTheme(MODE.LIGHT);
+          }
         }}
         className="grid grid-cols-2 gap-4"
       >
