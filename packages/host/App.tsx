@@ -41,49 +41,49 @@ const router = createBrowserRouter([
         path: "/",
 
         async lazy() {
-          let { FileDashboard } = await import("ui/search/Dashboards");
+          let { FileDashboard } = await import("ui/search");
           return { Component: FileDashboard };
         },
       },
       {
         path: "/appointment",
         async lazy() {
-          let { AppointmentDashboard } = await import("ui/search/Dashboards");
+          let { AppointmentDashboard } = await import("ui/search");
           return { Component: AppointmentDashboard };
         },
       },
       {
         path: "/executive",
         async lazy() {
-          let { ExecutiveDashboard } = await import("ui/search/Dashboards");
+          let { ExecutiveDashboard } = await import("ui/search");
           return { Component: ExecutiveDashboard };
         },
       },
       {
         path: "/logistics",
         async lazy() {
-          let { LogisticsDashboard } = await import("ui/search/Dashboards");
+          let { LogisticsDashboard } = await import("ui/search");
           return { Component: LogisticsDashboard };
         },
       },
       {
         path: "/support",
         async lazy() {
-          let { SupportDashboard } = await import("ui/search/Dashboards");
+          let { SupportDashboard } = await import("ui/search");
           return { Component: SupportDashboard };
         },
       },
       {
         path: "/job-dashboard",
         async lazy() {
-          let { JobDashboard } = await import("ui/search/Dashboards");
+          let { JobDashboard } = await import("ui/search");
           return { Component: JobDashboard };
         },
       },
       {
         path: "/financial",
         async lazy() {
-          let { FinancialDashboard } = await import("ui/search/Dashboards");
+          let { FinancialDashboard } = await import("ui/search");
           return { Component: FinancialDashboard };
         },
       },

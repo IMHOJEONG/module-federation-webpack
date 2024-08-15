@@ -16,3 +16,5 @@ function SearchLayout(props: PropsWithChildren<any>) {
     </div>
   );
 }
+
+export default SearchLayout;

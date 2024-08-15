@@ -54,10 +54,10 @@ module.exports = {
     // splitChunks: {
     //   chunks: "async",
     // },
-    splitChunks: {
-      // 모든 유형의 청크를 포함합니다.
-      chunks: "all",
-    },
+    // splitChunks: {
+    //   // 모든 유형의 청크를 포함합니다.
+    //   chunks: "all",
+    // },
   },
   devServer: {
     hot: true,

@@ -70,7 +70,7 @@ export default function ScheduleList({ className }: { className?: string }) {
               ? `Selected: ${selected.toLocaleDateString()}`
               : "Pick a day."
           }
-          className="job-schedule-calendar rounded-lg pt-2 md:pt-5 [&_.react-calendar\_\_month-view\_\_weekdays\_\_weekday]:p-0"
+          className="appointment-schedule-list-calendar rounded-lg pt-2 md:pt-5 [&_.react-calendar\_\_month-view\_\_weekdays\_\_weekday]:p-0"
         />
       </div>
       <div className="flex flex-col justify-between bg-gray-50 px-5 py-7 @lg:w-2/5 dark:bg-gray-100">

@@ -107,7 +107,7 @@ export default function TotalStatistics({ className }: { className?: string }) {
     >
       <div className="mb-3 mt-1 flex items-center gap-2 @[28rem]:mb-4">
         <Title as="h2" className="font-semibold">
-          $83.45k
+          $83.45K
         </Title>
         <span className="flex items-center gap-1 text-green-dark">
           <TrendingUpIcon className="h-auto w-5" />
