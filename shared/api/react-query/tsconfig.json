@@ -15,19 +15,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
+    "jsx": "react-jsx",
     "paths": {
       "@/*": ["./*"],
       "*": ["./@mf-types/*"]
     }
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "*.d.ts",
-    "**/*.js",
-    "src",
-    "@mf-types",
-    "store"
-  ],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
   "exclude": ["node_modules"]
 }

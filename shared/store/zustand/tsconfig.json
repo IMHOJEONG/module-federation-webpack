@@ -1,6 +1,5 @@
 {
   "extends": "@repo/typescript-config/react-library.json",
-
   "compilerOptions": {
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -16,11 +15,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
+    "jsx": "react-jsx",
     "paths": {
       "@/*": ["./*"],
       "*": ["./@mf-types/*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", "*.d.ts", "**/*.js", "src", "@mf-types"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
   "exclude": ["node_modules"]
 }

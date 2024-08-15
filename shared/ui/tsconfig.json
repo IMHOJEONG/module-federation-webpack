@@ -15,6 +15,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
+    "jsx": "react-jsx",
     "paths": {
       "@public/*": ["./search/public/*"],
       "@ui/*": ["./search/isomorphic-core/ui/*"],
@@ -28,6 +29,6 @@
       "*": ["./@mf-types/*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", "*.d.ts", "**/*.js", "src", "@mf-types"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
   "exclude": ["node_modules"]
 }

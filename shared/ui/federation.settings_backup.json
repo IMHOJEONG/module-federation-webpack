@@ -1,5 +1,7 @@
 {
   "exposes": {
+    "./DataFlow": "./components/intro/DataFlow",
+    "./DataFlowWithSearch": "./components/intro/DataFlowWithSearch",
     "./Button": "./components/Button",
     "./Inset": "./components/Inset",
     "./Menu": "./components/Menu",

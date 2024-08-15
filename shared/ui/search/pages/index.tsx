@@ -1,18 +1,17 @@
-import { PropsWithChildren } from "react";
-import Layout from "../layouts/layout";
-import GlobalDrawer from "../components/drawer-views/container";
-import GlobalModal from "../components/modal-views/container";
+import FileDashboard from "../components/file/dashboard";
+import ExecutiveDashboard from "../components/executive";
+import AppointmentDashboard from "../components/appointment/dashboard";
+import LogisticsDashboard from "../components/logistics/dashboard";
+import SupportDashboard from "../components/support/dashboard";
+import JobDashboard from "../components/job-dashboard";
+import FinancialDashboard from "../components/financial/dashboard";
 
-export default function Page(props: PropsWithChildren<{}>) {
-  const { children } = props;
-
-  return (
-    <div className="dark">
-      <Layout>
-        {children}
-        <GlobalDrawer />
-        <GlobalModal />
-      </Layout>
-    </div>
-  );
-}
+export {
+  FileDashboard,
+  ExecutiveDashboard,
+  AppointmentDashboard,
+  LogisticsDashboard,
+  SupportDashboard,
+  JobDashboard,
+  FinancialDashboard,
+};

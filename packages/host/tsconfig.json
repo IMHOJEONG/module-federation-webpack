@@ -21,15 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "*.d.ts",
-    "**/*.js",
-    "src",
-    "@mf-types",
-    "../../shared/ui/components/intro/data.ts",
-    "../../shared/ui/components/intro/IntroComponent.tsx"
-  ],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
   "exclude": ["node_modules"]
 }
