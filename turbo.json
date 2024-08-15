@@ -2,6 +2,18 @@
   "$schema": "https://turbo.build/schema.json",
   "ui": "tui",
   "tasks": {
+    "@repo/jotai#build": {
+      "dependsOn": ["@repo/model#build"]
+    },
+    "@repo/zustand#build": {
+      "dependsOn": ["@repo/model#build"]
+    },
+    "@repo/ui#build": {
+      "dependsOn": ["@repo/model#build"]
+    },
+    "@repo/host#build": {
+      "dependsOn": ["^build"]
+    },
     "build": {
       "dependsOn": ["^build"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
