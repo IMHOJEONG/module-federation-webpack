@@ -9,7 +9,7 @@
       "dependsOn": ["@repo/model#build"]
     },
     "@repo/ui#build": {
-      "dependsOn": ["@repo/model#build"]
+      "dependsOn": ["@repo/zustand#build"]
     },
     "@repo/host#build": {
       "dependsOn": ["^build"]
