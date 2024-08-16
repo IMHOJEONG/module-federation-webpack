@@ -3,8 +3,8 @@ name: NodeJS with Webpack
 on:
   push:
     branches: ["develop"]
-    paths:
-      - "packages/host/**"
+    # paths:
+    #   - "packages/host/**"
   pull_request:
     branches: ["develop"]
 
