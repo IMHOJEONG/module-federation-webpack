@@ -3,10 +3,14 @@ name: NodeJS with Webpack
 on:
   push:
     branches: ["develop"]
+    paths:
+      - "packages/host/**"
   pull_request:
     branches: ["develop"]
 
-  workflow_dispatch:
+defaults:
+  run:
+    working-directory: packages/host
 
 permissions:
   contents: read
@@ -45,8 +49,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: build
-          path: build
+          name: dist
+          path: ./dist
 
   # Deployment job
   deploy:
